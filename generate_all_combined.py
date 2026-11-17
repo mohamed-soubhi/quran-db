@@ -329,6 +329,12 @@ for gi, g in enumerate(glm_cleaned):
     combined_records.append(rec)
 
 # Apply scholarly corrections to edition classification
+# 1. Drop records requested to be removed
+combined_records = [
+    r for r in combined_records 
+    if not (r['country'] == 'Turkey' and 'Çağrı' in (r.get('mushaf_title', '') + r.get('publisher_name', '')))
+]
+
 for r in combined_records:
     if 'aljamiado' in r['mushaf_title'].lower() and r['country'] == 'Spain':
         r['content_type'] = 'translation'
@@ -337,6 +343,19 @@ for r in combined_records:
     elif 'بكين' in r['mushaf_title'] and r['country'] == 'China':
         r['content_type'] = 'translation'
         r['language'] = 'Arabic, Chinese'
+    elif r['country'] == 'South Africa' and ('tuan guru' in r['mushaf_title'].lower() or 'waterval' in r['mushaf_title'].lower()):
+        r['mushaf_title'] = "مصحف ووترفال الشريف (13 سطر) - Waterval 13-Line Mushaf"
+        r['riwaya'] = "Hafs 'an 'Asim"
+        r['script_style'] = "Indo-Pak / Majedi 13-Lines"
+        r['language'] = "Arabic"
+        r['content_type'] = "mushaf only"
+        r['publication_year'] = "1970"
+        r['publisher_name'] = "Waterval Islamic Institute (معهد ووترفال الإسلامي)"
+        r['publisher_city'] = "Johannesburg"
+        r['publisher_country'] = "South Africa"
+        r['publisher_website'] = "https://archive.org/details/13LineQuran"
+        r['approval_body'] = "Waterval Islamic Institute / Jamiatul Ulama"
+        r['source_urls'] = "https://archive.org/details/13LineQuran"
     elif r['content_type'] == 'tajweed':
         r['content_type'] = 'mushaf only'
 
@@ -502,11 +521,10 @@ evidence_map = {
     'Saudi Arabia_Hafs': 'https://archive.org/details/MushafMadinaHafsGreen1441',
     'Saudi Arabia_Warsh': 'https://archive.org/details/ozkorallh_20181029_2220',
     'Senegal': 'https://archive.org/details/kamil_serigne_Fallou',
-    'South Africa': 'https://aboutislam.net/muslim-issues/world/how-cape-town-muslims-saved-south-africas-oldest-quran/',
+    'South Africa': 'https://archive.org/details/13LineQuran',
     'Sudan': 'https://archive.org/details/DORY3AMRMADINAHS',
     'Syria': 'https://ar.wikipedia.org/wiki/%D8%B9%D8%AB%D9%85%D8%A7%D9%86_%D8%B7%D9%87',
     'Tunisia': 'https://archive.org/details/qaloon_tunesCCCCCCCCCCCCCCCCCCCCC',
-    'Turkey': 'https://archive.org/details/Hafizosman',
     'United Arab Emirates': 'https://archive.org/details/356835683586MAKTOOM',
     'Yemen': 'https://archive.org/details/A21_Almoshaf_Alcharif_Attributed_to_Ali_ben_Abi_Talib_The_copy_of_Sanaa'
 }

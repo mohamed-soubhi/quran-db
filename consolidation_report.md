@@ -194,13 +194,12 @@ flowchart TD
 | **26** | السعودية | مصحف المدينة النبوية (حفص) | مجمع الملك فهد لطباعة المصحف الشريف | [Archive.org Madinah Hafs Green Scan](https://archive.org/details/MushafMadinaHafsGreen1441) | مصور كامل عالي الجودة لطبعة المجمع (HTTP 200) |
 | **27** | السعودية | مصحف المدينة النبوية (ورش) | مجمع الملك فهد لطباعة المصحف الشريف | [Archive.org Madinah Warsh Scan](https://archive.org/details/ozkorallh_20181029_2220) | مصور كامل لطبعة المجمع برواية ورش (HTTP 200) |
 | **28** | السنغال | مصحف طوبى برواية ورش | مجالس طوبى للتراث المريدي (Serigne Touba) | [Archive.org Touba Muridiyya Scan](https://archive.org/details/kamil_serigne_Fallou) | مصور كامل لمصحف طوبى الخط المريدي السنغالي (HTTP 200) |
-| **29** | جنوب أفريقيا | مصحف توان غورو المخطوط (~1800) | مسجد الأول، بوكاب، كيب تاون | [Historical Archive & Facsimile Article](https://aboutislam.net/muslim-issues/world/how-cape-town-muslims-saved-south-africas-oldest-quran/) | صور ملونة أصلية كاملة لمخطوطة 1800 (HTTP 200) |
+| **29** | جنوب أفريقيا | مصحف ووترفال الشريف (13 سطر) | معهد ووترفال الإسلامي (جوهانسبرغ) | [Archive.org 13-Line Scan](https://archive.org/details/13LineQuran) | مصور كامل للمصحف الجنوب أفريقي الشهير (HTTP 200) |
 | **30** | السودان | مصحف السودان (رواية الدوري) | الدار السودانية للكتب / مجمع الفقه الإسلامي | [Archive.org Al-Duri Scan](https://archive.org/details/DORY3AMRMADINAHS) | مصور كامل لمصحف الدوري عن أبي عمرو (HTTP 200) |
 | **31** | سوريا | مصحف دمشق المعتمد (1970) | دار الفكر / دار الغوثاني (خط عثمان طه) | [Uthman Taha Syrian Awqaf Mushaf](https://ar.wikipedia.org/wiki/%D8%B9%D8%AB%D9%85%D8%A7%D9%86_%D8%B7%D9%87) | توثيق تاريخي رسمي لأول مصحف كتبه عثمان طه (HTTP 200) |
 | **32** | تونس | المصحف التونسي الشريف (قالون) | المطبعة الرسمية للجمهورية التونسية / مشيخة الزيتونة | [Archive.org Tunisian Qalun Scan](https://archive.org/details/qaloon_tunesCCCCCCCCCCCCCCCCCCCCC) | مصور كامل لمصحف قالون التونسي (HTTP 200) |
-| **33** | تركيا | مصحف خط حافظ عثمان | دار تشاغري للنشر (Çağrı Yayınları) | [Archive.org Hafiz Osman Scan](https://archive.org/details/Hafizosman) | مصور كامل للمصحف العثماني بخط حافظ عثمان (HTTP 200) |
-| **34** | الإمارات | مصحف الشيخ مكتوم / دبي | جائزة دبي الدولية للقرآن الكريم / الشؤون الإسلامية | [Archive.org Mushaf Maktoum Scan](https://archive.org/details/356835683586MAKTOOM) | مصور ملون كامل لمصحف دبي المعتمد (HTTP 200) |
-| **35** | Yemen | مصحف صنعاء الشريف (مخطوطة صنعاء) | دار الآثار الإسلامية / وزارة الأوقاف | [Archive.org Sanaa Manuscript Scan](https://archive.org/details/A21_Almoshaf_Alcharif_Attributed_to_Ali_ben_Abi_Talib_The_copy_of_Sanaa) | مصور فاخر عالي الدقة لمخطوطة صنعاء (HTTP 200) |
+| **33** | الإمارات | مصحف الشيخ مكتوم / دبي | جائزة دبي الدولية للقرآن الكريم / الشؤون الإسلامية | [Archive.org Mushaf Maktoum Scan](https://archive.org/details/356835683586MAKTOOM) | مصور ملون كامل لمصحف دبي المعتمد (HTTP 200) |
+| **34** | اليمن | مصحف صنعاء الشريف (مخطوطة صنعاء) | دار الآثار الإسلامية / وزارة الأوقاف | [Archive.org Sanaa Manuscript Scan](https://archive.org/details/A21_Almoshaf_Alcharif_Attributed_to_Ali_ben_Abi_Talib_The_copy_of_Sanaa) | مصور فاخر عالي الدقة لمخطوطة صنعاء (HTTP 200) |
 
 ---
 
@@ -214,9 +213,9 @@ flowchart TD
 ## 9. دليل الملفات الناتجة وطريقة الاستخدام
 
 1. **`combined_master.csv` (108 KB):**
-   - جدول البيانات الموحد الكامل لكافة الطبعات (319 طبعة) بترميز `utf-8-sig` المعتمد للإكسل.
+   - جدول البيانات الموحد الكامل لكافة الطبعات (318 طبعة) بترميز `utf-8-sig` المعتمد للإكسل.
 2. **`mushaf_only.csv` (12 KB):**
-   - جدول المصاحف العربية الخالصة فقط (35 طبعة) بترميز `utf-8-sig` (يتوفر أيضاً نسخة قياسية `mushaf_only_utf8.csv`).
+   - جدول المصاحف العربية الخالصة فقط (34 طبعة) بترميز `utf-8-sig` (يتوفر أيضاً نسخة قياسية `mushaf_only_utf8.csv`).
 3. **`translations.csv` (97 KB):**
    - جدول التراجم والتفاسير بمختلف لغات العالم (284 طبعة) بترميز `utf-8-sig` (يتوفر أيضاً نسخة قياسية `translations_utf8.csv`).
 4. **`combined_countries_ranked.csv` (29 KB):**

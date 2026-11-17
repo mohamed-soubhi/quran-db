@@ -1,17 +1,16 @@
 {
   "stats": {
-    "total_editions": 319,
+    "total_editions": 318,
     "countries_with_editions": 123,
-    "mushaf_only_count": 35,
+    "mushaf_only_count": 34,
     "translations_count": 284,
     "ranked_countries_count": 227,
-    "verified_evidence_count": 35,
+    "verified_evidence_count": 34,
     "riwayah_breakdown": {
       "Warsh 'an Nafi'": 6,
       "Hafs 'an 'Asim": 24,
       "Al-Duri 'an Abi 'Amr": 2,
-      "Qalun 'an Nafi'": 2,
-      "": 1
+      "Qalun 'an Nafi'": 2
     },
     "script_breakdown": {
       "Maghribi / Uthmani": 1,
@@ -32,10 +31,9 @@
       "Kazan Uthmani-Tatar": 1,
       "Uthmani / Maghribi": 1,
       "Maghribi-Suqi / Senegalese": 1,
-      "manuscript (Arabic)": 1,
+      "Indo-Pak / Majedi 13-Lines": 1,
       "Sudani / Naskh": 1,
-      "Uthmani / Tunisian Naskh": 1,
-      "Ottoman Naskh": 1
+      "Uthmani / Tunisian Naskh": 1
     },
     "top_translation_countries": {
       "Germany": 14,
@@ -725,27 +723,27 @@
     },
     {
       "country": "South Africa",
-      "mushaf_title": "Hand-written Qur'an of Tuan Guru (Auwal Mosque, Bo-Kaap)",
-      "riwaya": "",
-      "script_style": "manuscript (Arabic)",
+      "mushaf_title": "مصحف ووترفال الشريف (13 سطر) - Waterval 13-Line Mushaf",
+      "riwaya": "Hafs 'an 'Asim",
+      "script_style": "Indo-Pak / Majedi 13-Lines",
       "calligrapher": "",
       "language": "Arabic",
       "content_type": "mushaf only",
       "edition_number": "",
-      "publication_year": "~1800s (written 200+ yrs ago)",
+      "publication_year": "1970",
       "isbn": "",
       "pages": "",
       "size": "",
-      "publisher_name": "",
-      "publisher_city": "Auwal Mosque, Bo-Kaap, Cape Town",
+      "publisher_name": "Waterval Islamic Institute (معهد ووترفال الإسلامي)",
+      "publisher_city": "Johannesburg",
       "publisher_country": "South Africa",
-      "publisher_website": "",
+      "publisher_website": "https://archive.org/details/13LineQuran",
       "publisher_type": "heritage manuscript",
-      "approval_body": "",
+      "approval_body": "Waterval Islamic Institute / Jamiatul Ulama",
       "confidence": "high",
       "accessed_on": "2026-11-08",
-      "source_urls": "https://aboutislam.net/muslim-issues/world/how-cape-town-muslims-saved-south-africas-oldest-quran/; https://themuslimtimes.info/2023/08/23/how-south-africas-oldest-quran-was-saved-by-cape-town-muslims/",
-      "evidence_url": "https://aboutislam.net/muslim-issues/world/how-cape-town-muslims-saved-south-africas-oldest-quran/"
+      "source_urls": "https://archive.org/details/13LineQuran",
+      "evidence_url": "https://archive.org/details/13LineQuran"
     },
     {
       "country": "Sudan",
@@ -818,30 +816,6 @@
       "accessed_on": "2026-11-17",
       "source_urls": "https://archive.org/details/qaloon_tunesCCCCCCCCCCCCCCCCCCCCC; https://www.iort.gov.tn; https://islamic-invitation.net",
       "evidence_url": "https://archive.org/details/qaloon_tunesCCCCCCCCCCCCCCCCCCCCC"
-    },
-    {
-      "country": "Turkey",
-      "mushaf_title": "Kur'ân-ı Kerîm (Hâfız Osman Hattı / Çağrı Yayınları)",
-      "riwaya": "Hafs 'an 'Asim",
-      "script_style": "Ottoman Naskh",
-      "calligrapher": "Hafiz Osman Efendi",
-      "language": "Arabic",
-      "content_type": "mushaf only",
-      "edition_number": "1",
-      "publication_year": "1985",
-      "isbn": "978-975-454-001-7",
-      "pages": "604",
-      "size": "20 x 14 cm",
-      "publisher_name": "Çağrı Yayınları",
-      "publisher_city": "Istanbul",
-      "publisher_country": "Turkey",
-      "publisher_website": "https://cagriyayinlari.com",
-      "publisher_type": "private",
-      "approval_body": "Mushaf İnceleme ve Kıraat Kurulu Başkanlığı",
-      "confidence": "high",
-      "accessed_on": "2026-11-17",
-      "source_urls": "https://archive.org/details/Hafizosman; https://cagriyayinlari.com; https://kuran.gen.tr",
-      "evidence_url": "https://archive.org/details/Hafizosman"
     },
     {
       "country": "United Arab Emirates",
