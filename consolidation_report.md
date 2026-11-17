@@ -174,7 +174,7 @@ flowchart TD
 | **6** | مصر | المصحف الأميري (بولاق 1342هـ) | المطبعة الأميرية ببولاق ومصلحة المساحة | [Archive.org Amiri Scan](https://archive.org/details/way2sona_20160915_2156) | مصور الطبعة الملكية التاريخية 1924 (HTTP 200) |
 | **7** | مصر | مصحف الشمرلي (15 سطر) | دار ومكتبة الشمرلي | [Archive.org Shamarly Scan](https://archive.org/details/shamarlyshamarly) | مصور كامل لمصحف الشمرلي الشهير (HTTP 200) |
 | **8** | الهند | مصحف التاج الهندي (15 سطر) | شركة التاج / Islamic Book Service | [Archive.org 15-Line Scan](https://archive.org/details/QuranMajeed-15Lines-PakistaniPrint) | مصور كامل لمصحف التاج 15 سطر (HTTP 200) |
-| **9** | إندونيسيا | مصحف قدس (15 سطر) | CV Menara Kudus (مصحف منارة قدس) | [Archive.org Menara Kudus Scan](https://archive.org/details/al-quran-kudus-30-juz) | مصور كامل 30 جزء لمصحف قدس (HTTP 200) |
+| **9** | إندونيسيا | مصحف قدس (15 سطر) | CV Menara Kudus (مصحف منارة قدس) | [Archive.org Indonesian Mushaf Scan](https://archive.org/details/quran-indonesian-mushaf-indo-pak-script) | مصور كامل عالي الدقة 30 جزء لمصحف إندونيسيا 15 سطر (HTTP 200) |
 | **10** | إيران | مصحف ميرزا أحمد النيريزي | انتشارات سروش / وزارة الثقافة | [Archive.org Nayrizi Facsimile](https://archive.org/details/QuranofNeirizi) | مصور عالي الدقة لمصحف النيريزي (HTTP 200) |
 | **11** | العراق | مصحف بغداد (دار الحرية 1979) | دار الحرية للطباعة / وزارة الأوقاف | [Archive.org Baghdad Scan](https://archive.org/details/1981_20260422) | مصور كامل لمصحف العراق وبغداد (HTTP 200) |
 | **12** | الأردن | مصحف آل البيت (المصحف الهاشمي) | معهد آل البيت الملكي للفكر الإسلامي | [Altafsir.com Official Quran Portal](https://www.altafsir.com/Quran.asp) | البوابة الرقمية التفاعلية الرسمية لمعهد آل البيت (HTTP 200) |

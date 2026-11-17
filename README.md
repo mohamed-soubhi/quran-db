@@ -81,7 +81,7 @@ All 34 Arabic Mushaf editions have been programmatically tested and verified wit
 | 6 | **Egypt** | المصحف الأميري (بولاق 1342هـ) | حفص (Royal Edition) | Amiri Press & Survey of Egypt | [Archive.org Amiri Scan](https://archive.org/details/way2sona_20160915_2156) |
 | 7 | **Egypt** | مصحف الشمرلي (15 سطر) | حفص عن عاصم | Shamarly Cairo | [Archive.org Shamarly Scan](https://archive.org/details/shamarlyshamarly) |
 | 8 | **India** | مصحف التاج الهندي (15 سطر) | Nastaliq / Indo-Pak | Taj Company Ltd. | [Archive.org 15-Line Scan](https://archive.org/details/QuranMajeed-15Lines-PakistaniPrint) |
-| 9 | **Indonesia** | مصحف منارة قدس (15 سطر) | Pojok Kudus | CV Menara Kudus | [Archive.org Kudus Scan](https://archive.org/details/al-quran-kudus-30-juz) |
+| 9 | **Indonesia** | مصحف منارة قدس (15 سطر) | Pojok Kudus | CV Menara Kudus | [Archive.org Indonesian Mushaf Scan](https://archive.org/details/quran-indonesian-mushaf-indo-pak-script) |
 | 10 | **Iran** | مصحف ميرزا أحمد النيريزي | Naskh Nayrizi | Soroush Publishing | [Archive.org Nayrizi Facsimile](https://archive.org/details/QuranofNeirizi) |
 | 11 | **Iraq** | مصحف بغداد (دار الحرية 1979) | خط الحافظ الرشدي | Dar al-Hurriyah Baghdad | [Archive.org Baghdad Scan](https://archive.org/details/1981_20260422) |
 | 12 | **Jordan** | مصحف آل البيت (المصحف الهاشمي) | حفص عن عاصم | Aal al-Bayt Institute | [Altafsir.com Official Portal](https://www.altafsir.com/Quran.asp) |

@@ -335,6 +335,8 @@ combined_records = [
     if not (r['country'] == 'Turkey' and 'Çağrı' in (r.get('mushaf_title', '') + r.get('publisher_name', '')))
 ]
 
+combined_records = [r for r in combined_records if not (r['country'] == 'Turkey' and ('çağrı' in r['mushaf_title'].lower() or 'cagri' in r['mushaf_title'].lower() or 'osman hattı' in r['mushaf_title'].lower()))]
+
 for r in combined_records:
     if 'aljamiado' in r['mushaf_title'].lower() and r['country'] == 'Spain':
         r['content_type'] = 'translation'
@@ -405,6 +407,8 @@ os.makedirs('combined_data', exist_ok=True)
 
 # Map editions by country
 editions_by_country = defaultdict(list)
+combined_records = [r for r in combined_records if not (r['country'] == 'Turkey' and ('çağrı' in r['mushaf_title'].lower() or 'cagri' in r['mushaf_title'].lower() or 'osman hattı' in r['mushaf_title'].lower()))]
+
 for r in combined_records:
     editions_by_country[r['country']].append(r)
 
@@ -501,7 +505,7 @@ evidence_map = {
     'Egypt_Amiri': 'https://archive.org/details/way2sona_20160915_2156',
     'Egypt_Shamarly': 'https://archive.org/details/shamarlyshamarly',
     'India': 'https://archive.org/details/QuranMajeed-15Lines-PakistaniPrint',
-    'Indonesia': 'https://archive.org/details/al-quran-kudus-30-juz',
+    'Indonesia': 'https://archive.org/details/quran-indonesian-mushaf-indo-pak-script',
     'Iran': 'https://archive.org/details/QuranofNeirizi',
     'Iraq': 'https://archive.org/details/1981_20260422',
     'Jordan': 'https://www.altafsir.com/Quran.asp',
