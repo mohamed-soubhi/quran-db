@@ -1,0 +1,1364 @@
+{
+  "total_countries": 226,
+  "completed_count": 80,
+  "completed_countries": [
+    {
+      "country": "Greenland",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Mexico",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Armenia",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Poland",
+      "status": "completed",
+      "editions_count": 3,
+      "publishers_count": 2
+    },
+    {
+      "country": "Samoa",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Faroe Islands",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Vietnam",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Belarus",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Tokelau",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Tonga",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Belize",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Bahamas",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Cook Islands",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Ecuador",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Federated States of Micronesia",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "French Polynesia",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Guam",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Kiribati",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Laos",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Macau",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Marshall Islands",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Montserrat",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Nauru",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Nicaragua",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Niue",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Paraguay",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Peru",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Puerto Rico",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "San Marino",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Turks and Caicos Islands",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Tuvalu",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "United States Virgin Islands",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Vanuatu",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Solomon Islands",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Uruguay",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Guatemala",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Costa Rica",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Estonia",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Bolivia",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Dominican Republic",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Papua New Guinea",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Lesotho",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Lithuania",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "North Korea",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Chile",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Haiti",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Cuba",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "South Korea",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Japan",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Latvia",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Slovakia",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Czech Republic",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Saint Lucia",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Cayman Islands",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Dominica",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Iceland",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Martinique",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Netherlands Antilles",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Saint Pierre and Miquelon",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Jamaica",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Colombia",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Antigua and Barbuda",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "El Salvador",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Grenada",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Saint Kitts and Nevis",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Honduras",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Taiwan (Republic of China)",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Angola",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Brazil",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Aruba",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Guadeloupe",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Botswana",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Namibia",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Moldova",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Portugal",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Venezuela",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Saint Helena",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Isle of Man",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Hungary",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Anguilla",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Romania",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Northern Mariana Islands",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Panama",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Zimbabwe",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Monaco",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "French Guiana",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Argentina",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Bermuda",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Zambia",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Ukraine",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Seychelles",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "United States",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "British Virgin Islands",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Croatia",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Ireland",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Barbados",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "New Zealand",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Saint Vincent and the Grenadines",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "China",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "South Africa",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 1
+    },
+    {
+      "country": "Eswatini",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Cape Verde",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Republic of Congo",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Cambodia",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Timor-Leste",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Luxembourg",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Finland",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Andorra",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Malta",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "New Caledonia",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Sao Tome and Principe",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Norway",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Australia",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Gibraltar",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Slovenia",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Greece",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Palau",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Equatorial Guinea",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Hong Kong",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Réunion",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Serbia",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Nepal",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Myanmar",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Rwanda",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Italy",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Canada",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Trinidad and Tobago",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Mongolia",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Netherlands",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Spain",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Philippines",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Liechtenstein",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Denmark",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Thailand",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Switzerland",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "United Kingdom",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Fiji",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Sweden",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Guyana",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Belgium",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Austria",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Sri Lanka",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Gabon",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Burundi",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Madagascar",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "France",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Georgia",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Russia",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Kenya",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Bulgaria",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Uganda",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Suriname",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "India",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Central African Republic",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Singapore",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Mauritius",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Israel",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Mozambique",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Montenegro",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Ghana",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Liberia",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Togo",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "South Sudan",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Malawi",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Cyprus",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Benin",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Cameroon",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Ethiopia",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "North Macedonia",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Tanzania",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Ivory Coast",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Guinea Bissau",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Nigeria",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Albania",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Eritrea",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Chad",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Malaysia",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Burkina Faso",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Cocos (Keeling) Islands",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Lebanon",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Kazakhstan",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "United Arab Emirates",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Bahrain",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Kuwait",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Qatar",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Sierra Leone",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Brunei",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Oman",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Syria",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Indonesia",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Uzbekistan",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Guinea",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Kyrgyzstan",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Bangladesh",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Egypt",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Kosovo",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Turkmenistan",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Turkey",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Sudan",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Mali",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Saudi Arabia",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 1
+    },
+    {
+      "country": "Gambia",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Iraq",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Pakistan",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Mayotte",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Libya",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Jordan",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Senegal",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Yemen",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Azerbaijan",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Palestine",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Tunisia",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Tajikistan",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Comoros",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Niger",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Morocco",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Algeria",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Western Sahara",
+      "status": "no_results",
+      "editions_count": 0,
+      "publishers_count": 0
+    },
+    {
+      "country": "Djibouti",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Somalia",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Iran",
+      "status": "completed",
+      "editions_count": 2,
+      "publishers_count": 2
+    },
+    {
+      "country": "Mauritania",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Afghanistan",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    },
+    {
+      "country": "Maldives",
+      "status": "completed",
+      "editions_count": 1,
+      "publishers_count": 1
+    }
+  ],
+  "current_in_progress": null,
+  "queued_countries": []
+}

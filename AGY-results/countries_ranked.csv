@@ -1,0 +1,227 @@
+﻿rank,country,muslim_percentage,muslim_population,total_population,source_name,source_year,source_url
+1,Greenland,0.0017,1,57691,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/greenland/
+2,Mexico,0.01,5500,127000000,Pew Research Center,2021,https://www.cia.gov/the-world-factbook/countries/mexico/
+3,Armenia,0.02,500,3038217,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/armenia/
+4,Poland,0.02,6796,38430000,CIA World Factbook,2018,https://stat.gov.pl/files/gfx/portalinformacyjny/pl/defaultaktualnosci/5515/1/19/1/maly_rocznik_statystyczny_polski_2018.pdf
+5,Samoa,0.03,52,205557,National Census / Statistics,2021,https://www.sbs.gov.ws/wp-content/uploads/2022/12/CensusTablesEXCELFiles.xlsx
+6,Faroe Islands,0.06,23,37965,National Census / Statistics,2011,https://statbank.hagstova.fo/pxweb/en/H2/H2__MT__MT10__MT1001/MT321.px/
+7,Vietnam,0.07,70000,100000000,National Census / Statistics,2019,https://www.nso.gov.vn/wp-content/uploads/2019/12/Ket-qua-toan-bo-Tong-dieu-tra-dan-so-va-nha-o-2019.pdf
+8,Belarus,0.08,8445,9527543,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/belarus/
+9,Tokelau,0.1,10,1499,National Census / Statistics,2016,https://www.tokelau.org.nz/site/tokelau/files/TokelauNSO/2016Census/2016%20Tokelau%20Census%20of%20Population%20and%20Dwellings%20-%20Tables%20about%20social%20profile.xlsx
+10,Tonga,0.1,60,100179,National Census / Statistics,2022,https://tongastats.gov.to/download/272/census-report-and-factsheet/7647/census-report-vol1-2021.pdf
+11,Belize,0.1,484,397483,National Census / Statistics,2021,https://www.cia.gov/the-world-factbook/countries/belize/
+12,Bahamas,0.1,1000,332634,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/bahamas-the/
+13,Cook Islands,0.1,1000,9038,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/cook-islands/
+14,Ecuador,0.1,1000,16498502,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/ecuador/
+15,Federated States of Micronesia,0.1,1000,103643,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/micronesia-federated-states-of/
+16,French Polynesia,0.1,1000,290373,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/french-polynesia/
+17,Guam,0.1,1000,167772,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/guam/
+18,Kiribati,0.1,1000,109367,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/kiribati/
+19,Laos,0.1,1000,7234171,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/laos/
+20,Macau,0.1,1000,606340,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/macau/
+21,Marshall Islands,0.1,1000,75684,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/marshall-islands/
+22,Montserrat,0.1,1000,5315,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/montserrat/
+23,Nauru,0.1,1000,10084,CIA World Factbook,2024,
+24,Nicaragua,0.1,1000,6284757,CIA World Factbook,2024,
+25,Niue,0.1,1000,1611,CIA World Factbook,2024,
+26,Paraguay,0.1,1000,7052983,CIA World Factbook,2024,
+27,Peru,0.1,1000,31237385,CIA World Factbook,2024,
+28,Puerto Rico,0.1,1000,3337177,CIA World Factbook,2024,
+29,San Marino,0.1,1000,33344,CIA World Factbook,2024,
+30,Turks and Caicos Islands,0.1,1000,37910,CIA World Factbook,2024,
+31,Tuvalu,0.1,1000,10640,CIA World Factbook,2024,
+32,United States Virgin Islands,0.1,1000,104914,CIA World Factbook,2024,
+33,Vanuatu,0.1,1000,304500,CIA World Factbook,2024,
+34,Solomon Islands,0.1,1100,720956,National Census / Statistics,2019,https://solomons.gov.sb/wp-content/uploads/2023/09/Solomon-Islands-2019-Population-Census-Report_Basic-Tables_Operations_Vol2.pdf
+35,Uruguay,0.1,1100,3505985,CIA World Factbook,2024,https://www.state.gov/wp-content/uploads/2023/05/441219-URUGUAY-2022-INTERNATIONAL-RELIGIOUS-FREEDOM-REPORT.pdf
+36,Guatemala,0.1,1200,16581273,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/guatemala/
+37,Costa Rica,0.1,1500,4987142,CIA World Factbook,2015,https://www.nacion.com/el-mundo/el-islam-en-la-tierra-del-gallo-pinto/V4G7UQ2VVRCJVLDRQTO7C7V56E/story/
+38,Estonia,0.1,1508,1244288,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/estonia/
+39,Bolivia,0.1,2000,11306341,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/bolivia/
+40,Dominican Republic,0.1,2000,10298756,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/dominican-republic/
+41,Papua New Guinea,0.1,2000,8558800,CIA World Factbook,2024,
+42,Lesotho,0.1,3000,1962461,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/lesotho/
+43,Lithuania,0.1,3000,2793284,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/lithuania/
+44,North Korea,0.1,3000,25610672,CIA World Factbook,2024,
+45,Chile,0.1,4000,17925262,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/chile/
+46,Haiti,0.1,5000,10788440,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/haiti/
+47,Cuba,0.1,11116,11116396,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/cuba/
+48,South Korea,0.1,75000,51635256,Pew Research Center,2021,
+49,Japan,0.1,185000,126000000,Pew Research Center,2021,https://www.cia.gov/the-world-factbook/countries/japan/
+50,Latvia,0.15,2000,1923559,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/latvia/
+51,Slovakia,0.15,10866,5443120,CIA World Factbook,2021,
+52,Czech Republic,0.15,15000,10686269,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/czechia/
+53,Saint Lucia,0.2,292,171834,National Census / Statistics,2022,https://stats.gov.lc/wp-content/uploads/2024/08/StLucia-Provisional-Census-Report-2022-Release-1Rev1.pdf
+54,Cayman Islands,0.2,1000,59613,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/cayman-islands/
+55,Dominica,0.2,1000,74027,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/dominica/
+56,Iceland,0.2,1000,343518,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/iceland/
+57,Martinique,0.2,1000,385551,CIA World Factbook,2024,
+58,Netherlands Antilles,0.2,1000,304759,CIA World Factbook,2024,
+59,Saint Pierre and Miquelon,0.2,1000,6286,CIA World Factbook,2024,
+60,Jamaica,0.2,5624,2812090,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/jamaica/
+61,Colombia,0.2,96337,48168996,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/colombia/
+62,Antigua and Barbuda,0.25,208,84816,National Census / Statistics,2017,https://statistics.gov.ag/wp-content/uploads/2017/10/Census-2011-Book-of-Statistical-Tables-I.pdf
+63,El Salvador,0.28,18000,6187271,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/el-salvador/
+64,Grenada,0.3,1000,112207,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/grenada/
+65,Saint Kitts and Nevis,0.3,1000,46204,CIA World Factbook,2024,
+66,Honduras,0.3,30000,9182766,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/honduras/
+67,Taiwan (Republic of China),0.3,60000,23576705,CIA World Factbook,2014,http://www.taiwan.gov.tw/ct.asp?xItem=13332&ctNode=1937&mp=1001
+68,Angola,0.3,90000,30355880,Pew Research Center,2021,https://www.cia.gov/the-world-factbook/countries/angola/
+69,Brazil,0.36,767584,210000000,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/brazil/
+70,Aruba,0.4,1000,116576,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/aruba/
+71,Guadeloupe,0.4,2000,402119,CIA World Factbook,2024,
+72,Botswana,0.4,8996,2249104,Pew Research Center,2021,https://www.cia.gov/the-world-factbook/countries/botswana/
+73,Namibia,0.4,9654,2413643,CIA World Factbook,2024,
+74,Moldova,0.4,15000,3437720,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/moldova/
+75,Portugal,0.4,36480,10343066,National Census / Statistics,2021,https://tabulador.ine.pt/indicador/?id=0011644&lang=EN
+76,Venezuela,0.4,125216,31304016,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/venezuela/
+77,Saint Helena,0.5,16,3552,National Census / Statistics,2021,https://www.sainthelena.gov.sh/wp-content/uploads/2021/08/Census-2021-Main-Report.pdf
+78,Isle of Man,0.5,393,84069,National Census / Statistics,2021,https://www.gov.im/media/1375604/2021-01-27-census-report-part-i-final-2.pdf
+79,Hungary,0.5,50000,9825704,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/hungary/
+80,Anguilla,0.6,1000,17422,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/anguilla/
+81,Romania,0.65,136500,19524000,CIA World Factbook,2000,https://books.google.com/books?id=AVzFAgAAQBAJ&q=romania+%22200000%220+muslims&pg=PA166
+82,Northern Mariana Islands,0.7,1000,56200,CIA World Factbook,2024,
+83,Panama,0.7,25000,4158783,CIA World Factbook,2024,
+84,Zimbabwe,0.7,100000,14000000,CIA World Factbook,2017,https://zimbabwe.unfpa.org/sites/default/files/pub-pdf/Inter%20Censal%20Demography%20Survey%202017%20Report.pdf
+85,Monaco,0.8,1000,30727,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/monaco/
+86,French Guiana,0.9,2400,281612,CIA World Factbook,2024,
+87,Argentina,0.9,400000,44694198,Pew Research Center,2021,https://www.cia.gov/the-world-factbook/countries/argentina/
+88,Bermuda,1.0,1000,71176,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/bermuda/
+89,Zambia,1.0,168877,16887720,CIA World Factbook,2021,
+90,Ukraine,1.05,400000,42263873,Pew Research Center,2011,http://www.pewforum.org/2011/01/27/the-future-of-the-global-muslim-population/
+91,Seychelles,1.1,1036,94205,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/seychelles/
+92,United States,1.1,3450000,327827000,Pew Research Center,2018,http://www.pewresearch.org/fact-tank/2018/01/03/new-estimates-show-u-s-muslim-population-continues-to-grow/
+93,British Virgin Islands,1.2,1000,35802,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/british-virgin-islands/
+94,Croatia,1.3,50981,3871833,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/croatia/
+95,Ireland,1.4,70952,5068050,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/ireland/
+96,Barbados,1.5,4396,293131,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/barbados/
+97,New Zealand,1.5,75144,4993923,National Census / Statistics,2013,https://explore.data.stats.govt.nz/vis?tm=occupation%2C%202023%20census&pg=0&hc[Society]=2023%20Census&hc[Census%20year]=2023&snb=4&vw=tb&df[ds]=ds-nsiws-disseminate&df[id]=CEN23_TBT_004&df[ag]=STATSNZ&df[vs]=1.0&dq=raTotal%2Bra00000%2Bra10100%2Bra10101%2Bra10102%2Bra10103%2Bra10104%2Bra10105%2Bra10199%2Bra20000%2Bra20100%2Bra20102%2Bra20103%2Bra20199%2Bra20201%2Bra20301%2Bra20302%2Bra20400%2Bra20401%2Bra20402%2Bra20403%2Bra20499%2Bra20500%2Bra20502%2Bra20503%2Bra20599%2Bra20600%2Bra20601%2Bra20602%2Bra20603%2Bra20604%2Bra20605%2Bra20606%2Bra20699%2Bra20700%2Bra20701%2Bra20799%2Bra20801%2Bra20802%2Bra20803%2Bra20804%2Bra20901%2Bra21001%2Bra21101%2Bra21200%2Bra21201%2Bra21202%2Bra21203%2Bra21299%2Bra21300%2Bra21301%2Bra21302%2Bra21303%2Bra21304%2Bra21305%2Bra21399%2Bra21400%2Bra21401%2Bra21402%2Bra21403%2Bra21404%2Bra21405%2Bra21406%2Bra21407%2Bra21408%2Bra21409%2Bra21410%2Bra21411%2Bra21412%2Bra21413%2Bra21414%2Bra21415%2Bra21416%2Bra21417%2Bra21499%2Bra21501%2Bra21502%2Bra21503%2Bra21504%2Bra21505%2Bra21506%2Bra21507%2Bra21600%2Bra21701%2Bra21801%2Bra21802%2Bra29901%2Bra29902%2Bra29903%2Bra29905%2Bra29906%2Bra29908%2Bra29909%2Bra29910%2Bra29911%2Bra29999%2Bra30100%2Bra30101%2Bra30102%2Bra30103%2Bra30199%2Bra40100%2Bra40101%2Bra40102%2Bra40103%2Bra40104%2Bra40199%2Bra50100%2Bra50101%2Bra50102%2Bra50103%2Bra60000%2Bra60101%2Bra60201%2Bra60901%2Bra60999%2Bra70000%2Bra70101%2Bra70200%2Bra70201%2Bra70202%2Bra70203%2Bra70204%2Bra70205%2Bra70299%2Bra70301%2Bra70401%2Bra70901%2Bra70999%2Bra80000%2Bra80101%2Bra80200%2Bra80201%2Bra80202%2Bra80299%2Bra80301%2Bra80400%2Bra80401%2Bra80402%2Bra80403%2Bra80499%2Bra80601%2Bra80701%2Bra80702%2Bra80801%2Bra80901%2Bra81001%2Bra81101%2Bra81102%2Bra81103%2Bra81104%2Bra81105%2Bra81106%2Bra81107%2Bra81108%2Bra81109%2Bra81110%2Bra81111%2Bra81199%2Bra95555%2BraTS%2Bra94444%2Bra97777%2Bra98888%2Bra99999.2013%2B2018%2B2023&ly[rw]=CEN23_TBT_IND_001&ly[cl]=CEN23_YEAR_001&to[TIME]=false
+98,Democratic Republic of the Congo,1.5,1800000,116000000,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/congo-democratic-republic-of-the/
+99,Saint Vincent and the Grenadines,1.7,2000,109557,CIA World Factbook,2024,
+100,China,1.725,28127500,1390000000,CIA World Factbook,2014,http://iwr.cass.cn/zjwh/201403/W020140303370398758556.pdf
+101,South Africa,1.9,1050000,57725600,CIA World Factbook,2015,https://www.statssa.gov.za/publications/P0318/P03182015.pdf
+102,Eswatini,2.0,6000,300000,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/eswatini/
+103,Cape Verde,2.0,11367,568373,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/cabo-verde/
+104,Republic of Congo,2.0,107997,5399895,CIA World Factbook,2009,https://2009-2017.state.gov/documents/organization/256225.pdf
+105,Cambodia,2.0,311044,15552211,National Census / Statistics,2019,https://nis.gov.kh/nis/Census2019/Final%20General%20Population%20Census%202019-English.pdf
+106,Timor-Leste,2.05,25956,1341737,National Census / Statistics,2022,https://inetl-ip.gov.tl/2023/05/18/main-report-timor-leste-population-and-housing-census-2022/
+107,Luxembourg,2.3,15000,640000,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/luxembourg/
+108,Finland,2.5,140000,5608000,CIA World Factbook,2024,https://yle.fi/a/74-20119795
+109,Andorra,2.6,2228,85708,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/andorra/
+110,Malta,2.6,11675,449043,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/malta/
+111,New Caledonia,2.8,7000,278500,CIA World Factbook,2024,
+112,Sao Tome and Principe,3.0,5931,199910,CIA World Factbook,2009,https://2009-2017.state.gov/j/drl/rls/irf/2010/148715.htm
+113,Norway,3.2,175507,5328212,CIA World Factbook,2020,https://www.ssb.no/kultur-og-fritid/faktaside/religion
+114,Australia,3.2,813392,25700000,National Census / Statistics,2020,"https://explore.data.abs.gov.au/vis?tm=religion%20%202021&pg=0&df%5Bds%5D=C21_ASGS&df%5Bid%5D=C21_G14_SA2&df%5Bag%5D=ABS&df%5Bvs%5D=1.0.0&pd=2021,&dq=..AUS..&ly%5Bcl%5D=SEXP&ly%5Brw%5D=RELP"
+115,Gibraltar,3.6,1166,32194,National Census / Statistics,2021,https://www.cia.gov/the-world-factbook/countries/gibraltar/
+116,Slovenia,3.6,73568,2066880,CIA World Factbook,2021,
+117,Greece,3.7,313406,10761523,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/greece/
+118,Palau,3.8,500,17900,National Census / Statistics,2020,https://www.palaugov.pw/wp-content/uploads/2022/09/2020-Census-of-Population-and-Housing.pdf
+119,Equatorial Guinea,4.0,71833,1795834,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/equatorial-guinea/
+120,Hong Kong,4.1,295746,7213338,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/hong-kong/
+121,Réunion,4.2,36364,865826,CIA World Factbook,2008,http://www.religiousintelligence.co.uk/country/?CountryID=151
+122,Serbia,4.2,278212,6647003,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/serbia/
+123,Nepal,4.2,1292909,29218867,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/nepal/
+124,Myanmar,4.3,2391767,55622506,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/burma/
+125,Rwanda,4.8,576054,12001136,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/rwanda/
+126,Italy,4.8,2987840,62246674,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/italy/
+127,Canada,4.9,1775715,36328480,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/canada/
+128,Trinidad and Tobago,5.0,65705,1322546,National Census / Statistics,2011,https://cso.gov.tt/wp-content/uploads/2021/03/2011-Trinidad-and-Tobago-Individuals.xlsx
+129,Mongolia,5.0,150000,3103428,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/mongolia/
+130,Netherlands,5.0,387000,17400000,CIA World Factbook,2019,https://opendata.cbs.nl/statline/#/CBS/nl/dataset/82904NED/table?dl=35BF3
+131,Spain,5.0,2484356,49687120,CIA World Factbook,2026,https://www.uspceu.com/prensa/noticia/muslim-population-spain-accounts-total
+132,Philippines,5.0,5450000,109000000,CIA World Factbook,2013,https://2009-2017.state.gov/j/drl/rls/irf/2013/eap/222161.htm
+133,Liechtenstein,5.4,2050,38000,CIA World Factbook,2010,https://www.llv.li/files/as/pdf-llv-as-vz_2010_bd1
+134,Denmark,5.4,313713,5809502,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/denmark/
+135,Thailand,5.4,3639232,67726419,National Census / Statistics,2018,http://statbbi.nso.go.th/nso/nso_center/project/table/files/S-soc-health/2561/000/00_S-soc-health_2561_000_000000_00100.xls
+136,Switzerland,5.9,440000,8492956,CIA World Factbook,2016,https://www.bfs.admin.ch/bfs/de/home/statistiken/bevoelkerung/sprachen-religionen/religionen.assetdetail.4242776.html
+137,United Kingdom,6.0,3998875,66040229,National Census / Statistics,2021,https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/religion/articles/religionbyageandsexenglandandwales/census2021
+138,Fiji,6.3,58355,926276,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/fiji/
+139,Sweden,7.1,700000,10182291,Pew Research Center,2021,
+140,Guyana,7.3,55000,740685,National Census / Statistics,2002,http://www.statisticsguyana.gov.gy/pubs/CensusReport2002.pdf
+141,Belgium,7.6,879377,11570762,Pew Research Center,2021,https://www.cia.gov/the-world-factbook/countries/belgium/
+142,Austria,8.3,745600,8935800,CIA World Factbook,2024,https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/weiterfuehrende-bevoelkerungsstatistiken/religionsbekenntnis
+143,Sri Lanka,9.7,2105000,21700000,National Census / Statistics,2011,http://www.statistics.gov.lk/PopHouSat/CPH2011/index.php?fileName=pop43&gp=Activities&tpl=3
+144,Gabon,10.0,211903,2119036,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/gabon/
+145,Burundi,10.0,1184452,11844520,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/burundi/
+146,Madagascar,10.0,2568361,25683610,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/madagascar/
+147,France,10.38,6939136,66792845,CIA World Factbook,2021,https://www.insee.fr/en/statistiques/fichier/7342918/IMMFRA23-D2-en.pdf
+148,Georgia,10.7,398677,3713804,CIA World Factbook,2014,https://geostat.ge/media/44724/22_Population-by-regions-and-religion.xls
+149,Russia,11.0,15000000,145550000,CIA World Factbook,2018,https://www.aljazeera.com/indepth/features/islam-russia-180307094248743.html
+150,Kenya,11.2,5500000,48397527,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/kenya/
+151,Bulgaria,13.4,861015,7057504,Pew Research Center,2021,https://www.cia.gov/the-world-factbook/countries/bulgaria/
+152,Uganda,14.0,5435234,38823100,CIA World Factbook,2017,https://www.state.gov/documents/organization/268952.pdf
+153,Suriname,14.3,85800,600000,Pew Research Center,2020,http://www.globalreligiousfutures.org/countries/suriname#/?affiliations_religion_id=0&affiliations_year=2020&region_name=All%20Countries&restrictions_year=2016
+154,India,14.6,200000000,1370000000,CIA World Factbook,2017,http://www.indiaonlinepages.com/population/muslim-population-in-india.html
+155,Central African Republic,15.0,861759,5745062,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/central-african-republic/
+156,Singapore,15.6,915118,5866139,National Census / Statistics,2021,https://www.cia.gov/the-world-factbook/countries/singapore/
+157,Mauritius,17.3,236020,1364283,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/mauritius/
+158,Israel,18.0,1516482,8424904,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/israel/
+159,Mozambique,18.9,5837839,30888034,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/mozambique/
+160,Montenegro,19.1,122849,614249,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/montenegro/
+161,Ghana,19.9,6442205,32372889,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/ghana/
+162,Liberia,20.0,961953,4809768,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/liberia/
+163,Togo,20.0,1593011,7352000,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/togo/
+164,South Sudan,20.0,2464683,12323419,CIA World Factbook,2018,https://insamer.com/en/south-sudanese-muslims_1120.html
+165,Malawi,20.0,3968512,19842560,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/malawi/
+166,Cyprus,25.3,275000,1100000,CIA World Factbook,2020,http://www.globalreligiousfutures.org/countries/cyprus/religious_demography#/?affiliations_religion_id=0&affiliations_year=2020
+167,Benin,27.7,3141319,11340504,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/benin/
+168,Cameroon,30.6,9482273,30987821,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/cameroon/
+169,Ethiopia,31.3,34702632,110871031,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/ethiopia/
+170,North Macedonia,32.2,590878,1836713,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/north-macedonia/
+171,Tanzania,35.2,19426814,54199163,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/tanzania/
+172,Ivory Coast,42.9,11265789,26260582,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/cote-divoire/
+173,Guinea Bissau,46.1,911023,1976187,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/guinea-bissau/
+174,Nigeria,48.0,115000000,240000000,Pew Research Center,2021,https://www.cia.gov/the-world-factbook/countries/nigeria/
+175,Albania,50.7,1217362,2402113,National Census / Statistics,2023,https://shqiptarja.com/uploads/ckeditor/667eb96647c4bcens-2023.pdf
+176,Bosnia and Herzegovina,50.7,1955084,3849891,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/bosnia-and-herzegovina/
+177,Eritrea,51.6,2630000,6000000,CIA World Factbook,2018,https://acs-italia.org/wp-content/uploads/Eritrea.pdf
+178,Chad,55.1,10520570,19093595,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/chad/
+179,Malaysia,63.5,20063500,32730000,CIA World Factbook,2020,https://www.dosm.gov.my/v1/index.php?r=column/cthemeByCat&cat=430&bul_id=aFYzVjJ3anNyQytHZGxzcUZxTG9Ydz09&menu_id=L0pheU43NWJwRWVSZklWdzQ4TlhUUT09
+180,Burkina Faso,63.8,13513840,21382659,CIA World Factbook,2022,https://www.aib.media/2022/07/01/burkina-481-de-la-population-du-sud-ouest-pratique-lanimisme-officiel/
+181,Cocos (Keeling) Islands,66.0,389,593,National Census / Statistics,2021,https://www.abs.gov.au/census/find-census-data/quickstats/2021/POA6799
+182,Lebanon,67.8,3567211,5261372,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/lebanon/
+183,Kazakhstan,70.2,13158672,18744548,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/kazakhstan/
+184,United Arab Emirates,72.0,6251627,9541615,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/united-arab-emirates/
+185,Bahrain,74.0,1111533,1501635,National Census / Statistics,2020,https://www.data.gov.bh/explore/dataset/population-by-religion-nationality-and-sex-census-2020/table/
+186,Kuwait,74.6,2175684,2916467,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/kuwait/
+187,Qatar,77.5,1566786,2450285,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/qatar/
+188,Sierra Leone,78.6,6067706,7719729,CIA World Factbook,2009,https://2009-2017.state.gov/j/drl/rls/irf/2010/148719.htm
+189,Brunei,82.1,379894,462721,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/brunei/
+190,Oman,86.0,2427000,4633752,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/oman/
+191,Syria,87.0,15000000,18000000,Pew Research Center,2024,https://www.cia.gov/the-world-factbook/countries/syria/
+192,Indonesia,87.1,249800000,286700000,CIA World Factbook,2025,https://dataindonesia.id/varia/detail/data-jumlah-penduduk-indonesia-menurut-agama-pada-semester-i2025
+193,Uzbekistan,88.7,29920000,34036800,CIA World Factbook,2020,https://stat.uz/en/press-center/news-committee/8923-demographic-situation-january-march-2020
+194,Guinea,89.1,10563171,11855411,CIA World Factbook,2018,https://www.cia.gov/the-world-factbook/countries/guinea/
+195,Kyrgyzstan,90.0,5525000,6500000,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/kyrgyzstan/
+196,Bangladesh,91.0,150800000,165200000,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/bangladesh/
+197,Egypt,92.35,87500000,95000000,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/egypt/
+198,Kosovo,93.5,1482276,1585566,CIA World Factbook,2024,https://askapi.rks-gov.net/Custom/31bc24d2-45e4-4eb5-a567-405f4bdd197f.pdf
+199,Turkmenistan,93.7,5610000,6031187,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/turkmenistan/#people-and-society
+200,Turkey,94.5,81200000,86000000,Pew Research Center,2010,http://www.globalreligiousfutures.org/countries/turkey/religious_demography#/?affiliations_religion_id=0&affiliations_year=2010
+201,Sudan,96.0,38585777,40825770,CIA World Factbook,2021,
+202,Mali,96.2,20541904,21347587,National Census / Statistics,2022,https://www.instat-mali.org/laravel-filemanager/files/shares/rgph/rapport-caracteristiques-culturelles-population-rgph5_rpgh.pdf
+203,Saudi Arabia,96.2,31535000,34220000,CIA World Factbook,2024,
+204,Gambia,96.4,2283080,2413403,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/gambia-the/
+205,Iraq,96.5,39046506,40462701,CIA World Factbook,2022,https://www.cia.gov/the-world-factbook/countries/iraq/#people-and-society
+206,Pakistan,96.5,233000000,241500000,National Census / Statistics,2017,https://www.pbs.gov.pk/content/final-results-census-2017-0
+207,Mayotte,97.0,253439,256518,CIA World Factbook,2012,https://www.cia.gov/library/publications/the-world-factbook/geos/mf.html
+208,Libya,97.0,6551871,6754507,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/libya/
+209,Jordan,97.2,10165577,10458413,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/jordan/
+210,Senegal,97.2,17421191,17923036,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/senegal/
+211,Yemen,97.2,26784498,27036829,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/yemen/
+212,Azerbaijan,97.3,10073758,10353296,CIA World Factbook,2022,https://www.cia.gov/the-world-factbook/countries/azerbaijan/#people-and-society
+213,Palestine,97.5,4298000,4780978,CIA World Factbook,2025,https://culturalatlas.sbs.com.au/palestinian-culture/palestinian-culture-religion
+214,Tunisia,97.8,10190000,11446300,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/tunisia/#people-and-society
+215,Tajikistan,97.9,9253000,9540000,Pew Research Center,2021,https://www.cia.gov/the-world-factbook/countries/tajikistan/
+216,Comoros,98.3,807204,821164,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/comoros/
+217,Niger,98.3,21101926,21466863,CIA World Factbook,2012,http://afrobarometer.org/sites/default/files/data/round-5/nig_r5_codebook.pdf
+218,Morocco,99.0,36370847,36738229,CIA World Factbook,2022,https://www.cia.gov/the-world-factbook/countries/morocco/#people-and-society
+219,Algeria,99.0,46500000,47000000,CIA World Factbook,2022,https://www.cia.gov/the-world-factbook/countries/algeria/#people-and-society
+220,Western Sahara,99.4,599633,603253,Pew Research Center,2007,https://www.cia.gov/library/publications/the-world-factbook/geos/wi.html
+221,Djibouti,99.4,998273,1003800,CIA World Factbook,2025,https://firebasestorage.googleapis.com/v0/b/instad-dj.appspot.com/o/RGPH/0/Tome%204_Caract%C3%A9ristiques%20socioculturelles%20de%20la%20population_Rapport%20provisoire_25062025.pdf?alt=media&token=d1969346-b1a9-441f-b1ad-93177b52e8d7
+222,Somalia,99.8,10978000,11000000,Pew Research Center,2012,http://www.pewforum.org/files/2012/12/globalReligion-full.pdf
+223,Iran,99.8,85700000,85961000,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/iran/
+224,Mauritania,99.9,4157425,4161925,CIA World Factbook,2022,https://www.cia.gov/the-world-factbook/countries/mauritania/#people-and-society
+225,Afghanistan,99.9,37098000,37135000,CIA World Factbook,2021,https://www.cia.gov/the-world-factbook/countries/afghanistan/
+226,Maldives,100.0,374775,374775,Pew Research Center,2010,http://www.globalreligiousfutures.org/countries/maldives#/?affiliations_religion_id=0&affiliations_year=2010&region_name=All%20Countries&restrictions_year=2016

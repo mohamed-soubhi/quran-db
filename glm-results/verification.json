@@ -1,0 +1,481 @@
+{
+ "source": "quranenc.com — Encyclopedia of the Noble Quran (King Fahd Complex) — accessed 2026-11-08",
+ "total_kfqpc_translations": 167,
+ "languages": 89,
+ "confirmed_new_languages": [
+  {
+   "country": "Belarus",
+   "quranenc_key": "belarusian",
+   "translations": [
+    "belarusian_krivtsov"
+   ],
+   "note": "Belarusian (Krivtsov — NEW to our DB!)"
+  },
+  {
+   "country": "Philippines (Bisayan)",
+   "quranenc_key": "bisayan",
+   "translations": [
+    "bisayan_rwwad"
+   ],
+   "note": "Bisayan rwwad — NEW language for our DB!"
+  },
+  {
+   "country": "Uyghur (China)",
+   "quranenc_key": "uyghur",
+   "translations": [
+    "uyghur_mokhtasar",
+    "uyghur_saleh"
+   ],
+   "note": "uyghur translation in quranenc — NEW for China record"
+  },
+  {
+   "country": "Zulu (South Africa)",
+   "quranenc_key": "zulu",
+   "translations": [
+    "zulu_adel"
+   ],
+   "note": "zulu present — NEW for SA"
+  },
+  {
+   "country": "Luhya (Kenya)",
+   "quranenc_key": "luhya",
+   "translations": [
+    "luhya_center"
+   ],
+   "note": "luhya present — NEW for Kenya"
+  },
+  {
+   "country": "Moore (Burkina)",
+   "quranenc_key": "moore",
+   "translations": [
+    "moore_rwwad"
+   ],
+   "note": "moore present (Mooré!) — NEW for Burkina"
+  },
+  {
+   "country": "Fulfulde (Cameroon)",
+   "quranenc_key": "fulani",
+   "translations": [
+    "fulani_mokhtasar",
+    "fulani_rwwad"
+   ],
+   "note": "fulani ×2 (mokhtasar+rwwad) — NEW for Cameroon/West Africa"
+  },
+  {
+   "country": "Georgia",
+   "quranenc_key": "georgian",
+   "translations": [
+    "georgian_rwwad"
+   ],
+   "note": "Georgian not in our DB — NEW country candidate!"
+  },
+  {
+   "country": "Circassia",
+   "quranenc_key": "circassian",
+   "translations": [
+    "circassian_rwwad"
+   ],
+   "note": "Circassian rwwad — NEW"
+  },
+  {
+   "country": "Korean",
+   "quranenc_key": "korean",
+   "translations": [
+    "korean_hamid",
+    "korean_rwwad"
+   ],
+   "note": "Korean hamid — NEW country candidate (South Korea)!"
+  },
+  {
+   "country": "Assamese (India)",
+   "quranenc_key": "assamese",
+   "translations": [
+    "assamese_mokhtasar",
+    "assamese_rafeeq"
+   ],
+   "note": "assamese ×2 — India regional NEW"
+  },
+  {
+   "country": "Marathi (India)",
+   "quranenc_key": "marathi",
+   "translations": [
+    "marathi_ansari"
+   ],
+   "note": "marathi present — India regional NEW"
+  },
+  {
+   "country": "Telugu (India)",
+   "quranenc_key": "telugu",
+   "translations": [
+    "telugu_mokhtasar",
+    "telugu_muhammad"
+   ],
+   "note": "telugu present — India regional NEW"
+  },
+  {
+   "country": "Kannada (India)",
+   "quranenc_key": "kannada",
+   "translations": [
+    "kannada_bashir",
+    "kannada_hamza"
+   ],
+   "note": "kannada ×2 — India regional NEW"
+  },
+  {
+   "country": "Lingala (DRC)",
+   "quranenc_key": "lingala",
+   "translations": [
+    "lingala_zakaria"
+   ],
+   "note": "lingala present — NEW for DRC!"
+  },
+  {
+   "country": "Yawa (PNG?)",
+   "quranenc_key": "yaw",
+   "translations": [
+    "yaw_silika"
+   ],
+   "note": "yaw present — NEW"
+  }
+ ],
+ "confirmed_existing": [
+  {
+   "country": "Bosnia",
+   "quranenc_key": "bosnian",
+   "translations": [
+    "bosnian_korkut",
+    "bosnian_mihanovich",
+    "bosnian_mokhtasar",
+    "bosnian_rwwad"
+   ],
+   "note": "Bosnian — Korkut + Mihanovich + mokhtasar/rwwad confirmed"
+  },
+  {
+   "country": "Bulgaria",
+   "quranenc_key": "bulgarian",
+   "translations": [
+    "bulgarian_translation"
+   ],
+   "note": "Bulgarian translation confirmed on quranenc"
+  },
+  {
+   "country": "Croatia",
+   "quranenc_key": "croatian",
+   "translations": [
+    "croatian_rwwad"
+   ],
+   "note": "Croatian confirmed (rwwad)"
+  },
+  {
+   "country": "Japan",
+   "quranenc_key": "japanese",
+   "translations": [
+    "japanese_mokhtasar",
+    "japanese_saeedsato"
+   ],
+   "note": "Japanese BOTH confirmed: mokhtasar + saeedsato (Said Sato 2019!)"
+  },
+  {
+   "country": "Germany",
+   "quranenc_key": "german",
+   "translations": [
+    "german_aburida",
+    "german_bubenheim",
+    "german_rwwad"
+   ],
+   "note": "German: Abu Rida + Bubenheim confirmed"
+  },
+  {
+   "country": "France",
+   "quranenc_key": "french",
+   "translations": [
+    "french_hameedullah",
+    "french_mokhtasar",
+    "french_montada",
+    "french_rashid"
+   ],
+   "note": "French: hameedullah(Hamidullah!), montada, rashid, mokhtasar"
+  },
+  {
+   "country": "Netherlands",
+   "quranenc_key": "dutch",
+   "translations": [
+    "dutch_center"
+   ],
+   "note": "Dutch: 'dutch_center' = ICCN's De Edele Koran!"
+  },
+  {
+   "country": "Greece",
+   "quranenc_key": "greek",
+   "translations": [
+    "greek_rwwad"
+   ],
+   "note": "Greek rwwad (Noble Quran distribution) confirmed"
+  },
+  {
+   "country": "Azerbaijan",
+   "quranenc_key": "azeri",
+   "translations": [
+    "azeri_mokhtasar",
+    "azeri_musayev"
+   ],
+   "note": "Azerbaijani: mokhtasar + musayev confirmed"
+  },
+  {
+   "country": "Poland",
+   "quranenc_key": "polish",
+   "translations": null,
+   "note": "not in quranenc"
+  },
+  {
+   "country": "Spain",
+   "quranenc_key": "spanish",
+   "translations": [
+    "spanish_garcia",
+    "spanish_mokhtasar"
+   ],
+   "note": null
+  },
+  {
+   "country": "China",
+   "quranenc_key": "chinese",
+   "translations": [
+    "chinese_makin",
+    "chinese_mayolong",
+    "chinese_mokhtasar",
+    "chinese_saadi",
+    "chinese_suliman"
+   ],
+   "note": "Chinese ×5 (makin!, mayolong, saadi, suliman, mokhtasar)"
+  },
+  {
+   "country": "Cambodia",
+   "quranenc_key": "khmer",
+   "translations": [
+    "khmer_cambodia",
+    "khmer_mokhtasar",
+    "khmer_rwwad"
+   ],
+   "note": "Khmer CONFIRMED (khmer_cambodia + mokhtasar + rwwad)!"
+  },
+  {
+   "country": "Myanmar",
+   "quranenc_key": "burmese",
+   "translations": null,
+   "note": "not in quranenc"
+  },
+  {
+   "country": "Malaysia",
+   "quranenc_key": "malay",
+   "translations": [
+    "malay_basumayyah"
+   ],
+   "note": null
+  },
+  {
+   "country": "Albania",
+   "quranenc_key": "albanian",
+   "translations": [
+    "albanian_nahi",
+    "albanian_rwwad"
+   ],
+   "note": "Albanian ×2: nahi + rwwad"
+  },
+  {
+   "country": "South Africa",
+   "quranenc_key": "afrikaans",
+   "translations": null,
+   "note": "not in quranenc"
+  },
+  {
+   "country": "Estonia",
+   "quranenc_key": "estonian",
+   "translations": null,
+   "note": "not in quranenc"
+  },
+  {
+   "country": "Latvia",
+   "quranenc_key": "latvian",
+   "translations": null,
+   "note": "not in quranenc"
+  },
+  {
+   "country": "Lithuania",
+   "quranenc_key": "lithuanian",
+   "translations": [
+    "lithuanian_rwwad"
+   ],
+   "note": null
+  },
+  {
+   "country": "Uzbekistan",
+   "quranenc_key": "uzbek",
+   "translations": [
+    "uzbek_mansour",
+    "uzbek_mokhtasar",
+    "uzbek_moyassar",
+    "uzbek_rwwad",
+    "uzbek_sadiq"
+   ],
+   "note": null
+  },
+  {
+   "country": "Tajikistan",
+   "quranenc_key": "tajik",
+   "translations": [
+    "tajik_arifi",
+    "tajik_khawaja"
+   ],
+   "note": null
+  },
+  {
+   "country": "Swahili countries (Tanzania/Kenya)",
+   "quranenc_key": "swahili",
+   "translations": [
+    "swahili_abubakr",
+    "swahili_barawani",
+    "swahili_rwwad",
+    "swahili_saadi"
+   ],
+   "note": null
+  },
+  {
+   "country": "Hausa (Nigeria)",
+   "quranenc_key": "hausa",
+   "translations": [
+    "hausa_gummi"
+   ],
+   "note": "hausa_gummi = Abubakar Gummi's Hausa translation CONFIRMED"
+  },
+  {
+   "country": "India (Malayalam)",
+   "quranenc_key": "malayalam",
+   "translations": [
+    "malayalam_kunhi",
+    "malayalam_mokhtasar"
+   ],
+   "note": "Malayalam translations confirmed (our Kerala records!)"
+  },
+  {
+   "country": "India (Gujarati)",
+   "quranenc_key": "gujarati",
+   "translations": [
+    "gujarati_omari"
+   ],
+   "note": "Gujarati omari confirmed (Kanzul Iman lineage)"
+  },
+  {
+   "country": "Kurdish (Iraq)",
+   "quranenc_key": "kurdish",
+   "translations": [
+    "kurdish_bamoki",
+    "kurdish_mokhtasar",
+    "kurdish_salahuddin"
+   ],
+   "note": "Kurdish + kurmanji both present"
+  },
+  {
+   "country": "Hebrew (Israel)",
+   "quranenc_key": "hebrew",
+   "translations": [
+    "hebrew_darussalam"
+   ],
+   "note": "hebrew_darussalam = Hebrew Quran (Darussalam!) CONFIRMED"
+  },
+  {
+   "country": "Tamil (Sri Lanka/India)",
+   "quranenc_key": "tamil_omar",
+   "translations": [
+    "tamil_omar_brief"
+   ],
+   "note": "tamil_omar present"
+  },
+  {
+   "country": "Singa (Spanish montada)",
+   "quranenc_key": "spanish_montada",
+   "translations": [
+    "spanish_montada_eu",
+    "spanish_montada_latin"
+   ],
+   "note": "spanish_montada — a second Spanish translation"
+  },
+  {
+   "country": "Iranun (Philippines)",
+   "quranenc_key": "iranun",
+   "translations": [
+    "iranun_sarro"
+   ],
+   "note": "iranun_sarro — Philippine Muslim language CONFIRMED!"
+  },
+  {
+   "country": "Dari (Afghanistan)",
+   "quranenc_key": "dari",
+   "translations": [
+    "dari_badkhashani"
+   ],
+   "note": "dari_badkhashani confirmed"
+  },
+  {
+   "country": "Kazakh",
+   "quranenc_key": "kazakh",
+   "translations": [
+    "kazakh_altai"
+   ],
+   "note": "kazakh_altai = Halife Altai 1991 — matches our record!"
+  },
+  {
+   "country": "English",
+   "quranenc_key": "english",
+   "translations": [
+    "english_rwwad",
+    "english_saheeh",
+    "english_waleed"
+   ],
+   "note": "english: hilali_khan + saheeh + rwwad + waleed"
+  }
+ ],
+ "revised_no_results": [
+  {
+   "country": "Kinyarwanda (Rwanda)",
+   "quranenc_key": "ikirundi",
+   "translations": [
+    "ikirundi_gehiti"
+   ],
+   "note": "ikirundi_gehiti — Burundi's Kirundi CONFIRMED (revises our no_results!)"
+  },
+  {
+   "country": "Asante (Ghana)",
+   "quranenc_key": "asante",
+   "translations": [
+    "asante_harun"
+   ],
+   "note": "asante_harun — Ghana's Twi/Asante CONFIRMED (revises no_results!)"
+  },
+  {
+   "country": "Dagbani (Ghana)",
+   "quranenc_key": "dagbani",
+   "translations": [
+    "dagbani_ghatubo"
+   ],
+   "note": "dagbani_ghatubo — Ghana CONFIRMED (revises our no_results!)"
+  },
+  {
+   "country": "Chichewa (Malawi)",
+   "quranenc_key": "chichewa",
+   "translations": [
+    "chichewa_betala"
+   ],
+   "note": "chichewa_betala — Malawi CONFIRMED (revises no_results!)"
+  },
+  {
+   "country": "Ankobambara (Bambara/Mali)",
+   "quranenc_key": "ankobambara",
+   "translations": [
+    "ankobambara_dayyan",
+    "ankobambara_foudi"
+   ],
+   "note": "Bambara ×2 — Mali CONFIRMED (revises no_results!)"
+  }
+ ],
+ "new_country_candidates": []
+}

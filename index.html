@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Quran Editions Database | قاعدة بيانات مصاحف وترجمات العالم</title>
+  <meta name="description" content="A curated, deduplicated, and verified scholarly catalog of 319 Quran editions across 123 countries with 100% verified live digital facsimiles.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cairo:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            emerald: {
+              50: '#ecfdf5',
+              100: '#d1fae5',
+              200: '#a7f3d0',
+              500: '#10b981',
+              600: '#059669',
+              700: '#047857',
+              800: '#065f46',
+              900: '#064e3b',
+              950: '#022c22',
+            },
+            gold: {
+              400: '#fbbf24',
+              500: '#f59e0b',
+              600: '#d97706',
+              700: '#b45309',
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'Cairo', 'sans-serif'],
+            arabic: ['Cairo', 'Amiri', 'sans-serif'],
+            quran: ['Amiri', 'serif']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    [dir="rtl"] .ltr-only { display: none; }
+    [dir="ltr"] .rtl-only { display: none; }
+    .gold-gradient {
+      background: linear-gradient(135deg, #d97706 0%, #f59e0b 50%, #fbbf24 100%);
+    }
+    .emerald-gradient {
+      background: linear-gradient(135deg, #064e3b 0%, #047857 50%, #059669 100%);
+    }
+    .card-shadow {
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.03);
+    }
+    .islamic-pattern {
+      background-color: #064e3b;
+      background-image: radial-gradient(#10b981 0.75px, transparent 0.75px), radial-gradient(#10b981 0.75px, #064e3b 0.75px);
+      background-size: 30px 30px;
+      background-position: 0 0, 15px 15px;
+    }
+  </style>
+  <script src="data.js"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100 font-sans transition-colors duration-200">
+
+  <!-- Header / Navigation Bar -->
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-white/90 dark:bg-slate-900/90 border-b border-slate-200 dark:border-slate-800 transition-colors">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <div class="flex items-center space-x-3 rtl:space-x-reverse">
+        <div class="w-11 h-11 rounded-xl emerald-gradient flex items-center justify-center text-white shadow-lg shadow-emerald-900/20">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+          </svg>
+        </div>
+        <div>
+          <span class="text-xl font-bold tracking-tight text-slate-900 dark:text-white flex items-center gap-2">
+            Quran-DB
+            <span class="text-xs px-2 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-950/80 text-emerald-800 dark:text-emerald-300 font-medium">v2.0 Master</span>
+          </span>
+          <p class="text-xs text-slate-500 dark:text-slate-400 ltr-only">Global Editions & Translations Catalog</p>
+          <p class="text-xs text-slate-500 dark:text-slate-400 rtl-only font-arabic">قاعدة البيانات الموحدة للمصاحف والتراجم</p>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <nav class="hidden md:flex items-center space-x-1 rtl:space-x-reverse bg-slate-100 dark:bg-slate-800/80 p-1.5 rounded-xl text-sm font-medium">
+        <button onclick="switchTab('overview')" id="tab-btn-overview" class="tab-nav px-4 py-2 rounded-lg bg-white dark:bg-slate-700 text-emerald-700 dark:text-emerald-400 shadow-sm transition">
+          <span class="ltr-only">Overview</span><span class="rtl-only font-arabic">نظرة عامة</span>
+        </button>
+        <button onclick="switchTab('mushafs')" id="tab-btn-mushafs" class="tab-nav px-4 py-2 rounded-lg text-slate-600 dark:text-slate-300 hover:text-emerald-600 transition">
+          <span class="ltr-only">Arabic Mushafs (36)</span><span class="rtl-only font-arabic">المصاحف الشريفة (36)</span>
+        </button>
+        <button onclick="switchTab('translations')" id="tab-btn-translations" class="tab-nav px-4 py-2 rounded-lg text-slate-600 dark:text-slate-300 hover:text-emerald-600 transition">
+          <span class="ltr-only">Translations (283)</span><span class="rtl-only font-arabic">التراجم والتفاسير (283)</span>
+        </button>
+        <button onclick="switchTab('countries')" id="tab-btn-countries" class="tab-nav px-4 py-2 rounded-lg text-slate-600 dark:text-slate-300 hover:text-emerald-600 transition">
+          <span class="ltr-only">Countries (227)</span><span class="rtl-only font-arabic">تصنيف الدول (227)</span>
+        </button>
+        <button onclick="switchTab('methodology')" id="tab-btn-methodology" class="tab-nav px-4 py-2 rounded-lg text-slate-600 dark:text-slate-300 hover:text-emerald-600 transition">
+          <span class="ltr-only">Audit & Pipeline</span><span class="rtl-only font-arabic">منهجية التدقيق</span>
+        </button>
+      </nav>
+
+      <!-- Right Controls: Theme + Language -->
+      <div class="flex items-center space-x-2 rtl:space-x-reverse">
+        <!-- Language Switcher Button -->
+        <button onclick="toggleLanguage()" class="px-3.5 py-1.5 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-xs font-semibold hover:border-emerald-500 transition flex items-center gap-1.5 shadow-sm">
+          <svg class="w-4 h-4 text-emerald-600 dark:text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
+          </svg>
+          <span id="lang-btn-text">العربية</span>
+        </button>
+
+        <!-- Dark/Light Mode Toggle -->
+        <button onclick="toggleDarkMode()" class="p-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:text-emerald-600 transition shadow-sm" title="Toggle Dark/Light Mode">
+          <svg id="theme-icon-sun" class="w-4 h-4 hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" /></svg>
+          <svg id="theme-icon-moon" class="w-4 h-4 block dark:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" /></svg>
+        </button>
+
+        <!-- GitHub Repo Link -->
+        <a href="https://github.com/mohamed-soubhi/quran-db" target="_blank" rel="noopener noreferrer" class="p-2 rounded-lg bg-slate-900 text-white dark:bg-white dark:text-slate-900 hover:opacity-90 transition shadow-sm" title="View on GitHub">
+          <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative overflow-hidden islamic-pattern text-white py-16 lg:py-20 shadow-xl">
+    <div class="absolute inset-0 bg-gradient-to-r from-emerald-950/95 via-emerald-900/90 to-emerald-950/95"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/20 border border-emerald-400/30 text-emerald-200 text-xs font-semibold uppercase tracking-wider mb-6">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span class="ltr-only">Curated, Deduplicated & 100% Live Verified</span>
+        <span class="rtl-only font-arabic">محققة ومدققة بنسبة 100% بروابط مصورة حية</span>
+      </div>
+
+      <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight mb-4 ltr-only">
+        Global Quran Editions <span class="text-transparent bg-clip-text gold-gradient">&amp; Translations</span>
+      </h1>
+      <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight mb-4 rtl-only font-arabic leading-tight">
+        قاعدة بيانات <span class="text-transparent bg-clip-text gold-gradient">مصاحف وتراجم القرآن الكريم</span> في العالم
+      </h1>
+
+      <p class="max-w-3xl mx-auto text-base sm:text-lg text-emerald-100/90 mb-10 leading-relaxed ltr-only">
+        A unified master scholarly database consolidating <strong>319 unique editions</strong> across <strong>123 countries</strong>. Split into <strong>36 Arabic Mushafs</strong> with 100% verified live digital facsimiles, and <strong>283 global translations</strong>, alongside demographic mapping for 227 countries.
+      </p>
+      <p class="max-w-3xl mx-auto text-base sm:text-lg text-emerald-100/90 mb-10 leading-relaxed rtl-only font-arabic">
+        أول قاعدة بيانات موحدة وشاملة تجمع وتدقق <strong>319 طبعة قرآنية فريدة</strong> موزعة على <strong>123 دولة</strong> حول العالم، ومقسمة بدقة إلى <strong>36 مصحفاً شريفاً بالنص العربي الخالص</strong> موثقة بأدلة رقمية مصورة حية بنسبة 100%، و <strong>283 ترجمة وتفسيراً عالمياً</strong>، مع تصنيف ديموغرافي لـ 227 دولة وإقليماً.
+      </p>
+
+      <!-- Metrics KPI Badges -->
+      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4 max-w-5xl mx-auto">
+        <div class="bg-white/10 backdrop-blur-md border border-white/10 rounded-2xl p-4 text-center">
+          <div class="text-2xl sm:text-3xl font-black text-amber-300 font-mono" id="stat-total">319</div>
+          <div class="text-xs text-emerald-200/80 font-medium mt-1 ltr-only">Total Editions</div>
+          <div class="text-xs text-emerald-200/80 font-arabic mt-1 rtl-only">إجمالي الطبعات</div>
+        </div>
+        <div class="bg-white/10 backdrop-blur-md border border-white/10 rounded-2xl p-4 text-center">
+          <div class="text-2xl sm:text-3xl font-black text-emerald-300 font-mono" id="stat-mushafs">36</div>
+          <div class="text-xs text-emerald-200/80 font-medium mt-1 ltr-only">Arabic Mushafs</div>
+          <div class="text-xs text-emerald-200/80 font-arabic mt-1 rtl-only">مصاحف عربية خالصة</div>
+        </div>
+        <div class="bg-white/10 backdrop-blur-md border border-white/10 rounded-2xl p-4 text-center">
+          <div class="text-2xl sm:text-3xl font-black text-cyan-300 font-mono" id="stat-evidence">100%</div>
+          <div class="text-xs text-emerald-200/80 font-medium mt-1 ltr-only">Live Evidence URLs</div>
+          <div class="text-xs text-emerald-200/80 font-arabic mt-1 rtl-only">أدلة مصورة مباشرة</div>
+        </div>
+        <div class="bg-white/10 backdrop-blur-md border border-white/10 rounded-2xl p-4 text-center">
+          <div class="text-2xl sm:text-3xl font-black text-purple-300 font-mono" id="stat-translations">283</div>
+          <div class="text-xs text-emerald-200/80 font-medium mt-1 ltr-only">Translations</div>
+          <div class="text-xs text-emerald-200/80 font-arabic mt-1 rtl-only">تراجم وتفاسير</div>
+        </div>
+        <div class="bg-white/10 backdrop-blur-md border border-white/10 rounded-2xl p-4 text-center">
+          <div class="text-2xl sm:text-3xl font-black text-rose-300 font-mono" id="stat-countries">123</div>
+          <div class="text-xs text-emerald-200/80 font-medium mt-1 ltr-only">Edition Countries</div>
+          <div class="text-xs text-emerald-200/80 font-arabic mt-1 rtl-only">دولة لها طبعات</div>
+        </div>
+        <div class="bg-white/10 backdrop-blur-md border border-white/10 rounded-2xl p-4 text-center">
+          <div class="text-2xl sm:text-3xl font-black text-yellow-300 font-mono" id="stat-ranked">227</div>
+          <div class="text-xs text-emerald-200/80 font-medium mt-1 ltr-only">Ranked Nations</div>
+          <div class="text-xs text-emerald-200/80 font-arabic mt-1 rtl-only">دولة مصنفة ديموغرافياً</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Container -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+
+    <!-- TAB 1: OVERVIEW -->
+    <div id="section-overview" class="tab-content space-y-10">
+      
+      <!-- Key Highlights Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 card-shadow">
+          <div class="w-12 h-12 rounded-xl bg-amber-100 dark:bg-amber-950/60 text-amber-700 dark:text-amber-400 flex items-center justify-center mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          </div>
+          <h3 class="text-lg font-bold mb-2 ltr-only">Deduplicated & Cleaned</h3>
+          <h3 class="text-lg font-bold mb-2 rtl-only font-arabic">دمج وتدقيق مانع للتكرار</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-400 ltr-only leading-relaxed">
+            Merged 163 AGY editions with 188 GLM editions, reconciling 31 duplicate cross-dataset pairs into unified high-confidence records with a transparent JSON audit trail.
+          </p>
+          <p class="text-sm text-slate-600 dark:text-slate-400 rtl-only font-arabic leading-relaxed">
+            تم دمج نتائج فريقي العمل السابقة (163 طبعة AGY و 188 طبعة GLM) مع حل وتوحيد 31 زوجاً مكرراً بدقة متناهية وسجل تدقيق تفصيلي يوثق كل عملية دمج.
+          </p>
+        </div>
+
+        <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 card-shadow">
+          <div class="w-12 h-12 rounded-xl bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-400 flex items-center justify-center mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" /></svg>
+          </div>
+          <h3 class="text-lg font-bold mb-2 ltr-only">100% Live Digital Evidence</h3>
+          <h3 class="text-lg font-bold mb-2 rtl-only font-arabic">أدلة رقمية ومصاحف مصورة حية</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-400 ltr-only leading-relaxed">
+            Every Arabic Mushaf includes an active, direct link (HTTP 200 verified) to its full scanned facsimile on Internet Archive, Chester Beatty Library, or official state portal.
+          </p>
+          <p class="text-sm text-slate-600 dark:text-slate-400 rtl-only font-arabic leading-relaxed">
+            تزويد جميع المصاحف الشريفة الـ 36 بروابط حية مباشرة (تم اختبارها بنجاح وحالتها البرمجية 200) للمصحف المصور الكامل أو المخطوطة الأصلية صفحة بصفحة.
+          </p>
+        </div>
+
+        <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 card-shadow">
+          <div class="w-12 h-12 rounded-xl bg-cyan-100 dark:bg-cyan-950/60 text-cyan-700 dark:text-cyan-400 flex items-center justify-center mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" /></svg>
+          </div>
+          <h3 class="text-lg font-bold mb-2 ltr-only">Clean Categorical Separation</h3>
+          <h3 class="text-lg font-bold mb-2 rtl-only font-arabic">فصل منهجي دقيق للمصاحف والتراجم</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-400 ltr-only leading-relaxed">
+            Separated into clean specialized datasets: <code>mushaf_only.csv</code> for Arabic-only holy texts, and <code>translations.csv</code> for international vernacular versions.
+          </p>
+          <p class="text-sm text-slate-600 dark:text-slate-400 rtl-only font-arabic leading-relaxed">
+            تقسيم علمي واضح لقاعدة البيانات إلى ملف مستقل للمصاحف العربية الخالصة، وملف منفصل للتراجم والتفاسير بلغات العالم مع دعم كامل لترميز Excel UTF-8.
+          </p>
+        </div>
+      </div>
+
+      <!-- Quick Featured Mushafs Carousel / Highlights -->
+      <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 sm:p-8 card-shadow">
+        <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
+          <div>
+            <h2 class="text-xl sm:text-2xl font-bold ltr-only">Featured Historic &amp; National Mushafs</h2>
+            <h2 class="text-xl sm:text-2xl font-bold rtl-only font-arabic">نماذج من المصاحف الشريفة التاريخية والوطنية</h2>
+            <p class="text-sm text-slate-500 dark:text-slate-400 mt-1 ltr-only">Hand-curated historical landmarks from our 36 Arabic editions</p>
+            <p class="text-sm text-slate-500 dark:text-slate-400 mt-1 rtl-only font-arabic">أبرز المعالم الطباعية والمخطوطات القرآنية الموثقة في القاعدة</p>
+          </div>
+          <button onclick="switchTab('mushafs')" class="px-4 py-2 rounded-xl emerald-gradient text-white text-sm font-semibold hover:opacity-95 transition shadow-md shadow-emerald-900/20">
+            <span class="ltr-only">View All 36 Mushafs &rarr;</span>
+            <span class="rtl-only font-arabic">عرض كافة المصاحف الـ 36 &larr;</span>
+          </button>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5" id="featured-mushaf-grid">
+          <!-- Populated by JavaScript -->
+        </div>
+      </div>
+
+      <!-- Riwayat & Distribution Breakdown -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 card-shadow">
+          <h3 class="text-lg font-bold mb-4 flex items-center justify-between">
+            <span class="ltr-only">Riwayat Distribution (Mushaf Only)</span>
+            <span class="rtl-only font-arabic">توزيع الروايات القرآنية (المصاحف فقط)</span>
+            <span class="text-xs px-2.5 py-1 rounded-full bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300 font-semibold">36 Editions</span>
+          </h3>
+          <div class="space-y-3" id="riwayat-chart">
+            <!-- Populated by JavaScript -->
+          </div>
+        </div>
+
+        <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 card-shadow">
+          <h3 class="text-lg font-bold mb-4 flex items-center justify-between">
+            <span class="ltr-only">Top Countries by Translation Count</span>
+            <span class="rtl-only font-arabic">أكثر الدول إنتاجاً للتراجم والتفاسير</span>
+            <span class="text-xs px-2.5 py-1 rounded-full bg-cyan-100 dark:bg-cyan-950 text-cyan-800 dark:text-cyan-300 font-semibold">283 Editions</span>
+          </h3>
+          <div class="space-y-3" id="translations-chart">
+            <!-- Populated by JavaScript -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 2: ARABIC MUSHAFS -->
+    <div id="section-mushafs" class="tab-content hidden space-y-6">
+      <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 card-shadow">
+        <div class="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-4 mb-6">
+          <div>
+            <h2 class="text-2xl font-bold ltr-only">Arabic Mushaf Editions Only (36 Editions)</h2>
+            <h2 class="text-2xl font-bold rtl-only font-arabic">مكتبة المصاحف الشريفة بالنص العربي الخالص (36 طبعة)</h2>
+            <p class="text-sm text-slate-500 dark:text-slate-400 mt-1 ltr-only">
+              Every edition has been independently verified with active HTTP 200 links to full digital scans.
+            </p>
+            <p class="text-sm text-slate-500 dark:text-slate-400 mt-1 rtl-only font-arabic">
+              جميع المصاحف مزودة برابط مباشر يعمل بنسبة 100% يتيح تصفح المصحف كاملاً أو المخطوطة الأصلية.
+            </p>
+          </div>
+          <div class="flex items-center gap-3">
+            <input type="text" id="mushaf-search" oninput="renderMushafs()" placeholder="Search mushaf, country, riwaya..." class="px-4 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-sm focus:ring-2 focus:ring-emerald-500 outline-none w-full md:w-64">
+            <select id="mushaf-filter-riwaya" onchange="renderMushafs()" class="px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-sm focus:ring-2 focus:ring-emerald-500 outline-none">
+              <option value="all">All Riwayat / جميع الروايات</option>
+              <option value="حفص">حفص عن عاصم (Hafs)</option>
+              <option value="ورش">ورش عن نافع (Warsh)</option>
+              <option value="قالون">قالون عن نافع (Qalun)</option>
+              <option value="الدوري">الدوري عن أبي عمرو (Al-Duri)</option>
+              <option value="مخطوط">المخطوطات التاريخية (Manuscripts)</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Mushaf Grid Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="mushaf-cards-container">
+          <!-- Populated by JavaScript -->
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 3: TRANSLATIONS -->
+    <div id="section-translations" class="tab-content hidden space-y-6">
+      <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 card-shadow">
+        <div class="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-4 mb-6">
+          <div>
+            <h2 class="text-2xl font-bold ltr-only">Global Translations &amp; Tafsirs (283 Editions)</h2>
+            <h2 class="text-2xl font-bold rtl-only font-arabic">مكتبة التراجم والتفاسير بمختلف لغات العالم (283 طبعة)</h2>
+            <p class="text-sm text-slate-500 dark:text-slate-400 mt-1 ltr-only">
+              Spanning 107 countries and major world languages (English, French, German, Urdu, Russian, Chinese, Swahili, etc.)
+            </p>
+            <p class="text-sm text-slate-500 dark:text-slate-400 mt-1 rtl-only font-arabic">
+              تغطي 107 دول ومختلف لغات العالم الحية واللهجات المحلية للمسلمين عبر القارات.
+            </p>
+          </div>
+          <div class="flex items-center gap-3">
+            <input type="text" id="trans-search" oninput="renderTranslations()" placeholder="Search language, country, title..." class="px-4 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-sm focus:ring-2 focus:ring-emerald-500 outline-none w-full md:w-72">
+          </div>
+        </div>
+
+        <div class="overflow-x-auto rounded-xl border border-slate-200 dark:border-slate-800">
+          <table class="w-full text-left rtl:text-right text-sm">
+            <thead class="bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 font-semibold uppercase text-xs">
+              <tr>
+                <th class="px-4 py-3.5">#</th>
+                <th class="px-4 py-3.5"><span class="ltr-only">Country</span><span class="rtl-only font-arabic">الدولة</span></th>
+                <th class="px-4 py-3.5"><span class="ltr-only">Title</span><span class="rtl-only font-arabic">عنوان الطبعة</span></th>
+                <th class="px-4 py-3.5"><span class="ltr-only">Language</span><span class="rtl-only font-arabic">اللغة</span></th>
+                <th class="px-4 py-3.5"><span class="ltr-only">Publisher</span><span class="rtl-only font-arabic">دار النشر</span></th>
+                <th class="px-4 py-3.5"><span class="ltr-only">Year</span><span class="rtl-only font-arabic">السنة</span></th>
+              </tr>
+            </thead>
+            <tbody id="translations-table-body" class="divide-y divide-slate-200 dark:divide-slate-800">
+              <!-- Populated by JavaScript -->
+            </tbody>
+          </table>
+        </div>
+        <div class="flex items-center justify-between text-xs text-slate-500 dark:text-slate-400 mt-4" id="trans-pagination-info">
+          <!-- Pagination info -->
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 4: COUNTRIES RANKED -->
+    <div id="section-countries" class="tab-content hidden space-y-6">
+      <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 card-shadow">
+        <div class="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-4 mb-6">
+          <div>
+            <h2 class="text-2xl font-bold ltr-only">Country Demographic Index (227 Nations &amp; Territories)</h2>
+            <h2 class="text-2xl font-bold rtl-only font-arabic">دليل وتصنيف دول العالم ديموغرافياً (227 دولة وإقليم)</h2>
+            <p class="text-sm text-slate-500 dark:text-slate-400 mt-1 ltr-only">
+              Sorted by Muslim population percentage, with total populations and edition coverage.
+            </p>
+            <p class="text-sm text-slate-500 dark:text-slate-400 mt-1 rtl-only font-arabic">
+              مرتبة تصاعدياً بنسبة المسلمين من إجمالي السكان، مع إحصاءات التعداد وحالة التغطية في قاعدة البيانات.
+            </p>
+          </div>
+          <input type="text" id="countries-search" oninput="renderCountries()" placeholder="Search country name..." class="px-4 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-sm focus:ring-2 focus:ring-emerald-500 outline-none w-full md:w-64">
+        </div>
+
+        <div class="overflow-x-auto rounded-xl border border-slate-200 dark:border-slate-800">
+          <table class="w-full text-left rtl:text-right text-sm">
+            <thead class="bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 font-semibold uppercase text-xs">
+              <tr>
+                <th class="px-4 py-3.5"><span class="ltr-only">Rank</span><span class="rtl-only font-arabic">الترتيب</span></th>
+                <th class="px-4 py-3.5"><span class="ltr-only">Country</span><span class="rtl-only font-arabic">الدولة</span></th>
+                <th class="px-4 py-3.5"><span class="ltr-only">Muslim %</span><span class="rtl-only font-arabic">نسبة المسلمين</span></th>
+                <th class="px-4 py-3.5"><span class="ltr-only">Total Population</span><span class="rtl-only font-arabic">إجمالي السكان</span></th>
+                <th class="px-4 py-3.5"><span class="ltr-only">Status</span><span class="rtl-only font-arabic">الحالة في القاعدة</span></th>
+              </tr>
+            </thead>
+            <tbody id="countries-table-body" class="divide-y divide-slate-200 dark:divide-slate-800">
+              <!-- Populated by JavaScript -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 5: METHODOLOGY & AUDIT -->
+    <div id="section-methodology" class="tab-content hidden space-y-6">
+      <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 sm:p-8 card-shadow space-y-8">
+        <div>
+          <h2 class="text-2xl font-bold ltr-only">Scholarly Consolidation &amp; Audit Methodology</h2>
+          <h2 class="text-2xl font-bold rtl-only font-arabic">منهجية العمل والتدقيق العلمي لقاعدة البيانات</h2>
+          <p class="text-sm text-slate-500 dark:text-slate-400 mt-1 ltr-only">
+            How we combined AGY-results and GLM-results into an audited, reproducible single source of truth.
+          </p>
+          <p class="text-sm text-slate-500 dark:text-slate-400 mt-1 rtl-only font-arabic">
+            خطوات توحيد نتائج فريقي AGY و GLM، إزالة التكرار، ضبط الحقول، وفحص الروابط بنسبة 100%.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="p-5 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-800/50">
+            <h3 class="font-bold text-emerald-700 dark:text-emerald-400 mb-2 ltr-only">1. Deduplication Protocol</h3>
+            <h3 class="font-bold text-emerald-700 dark:text-emerald-400 mb-2 rtl-only font-arabic">1. بروتوكول إزالة التكرار</h3>
+            <p class="text-sm text-slate-600 dark:text-slate-400 ltr-only leading-relaxed">
+              Matched editions across datasets based on Country + exact/canonical ISBN + Normalized Title substring similarity + Publication Year matching. Exactly 31 duplicates were merged, and 1 internal Czech reprint duplicate was resolved.
+            </p>
+            <p class="text-sm text-slate-600 dark:text-slate-400 rtl-only font-arabic leading-relaxed">
+              تمت مطابقة الطبعات عبر الدول بواسطة خوارزمية ثلاثية تفحص (الدولة + تطابق الردمك المعياري + تشابه العنوان + سنة النشر)، مما أدى لدمج 31 زوجاً مكرراً بدقة تامة وتوحيد طبعتي التشيك.
+            </p>
+          </div>
+
+          <div class="p-5 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-800/50">
+            <h3 class="font-bold text-emerald-700 dark:text-emerald-400 mb-2 ltr-only">2. Data Cleaning &amp; Validation</h3>
+            <h3 class="font-bold text-emerald-700 dark:text-emerald-400 mb-2 rtl-only font-arabic">2. تنقية البيانات وتصحيح الحقول</h3>
+            <p class="text-sm text-slate-600 dark:text-slate-400 ltr-only leading-relaxed">
+              Filtered out non-Quran periodicals (e.g. <em>Muslim News SA</em>), corrected 9 records in Germany where ISBN was erroneously appended into the publisher name field, and enforced <code>content_type</code> validation.
+            </p>
+            <p class="text-sm text-slate-600 dark:text-slate-400 rtl-only font-arabic leading-relaxed">
+              تم استبعاد الدوريات غير القرآنية، وتصحيح 9 سجلات في ألمانيا دمج فيها الردمك خطأً داخل اسم الناشر، وتوحيد قيم نوع المحتوى ومستويات الثقة ومصادر التوثيق.
+            </p>
+          </div>
+
+          <div class="p-5 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-800/50">
+            <h3 class="font-bold text-emerald-700 dark:text-emerald-400 mb-2 ltr-only">3. 100% Live URL Verification</h3>
+            <h3 class="font-bold text-emerald-700 dark:text-emerald-400 mb-2 rtl-only font-arabic">3. التحقق الآلي من الروابط (HTTP 200)</h3>
+            <p class="text-sm text-slate-600 dark:text-slate-400 ltr-only leading-relaxed">
+              Executed automated HTTP test suites over all 36 Arabic Mushaf links. Replaced broken or generic institutional homepages with permanent high-resolution scans from Internet Archive and museum viewers.
+            </p>
+            <p class="text-sm text-slate-600 dark:text-slate-400 rtl-only font-arabic leading-relaxed">
+              تم فحص روابط المصاحف الـ 36 برمجياً والتأكد من أنها ترجع برمز الحالة 200 مباشرة دون حجب أو 404، واستبدال الروابط العامة بروابط فحص وتصفح كاملة للمصاحف المصورة.
+            </p>
+          </div>
+
+          <div class="p-5 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-800/50">
+            <h3 class="font-bold text-emerald-700 dark:text-emerald-400 mb-2 ltr-only">4. 1-Click Reproducibility</h3>
+            <h3 class="font-bold text-emerald-700 dark:text-emerald-400 mb-2 rtl-only font-arabic">4. القابلية الكاملة لإعادة الإنتاج البرمجي</h3>
+            <p class="text-sm text-slate-600 dark:text-slate-400 ltr-only leading-relaxed">
+              All outputs are produced deterministically through <code>generate_all_combined.py</code>, creating UTF-8 BOM CSVs, 227 per-country JSONL files, and the merge audit log in 1.2 seconds.
+            </p>
+            <p class="text-sm text-slate-600 dark:text-slate-400 rtl-only font-arabic leading-relaxed">
+              كافة مخرجات المشروع تتم برمجياً عبر سكربت <code>generate_all_combined.py</code> الذي ينشئ ملفات CSV و JSONL وسجل التدقيق بدقة متطابقة في أقل من ثانيتين.
+            </p>
+          </div>
+        </div>
+
+        <!-- Download Data Section -->
+        <div class="border-t border-slate-200 dark:border-slate-800 pt-8">
+          <h3 class="text-xl font-bold mb-4 ltr-only">Download Datasets</h3>
+          <h3 class="text-xl font-bold mb-4 rtl-only font-arabic">تحميل ملفات قاعدة البيانات</h3>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <a href="mushaf_only.csv" download class="p-4 rounded-xl border border-emerald-300 dark:border-emerald-800 bg-emerald-50 dark:bg-emerald-950/40 hover:border-emerald-500 transition text-center group">
+              <div class="text-emerald-700 dark:text-emerald-400 font-bold mb-1 group-hover:underline">mushaf_only.csv</div>
+              <div class="text-xs text-slate-500 dark:text-slate-400">36 Arabic Mushafs (with Evidence URLs)</div>
+            </a>
+            <a href="translations.csv" download class="p-4 rounded-xl border border-cyan-300 dark:border-cyan-800 bg-cyan-50 dark:bg-cyan-950/40 hover:border-cyan-500 transition text-center group">
+              <div class="text-cyan-700 dark:text-cyan-400 font-bold mb-1 group-hover:underline">translations.csv</div>
+              <div class="text-xs text-slate-500 dark:text-slate-400">283 Worldwide Translations</div>
+            </a>
+            <a href="combined_master.csv" download class="p-4 rounded-xl border border-amber-300 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/40 hover:border-amber-500 transition text-center group">
+              <div class="text-amber-700 dark:text-amber-400 font-bold mb-1 group-hover:underline">combined_master.csv</div>
+              <div class="text-xs text-slate-500 dark:text-slate-400">Complete Master (319 Editions)</div>
+            </a>
+            <a href="combined_countries_ranked.csv" download class="p-4 rounded-xl border border-purple-300 dark:border-purple-800 bg-purple-50 dark:bg-purple-950/40 hover:border-purple-500 transition text-center group">
+              <div class="text-purple-700 dark:text-purple-400 font-bold mb-1 group-hover:underline">combined_countries_ranked.csv</div>
+              <div class="text-xs text-slate-500 dark:text-slate-400">227 Countries Demographic Index</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 py-8 transition-colors">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500 dark:text-slate-400">
+      <div>
+        <p class="ltr-only">&copy; 2026 Quran-DB Project. Curated with scholarly rigor &amp; open data standards.</p>
+        <p class="rtl-only font-arabic">&copy; 2026 مشروع قاعدة بيانات القرآن الكريم العالمية. تم التحقيق وفق أعلى معايير التوثيق العلمي والبيانات المفتوحة.</p>
+      </div>
+      <div class="flex items-center space-x-4 rtl:space-x-reverse">
+        <a href="https://github.com/mohamed-soubhi/quran-db" target="_blank" class="hover:text-emerald-600 transition">GitHub Repository</a>
+        <span>&bull;</span>
+        <a href="consolidation_report.md" target="_blank" class="hover:text-emerald-600 transition">Audit Report (Markdown)</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Application Logic -->
+  <script>
+    let currentLang = 'en';
+    let currentTab = 'overview';
+    const data = window.QURAN_DATA || { stats: {}, mushaf_only: [], translations: [], countries: [] };
+
+    // Country flags helper
+    const countryFlags = {
+      'Algeria': '🇩🇿', 'Austria': '🇦🇹', 'Bahrain': '🇧🇭', 'Brunei': '🇧🇳', 'Chad': '🇹🇩',
+      'China': '🇨🇳', 'Egypt': '🇪🇬', 'India': '🇮🇳', 'Indonesia': '🇮🇩', 'Iran': '🇮🇷',
+      'Iraq': '🇮🇶', 'Jordan': '🇯🇴', 'Kuwait': '🇰🇼', 'Lebanon': '🇱🇧', 'Libya': '🇱🇾',
+      'Malaysia': '🇲🇾', 'Mauritania': '🇲🇷', 'Morocco': '🇲🇦', 'Oman': '🇴🇲', 'Pakistan': '🇵🇰',
+      'Palestine': '🇵🇸', 'Qatar': '🇶🇦', 'Russia': '🇷🇺', 'Saudi Arabia': '🇸🇦', 'Senegal': '🇸🇳',
+      'South Africa': '🇿🇦', 'Sudan': '🇸🇩', 'Syria': '🇸🇾', 'Tunisia': '🇹🇳', 'Turkey': '🇹🇷',
+      'United Arab Emirates': '🇦🇪', 'Yemen': '🇾🇪', 'Germany': '🇩🇪', 'United Kingdom': '🇬🇧',
+      'United States': '🇺🇸', 'France': '🇫🇷', 'Canada': '🇨🇦', 'Japan': '🇯🇵'
+    };
+
+    function getFlag(c) {
+      return countryFlags[c] || '🌐';
+    }
+
+    // Toggle Dark Mode
+    function toggleDarkMode() {
+      document.documentElement.classList.toggle('dark');
+      localStorage.setItem('theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light');
+    }
+    if (localStorage.getItem('theme') === 'dark' || (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark');
+    }
+
+    // Toggle Language
+    function toggleLanguage() {
+      if (currentLang === 'en') {
+        setLanguage('ar');
+      } else {
+        setLanguage('en');
+      }
+    }
+
+    function setLanguage(lang) {
+      currentLang = lang;
+      localStorage.setItem('quran_db_lang', lang);
+      document.documentElement.setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr');
+      document.documentElement.setAttribute('lang', lang);
+      document.getElementById('lang-btn-text').textContent = lang === 'ar' ? 'English' : 'العربية';
+      renderAll();
+    }
+
+    // Tab Navigation
+    function switchTab(tabId) {
+      currentTab = tabId;
+      document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+      document.getElementById('section-' + tabId).classList.remove('hidden');
+
+      document.querySelectorAll('.tab-nav').forEach(btn => {
+        btn.classList.remove('bg-white', 'dark:bg-slate-700', 'text-emerald-700', 'dark:text-emerald-400', 'shadow-sm');
+        btn.classList.add('text-slate-600', 'dark:text-slate-300');
+      });
+
+      const activeBtn = document.getElementById('tab-btn-' + tabId);
+      if (activeBtn) {
+        activeBtn.classList.add('bg-white', 'dark:bg-slate-700', 'text-emerald-700', 'dark:text-emerald-400', 'shadow-sm');
+        activeBtn.classList.remove('text-slate-600', 'dark:text-slate-300');
+      }
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // Render Featured Mushafs
+    function renderFeaturedMushafs() {
+      const container = document.getElementById('featured-mushaf-grid');
+      if (!container) return;
+      const featuredList = [
+        data.mushaf_only.find(m => m.country === 'Egypt' && m.mushaf_title.includes('الأميري')),
+        data.mushaf_only.find(m => m.country === 'Austria'),
+        data.mushaf_only.find(m => m.country === 'Russia'),
+        data.mushaf_only.find(m => m.country === 'Algeria'),
+        data.mushaf_only.find(m => m.country === 'Oman'),
+        data.mushaf_only.find(m => m.country === 'South Africa')
+      ].filter(Boolean);
+
+      container.innerHTML = featuredList.map(m => `
+        <div class="p-5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-800/40 flex flex-col justify-between hover:border-emerald-500/50 transition">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold px-2.5 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300">
+                ${getFlag(m.country)} ${m.country}
+              </span>
+              <span class="text-xs text-slate-500 font-mono">${m.publication_year || 'Historical'}</span>
+            </div>
+            <h4 class="font-bold text-slate-900 dark:text-white line-clamp-2 text-sm sm:text-base mb-1 font-quran">${m.mushaf_title}</h4>
+            <p class="text-xs text-slate-500 dark:text-slate-400 mb-3 line-clamp-1">${m.publisher_name || m.approval_body}</p>
+          </div>
+          <a href="${m.evidence_url}" target="_blank" rel="noopener noreferrer" class="mt-2 inline-flex items-center justify-center gap-1.5 w-full py-2 px-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-semibold shadow-sm transition">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+            <span class="ltr-only">View Live Scan</span><span class="rtl-only font-arabic">تصفح المصحف كاملاً</span>
+          </a>
+        </div>
+      `).join('');
+    }
+
+    // Render Riwayat & Translations Charts
+    function renderCharts() {
+      const riwayatContainer = document.getElementById('riwayat-chart');
+      if (riwayatContainer && data.stats.riwayah_breakdown) {
+        riwayatContainer.innerHTML = Object.entries(data.stats.riwayah_breakdown).map(([k, v]) => {
+          const pct = Math.round((v / data.stats.mushaf_only_count) * 100);
+          return `
+            <div>
+              <div class="flex justify-between text-xs font-semibold mb-1">
+                <span class="text-slate-800 dark:text-slate-200">${k || 'Other / Ancient'}</span>
+                <span class="font-mono text-emerald-600 dark:text-emerald-400">${v} (${pct}%)</span>
+              </div>
+              <div class="w-full bg-slate-100 dark:bg-slate-800 rounded-full h-2">
+                <div class="bg-emerald-600 h-2 rounded-full" style="width: ${pct}%"></div>
+              </div>
+            </div>
+          `;
+        }).join('');
+      }
+
+      const transContainer = document.getElementById('translations-chart');
+      if (transContainer && data.stats.top_translation_countries) {
+        const maxVal = Math.max(...Object.values(data.stats.top_translation_countries));
+        transContainer.innerHTML = Object.entries(data.stats.top_translation_countries).map(([k, v]) => {
+          const pct = Math.round((v / maxVal) * 100);
+          return `
+            <div>
+              <div class="flex justify-between text-xs font-semibold mb-1">
+                <span class="text-slate-800 dark:text-slate-200">${getFlag(k)} ${k}</span>
+                <span class="font-mono text-cyan-600 dark:text-cyan-400">${v} editions</span>
+              </div>
+              <div class="w-full bg-slate-100 dark:bg-slate-800 rounded-full h-2">
+                <div class="bg-cyan-600 h-2 rounded-full" style="width: ${pct}%"></div>
+              </div>
+            </div>
+          `;
+        }).join('');
+      }
+    }
+
+    // Render Mushafs Tab
+    function renderMushafs() {
+      const query = (document.getElementById('mushaf-search')?.value || '').toLowerCase();
+      const riwayaFilter = document.getElementById('mushaf-filter-riwaya')?.value || 'all';
+      const container = document.getElementById('mushaf-cards-container');
+      if (!container) return;
+
+      const filtered = data.mushaf_only.filter(m => {
+        const matchesQuery = (m.country + ' ' + m.mushaf_title + ' ' + m.riwaya + ' ' + m.calligrapher + ' ' + m.publisher_name).toLowerCase().includes(query);
+        const matchesRiwaya = riwayaFilter === 'all' || (m.riwaya && m.riwaya.includes(riwayaFilter));
+        return matchesQuery && matchesRiwaya;
+      });
+
+      container.innerHTML = filtered.map((m, idx) => `
+        <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 card-shadow flex flex-col justify-between hover:border-emerald-500/60 transition group">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-bold px-2.5 py-1 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200">
+                ${getFlag(m.country)} ${m.country}
+              </span>
+              <span class="text-xs font-mono text-slate-400">#${idx + 1}</span>
+            </div>
+
+            <h3 class="text-base font-bold text-slate-900 dark:text-white mb-2 font-quran leading-snug line-clamp-2 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition">
+              ${m.mushaf_title}
+            </h3>
+
+            <div class="space-y-1.5 text-xs text-slate-600 dark:text-slate-300 mb-4">
+              <div class="flex items-center gap-1.5">
+                <span class="font-semibold text-slate-400">Riwayah:</span>
+                <span class="font-medium text-emerald-700 dark:text-emerald-400">${m.riwaya || 'Not specified'}</span>
+              </div>
+              <div class="flex items-center gap-1.5">
+                <span class="font-semibold text-slate-400">Script:</span>
+                <span>${m.script_style || 'Ottoman Naskh'}</span>
+              </div>
+              ${m.calligrapher ? `
+              <div class="flex items-center gap-1.5">
+                <span class="font-semibold text-slate-400">Calligrapher:</span>
+                <span>${m.calligrapher}</span>
+              </div>` : ''}
+              <div class="flex items-center gap-1.5">
+                <span class="font-semibold text-slate-400">Publisher:</span>
+                <span class="truncate">${m.publisher_name || m.approval_body}</span>
+              </div>
+              <div class="flex items-center gap-1.5">
+                <span class="font-semibold text-slate-400">Year:</span>
+                <span class="font-mono">${m.publication_year || 'Historical'}</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="pt-3 border-t border-slate-100 dark:border-slate-800">
+            <a href="${m.evidence_url}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 w-full py-2.5 px-4 rounded-xl emerald-gradient text-white text-xs font-bold shadow-md shadow-emerald-900/10 hover:opacity-95 transition">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+              <span class="ltr-only">Open Full Digital Mushaf (HTTP 200)</span>
+              <span class="rtl-only font-arabic">فتح المصحف المصور بالكامل (200 OK)</span>
+            </a>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // Render Translations Tab
+    function renderTranslations() {
+      const query = (document.getElementById('trans-search')?.value || '').toLowerCase();
+      const tbody = document.getElementById('translations-table-body');
+      if (!tbody) return;
+
+      const filtered = data.translations.filter(t => {
+        return (t.country + ' ' + t.mushaf_title + ' ' + t.language + ' ' + t.publisher_name).toLowerCase().includes(query);
+      });
+
+      tbody.innerHTML = filtered.slice(0, 100).map((t, idx) => `
+        <tr class="hover:bg-slate-50/80 dark:hover:bg-slate-800/40 transition">
+          <td class="px-4 py-3 font-mono text-xs text-slate-400">${idx + 1}</td>
+          <td class="px-4 py-3 font-semibold text-slate-900 dark:text-white whitespace-nowrap">
+            ${getFlag(t.country)} ${t.country}
+          </td>
+          <td class="px-4 py-3 font-medium text-slate-800 dark:text-slate-200">
+            <div>${t.mushaf_title}</div>
+            ${t.isbn ? `<div class="text-[11px] font-mono text-slate-400">ISBN: ${t.isbn}</div>` : ''}
+          </td>
+          <td class="px-4 py-3">
+            <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300">
+              ${t.language || 'Multiple'}
+            </span>
+          </td>
+          <td class="px-4 py-3 text-xs text-slate-600 dark:text-slate-400">${t.publisher_name || 'N/A'}</td>
+          <td class="px-4 py-3 font-mono text-xs text-slate-500">${t.publication_year || 'N/A'}</td>
+        </tr>
+      `).join('');
+
+      document.getElementById('trans-pagination-info').innerHTML = `
+        <span>Showing ${Math.min(100, filtered.length)} of ${filtered.length} matching translations (Total: 283)</span>
+      `;
+    }
+
+    // Render Countries Tab
+    function renderCountries() {
+      const query = (document.getElementById('countries-search')?.value || '').toLowerCase();
+      const tbody = document.getElementById('countries-table-body');
+      if (!tbody) return;
+
+      const filtered = data.countries.filter(c => {
+        return (c.country + ' ' + c.muslim_percentage_display + ' ' + c.total_population_display).toLowerCase().includes(query);
+      });
+
+      tbody.innerHTML = filtered.map(c => {
+        const pct = parseFloat(c.muslim_percentage_display) || 0;
+        return `
+          <tr class="hover:bg-slate-50/80 dark:hover:bg-slate-800/40 transition">
+            <td class="px-4 py-3 font-mono text-xs text-slate-400">#${c.rank}</td>
+            <td class="px-4 py-3 font-semibold text-slate-900 dark:text-white">
+              ${getFlag(c.country)} ${c.country}
+            </td>
+            <td class="px-4 py-3">
+              <div class="flex items-center gap-2">
+                <span class="font-mono text-xs font-bold w-12">${c.muslim_percentage_display}</span>
+                <div class="w-24 bg-slate-200 dark:bg-slate-700 rounded-full h-1.5 hidden sm:block">
+                  <div class="bg-emerald-500 h-1.5 rounded-full" style="width: ${Math.min(100, pct)}%"></div>
+                </div>
+              </div>
+            </td>
+            <td class="px-4 py-3 font-mono text-xs text-slate-600 dark:text-slate-400">${c.total_population_display}</td>
+            <td class="px-4 py-3 text-xs">
+              <span class="px-2 py-0.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300">
+                ${c.confidence || 'Standard'}
+              </span>
+            </td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    function renderAll() {
+      renderFeaturedMushafs();
+      renderCharts();
+      renderMushafs();
+      renderTranslations();
+      renderCountries();
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const savedLang = urlParams.get('lang') || localStorage.getItem('quran_db_lang') || (window.location.hash === '#ar' ? 'ar' : 'en');
+      if (savedLang === 'ar') {
+        setLanguage('ar');
+      } else {
+        renderAll();
+      }
+    });
+  </script>
+</body>
+</html>

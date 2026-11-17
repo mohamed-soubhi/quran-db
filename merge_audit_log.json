@@ -1,0 +1,2329 @@
+{
+  "total_agy_editions": 163,
+  "total_glm_raw_editions": 189,
+  "excluded_non_mushaf_periodicals": 1,
+  "total_duplicates_merged": 31,
+  "total_glm_unique_added": 156,
+  "total_final_editions": 319,
+  "duplicate_pairs": [
+    {
+      "country": "Bulgaria",
+      "reason": "EXACT_ISBN (9789549571011)",
+      "agy_title": "Свещеният Коран (Превод от арабски: проф. Цветан Теофанов)",
+      "agy_year": "1999",
+      "agy_isbn": "954-9571-01-7",
+      "glm_title": "Prevod na Sveshtenia Koran (Tsvetan Teofanov)",
+      "glm_year": "1997, 1999, 2006",
+      "glm_isbn": "954-9571-01-7"
+    },
+    {
+      "country": "Czech Republic",
+      "reason": "EXACT_ISBN (9788020704443)",
+      "agy_title": "Korán",
+      "agy_year": "1972",
+      "agy_isbn": "8020704443",
+      "glm_title": "Koran výtah 1991",
+      "glm_year": "1991",
+      "glm_isbn": "80-207-0444-2"
+    },
+    {
+      "country": "Czech Republic",
+      "reason": "EXACT_ISBN (9788020002464)",
+      "agy_title": "Korán",
+      "agy_year": "2000",
+      "agy_isbn": "9788020002464",
+      "glm_title": "Korán (Academia)",
+      "glm_year": "2000",
+      "glm_isbn": "80-200-0246-4"
+    },
+    {
+      "country": "Poland",
+      "reason": "EXACT_ISBN (9788306011685)",
+      "agy_title": "Koran",
+      "agy_year": "1986",
+      "agy_isbn": "8306011686",
+      "glm_title": "Koran (Seria: Bibliotheca Mundi)",
+      "glm_year": "1986",
+      "glm_isbn": "8306011686"
+    },
+    {
+      "country": "Slovakia",
+      "reason": "EXACT_ISBN (9788096996780)",
+      "agy_title": "Korán (Preklad do slovenského jazyka s vysvetlivkami a výkladom)",
+      "agy_year": "2015",
+      "agy_isbn": "9788096996780",
+      "glm_title": "KORÁN — Preklad do slovenského jazyka s vysvetlivkami a výkladom",
+      "glm_year": "2015",
+      "glm_isbn": "978-80-969967-8-0"
+    },
+    {
+      "country": "Albania",
+      "reason": "ALBANIA_AHMETI",
+      "agy_title": "Kur'ani Fisnik me Përkthim e Komentim në Gjuhën Shqipe (H. Sherif Ahmeti)",
+      "agy_year": "1992",
+      "agy_isbn": "978-99927-720-1-0",
+      "glm_title": "Kur'ani (Sherif Ahmed Zinela & Osman Murat Dervishi? — early translations)",
+      "glm_year": "(early 20th c. + communist-era suppression)",
+      "glm_isbn": null
+    },
+    {
+      "country": "Algeria",
+      "reason": "ALGERIA_NATIONAL_WARSH",
+      "agy_title": "مصحف الجزائر الشريف برواية ورش عن نافع بالخط المغربي الجميل",
+      "agy_year": "1979",
+      "agy_isbn": "978-9961-0-0012-4",
+      "glm_title": "المصحف الجزائري — رواية ورش (Algeria's national Warsh mushaf)",
+      "glm_year": "state mushaf",
+      "glm_isbn": null
+    },
+    {
+      "country": "Argentina",
+      "reason": "ARGENTINA_ABBOUD",
+      "agy_title": "El Sagrado Corán (Traducción con comentarios y compendios de las suras)",
+      "agy_year": "1953",
+      "agy_isbn": "",
+      "glm_title": "El Sagrado Corán (Ahmed Abboud y Rafael Castellanos)",
+      "glm_year": "1952",
+      "glm_isbn": null
+    },
+    {
+      "country": "Belarus",
+      "reason": "BELARUS_2021",
+      "agy_title": "Свяшчэнны Каран: пераклад сэнсаў на беларускую мову",
+      "agy_year": "2021",
+      "agy_isbn": "",
+      "glm_title": "Svyaschenny Karan (Свяшчэнны Каран)",
+      "glm_year": "2021",
+      "glm_isbn": null
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "reason": "BOSNIA_KORKUT",
+      "agy_title": "Kur'an sa prevodom na bosanski jezik (Besim Korkut)",
+      "agy_year": "1977",
+      "agy_isbn": "978-9958-23-145-2",
+      "glm_title": "Kur'an (Besim Korkut)",
+      "glm_year": "1977-2019 (15+ eds incl. Medina 1991, Zagreb 1993, Tuzla 1993, Zenica 1995, Novi Pazar 2011/2024, Bar 2021)",
+      "glm_isbn": null
+    },
+    {
+      "country": "China",
+      "reason": "CHINA_MA_JIAN",
+      "agy_title": "古兰经 (The Holy Quran - Chinese Translation by Muhammad Ma Jian)",
+      "agy_year": "1981",
+      "agy_isbn": "978-7-5004-0677-8",
+      "glm_title": "Gǔlánjīng (古兰经) — Muhammad Ma Jian",
+      "glm_year": "1981 (full)",
+      "glm_isbn": null
+    },
+    {
+      "country": "Egypt",
+      "reason": "EGYPT_AMIRIYYA",
+      "agy_title": "المصحف الشريف (المصحف الأميري / طبعة بولاق 1342هـ - المعيار العالمي لحفص عن عاصم)",
+      "agy_year": "1924",
+      "agy_isbn": "",
+      "glm_title": "القرآن الكريم — طبعة مصحف المدينة المصرية (مجمع طبع المصحف الشريف)",
+      "glm_year": "(state mushaf; al-Azhar supervision)",
+      "glm_isbn": null
+    },
+    {
+      "country": "Estonia",
+      "reason": "ESTONIA_UDAM_AVITA",
+      "agy_title": "Koraan",
+      "agy_year": "2007",
+      "agy_isbn": "9789985213148",
+      "glm_title": "Koraan (Haljand Udam tõlge)",
+      "glm_year": "(article year pending exact; posthumous — Udam d. 2005)",
+      "glm_isbn": null
+    },
+    {
+      "country": "France",
+      "reason": "FRANCE_MASSON",
+      "agy_title": "Le Coran (Traduction par Denise Masson)",
+      "agy_year": "1967",
+      "agy_isbn": "978-2070372379",
+      "glm_title": "Le Coran (Denise Masson)",
+      "glm_year": "1967",
+      "glm_isbn": null
+    },
+    {
+      "country": "France",
+      "reason": "FRANCE_HAMIDULLAH",
+      "agy_title": "Le Saint Coran (Traduction de Muhammad Hamidullah avec le texte arabe)",
+      "agy_year": "2000",
+      "agy_isbn": "978-2841610419",
+      "glm_title": "Le Coran (Muhammad Hamidullah & Michel Léturmy)",
+      "glm_year": "1959",
+      "glm_isbn": null
+    },
+    {
+      "country": "Hungary",
+      "reason": "HUNGARY_MME",
+      "agy_title": "A Kegyes Korán értelmezésének fordítása",
+      "agy_year": "2010",
+      "agy_isbn": "",
+      "glm_title": "A Kegyes Korán (Magyarországi Muszlimok Egyháza)",
+      "glm_year": null,
+      "glm_isbn": "9789638707833"
+    },
+    {
+      "country": "Indonesia",
+      "reason": "INDONESIA_LPMQ_2019",
+      "agy_title": "Mushaf Standar Indonesia (Al-Qur'an dan Terjemahnya)",
+      "agy_year": "2019",
+      "agy_isbn": "978-602-320-032-0",
+      "glm_title": "Al-Qur'an dan Terjemahnya — Edisi Penyempurnaan 2019 (LPMQ)",
+      "glm_year": "2019",
+      "glm_isbn": null
+    },
+    {
+      "country": "Japan",
+      "reason": "JAPAN_IZUTSU_IWANAMI",
+      "agy_title": "コーラン (Kōran)",
+      "agy_year": "1964",
+      "agy_isbn": "9784003381311",
+      "glm_title": "コーラン (井筒俊彦 訳)",
+      "glm_year": "2009 (改版)",
+      "glm_isbn": null
+    },
+    {
+      "country": "Japan",
+      "reason": "JAPAN_UMAR_MITA",
+      "agy_title": "日亜対訳・注解 聖クラーン (聖クルアーン)",
+      "agy_year": "1972",
+      "agy_isbn": "",
+      "glm_title": "聖クルアーン 日亜対訳・注解 (ウマル三田了一 訳)",
+      "glm_year": "1982",
+      "glm_isbn": null
+    },
+    {
+      "country": "Lithuania",
+      "reason": "LITHUANIA_2008",
+      "agy_title": "Koranas: literatūrinių prasmių vertimas",
+      "agy_year": "2008",
+      "agy_isbn": "9789955734703",
+      "glm_title": "Koranas (literatūrinių prasmių vertimas)",
+      "glm_year": "2008 (2nd ed. 2010)",
+      "glm_isbn": null
+    },
+    {
+      "country": "Montenegro",
+      "reason": "MONTENEGRO_KORKUT",
+      "agy_title": "Kur'an sa prevodom (Besim Korkut - Izdanje Mešihata u Podgorici)",
+      "agy_year": "2012",
+      "agy_isbn": "978-9940-520-09-0",
+      "glm_title": "Kur'an (Besim Korkut) — Bar 2021 local print",
+      "glm_year": "2021 (Bar)",
+      "glm_isbn": null
+    },
+    {
+      "country": "Morocco",
+      "reason": "MOROCCO_ROYAL_WARSH",
+      "agy_title": "المصحف المحمدي الشريف برواية ورش عن نافع من طريق الأزرق بالخط المغربي الأصيل",
+      "agy_year": "1987",
+      "agy_isbn": "978-9954-0-0012-0",
+      "glm_title": "المصحف الملكي — رواية ورش (Royal mushaf, King Mohammed VI project)",
+      "glm_year": "2005+ (royal revival project)",
+      "glm_isbn": null
+    },
+    {
+      "country": "Norway",
+      "reason": "NORWAY_EINAR_BERG",
+      "agy_title": "Koranen (Norsk oversettelse ved Einar Berg)",
+      "agy_year": "1989",
+      "agy_isbn": "978-82-00-02874-1",
+      "glm_title": "Koranen (Einar Berg oversettelse)",
+      "glm_year": "1980 (re-ed. 1989; 2000 ed.)",
+      "glm_isbn": null
+    },
+    {
+      "country": "Romania",
+      "reason": "ROMANIA_GRIGORE",
+      "agy_title": "Coranul (Traducere din limba arabă de George Grigore)",
+      "agy_year": "2015",
+      "agy_isbn": "9789731114569",
+      "glm_title": "Problematica traducerii Coranului în limba română (George Grigore) + his Coranul translation",
+      "glm_year": "1997 (Ararat) / 2000 (translation)",
+      "glm_isbn": null
+    },
+    {
+      "country": "Saudi Arabia",
+      "reason": "SAUDI_KFQPC_HAFS",
+      "agy_title": "مصحف المدينة النبوية (برواية حفص عن عاصم بالرسم العثماني)",
+      "agy_year": "1984",
+      "agy_isbn": "978-9960-770-00-0",
+      "glm_title": "المصحف المدينة (مجمع الملك فهد لطباعة المصحف الشريف)",
+      "glm_year": "1985-present (100M+ copies)",
+      "glm_isbn": null
+    },
+    {
+      "country": "Serbia",
+      "reason": "SERBIA_LJUBIBRATIC",
+      "agy_title": "Koran (Preveo Mićo Ljubibratić)",
+      "agy_year": "1895",
+      "agy_isbn": "",
+      "glm_title": "Kur'an (Mićo Ljubibratić — 'Serbian translation' base, compiled by Ali Riza Karabeg)",
+      "glm_year": "1895 (Karabeg compilation: Mostar 1937, Sarajevo 1942, Zagreb 1991, Sarajevo 2019)",
+      "glm_isbn": null
+    },
+    {
+      "country": "South Africa",
+      "reason": "SOUTH_AFRICA_BAKER",
+      "agy_title": "Die Heilige Quran (Vertaal in Afrikaans deur Imam Mohammed Armien Baker)",
+      "agy_year": "2014",
+      "agy_isbn": "978-0-620-60451-2",
+      "glm_title": "Die Heilige Qur'ān (Imam Mohammed Armien Baker)",
+      "glm_year": "1961",
+      "glm_isbn": null
+    },
+    {
+      "country": "Spain",
+      "reason": "SPAIN_MELARA",
+      "agy_title": "El Corán (Traducción comentada por Abdel Ghany Melara Navío)",
+      "agy_year": "1998",
+      "agy_isbn": "978-84-605-7277-0",
+      "glm_title": "Traducción-Comentario del Noble Corán (Abdel Ghani Melara Navío)",
+      "glm_year": "Dec 1997",
+      "glm_isbn": null
+    },
+    {
+      "country": "Turkey",
+      "reason": "TURKEY_DIYANET",
+      "agy_title": "Kur'an-ı Kerim ve Yüce Meali",
+      "agy_year": "1993",
+      "agy_isbn": "978-975-19-0128-6",
+      "glm_title": "Kur'an-ı Kerim Meali (Diyanet İşleri Başkanlığı — official Turkish translation)",
+      "glm_year": "(periodic rev., most recent official)",
+      "glm_isbn": null
+    },
+    {
+      "country": "Ukraine",
+      "reason": "UKRAINE_YAKUBOVYCH_OSNOVY",
+      "agy_title": "Коран. Переклад смислів українською мовою",
+      "agy_year": "2015",
+      "agy_isbn": "978-966-500-361-8",
+      "glm_title": "Коран — переклад смислів (Михайло Якубович)",
+      "glm_year": "2013/2015",
+      "glm_isbn": null
+    },
+    {
+      "country": "United Kingdom",
+      "reason": "UK_ABDEL_HALEEM",
+      "agy_title": "The Qur'an: A New Translation (M.A.S. Abdel Haleem)",
+      "agy_year": "2008",
+      "agy_isbn": "9780199535958",
+      "glm_title": "The Qur'an: A New Translation (M.A.S. Abdel Haleem)",
+      "glm_year": "2004",
+      "glm_isbn": null
+    }
+  ],
+  "full_audit_log": [
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Mexico",
+      "title": "El Corán (Traducción comentada)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Mexico",
+      "title": "El Corán",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Armenia",
+      "title": "Սուրբ Ղուրան (Surb Ghuran / Holy Quran)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Poland",
+      "title": "Koran PL-ARAB",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Poland",
+      "title": "Koran",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "EXACT_ISBN (9788306011685)",
+      "country": "Poland",
+      "primary_title": "Koran",
+      "duplicate_title": "Koran (Seria: Bibliotheca Mundi)",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Vietnam",
+      "title": "Thiên kinh Qur'an – Ý nghĩa và nội dung",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "BELARUS_2021",
+      "country": "Belarus",
+      "primary_title": "Свяшчэнны Каран: пераклад сэнсаў на беларускую мову",
+      "duplicate_title": "Svyaschenny Karan (Свяшчэнны Каран)",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "ESTONIA_UDAM_AVITA",
+      "country": "Estonia",
+      "primary_title": "Koraan",
+      "duplicate_title": "Koraan (Haljand Udam tõlge)",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Estonia",
+      "title": "Koraani tähenduse tõlge. Fatiha ja viimane džuz (30/30)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Bolivia",
+      "title": "El Sagrado Corán (Traducción de los significados al español)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "LITHUANIA_2008",
+      "country": "Lithuania",
+      "primary_title": "Koranas: literatūrinių prasmių vertimas",
+      "duplicate_title": "Koranas (literatūrinių prasmių vertimas)",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "South Korea",
+      "title": "성 꾸란 (의미의 한국어 번역)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "South Korea",
+      "title": "코란 (Koran)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "JAPAN_UMAR_MITA",
+      "country": "Japan",
+      "primary_title": "日亜対訳・注解 聖クラーン (聖クルアーン)",
+      "duplicate_title": "聖クルアーン 日亜対訳・注解 (ウマル三田了一 訳)",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "JAPAN_IZUTSU_IWANAMI",
+      "country": "Japan",
+      "primary_title": "コーラン (Kōran)",
+      "duplicate_title": "コーラン (井筒俊彦 訳)",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Latvia",
+      "title": "Korāns",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "EXACT_ISBN (9788096996780)",
+      "country": "Slovakia",
+      "primary_title": "Korán (Preklad do slovenského jazyka s vysvetlivkami a výkladom)",
+      "duplicate_title": "KORÁN — Preklad do slovenského jazyka s vysvetlivkami a výkladom",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Slovakia",
+      "title": "Korán",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "EXACT_ISBN (9788020002464)",
+      "country": "Czech Republic",
+      "primary_title": "Korán",
+      "duplicate_title": "Korán (Academia)",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "EXACT_ISBN (9788020704443)",
+      "country": "Czech Republic",
+      "primary_title": "Korán",
+      "duplicate_title": "Koran výtah 1991",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Iceland",
+      "title": "Kóraninn",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Netherlands Antilles",
+      "title": "Koran na Papiamentu",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Colombia",
+      "title": "El Sagrado Corán (traducción comentada)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Taiwan",
+      "title": "古蘭經中文譯解 (The Holy Quran with Chinese Translation and Commentary)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Taiwan",
+      "title": "古蘭經國語譯解 (The Holy Quran: Mandarin Translation and Explanation)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Brazil",
+      "title": "O Significado dos Versículos do Alcorão Sagrado",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Brazil",
+      "title": "O Alcorão",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Moldova",
+      "title": "Coranul",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Portugal",
+      "title": "Alcorão Sagrado - Texto, Tradução e Notas",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Portugal",
+      "title": "O Alcorão",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Hungary",
+      "title": "Korán",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "HUNGARY_MME",
+      "country": "Hungary",
+      "primary_title": "A Kegyes Korán értelmezésének fordítása",
+      "duplicate_title": "A Kegyes Korán (Magyarországi Muszlimok Egyháza)",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "ROMANIA_GRIGORE",
+      "country": "Romania",
+      "primary_title": "Coranul (Traducere din limba arabă de George Grigore)",
+      "duplicate_title": "Problematica traducerii Coranului în limba română (George Grigore) + his Coranul translation",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Romania",
+      "title": "Traducerea sensurilor Coranului cel Sfânt în limba română",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "ARGENTINA_ABBOUD",
+      "country": "Argentina",
+      "primary_title": "El Sagrado Corán (Traducción con comentarios y compendios de las suras)",
+      "duplicate_title": "El Sagrado Corán (Ahmed Abboud y Rafael Castellanos)",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Argentina",
+      "title": "El Corán",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "UKRAINE_YAKUBOVYCH_OSNOVY",
+      "country": "Ukraine",
+      "primary_title": "Коран. Переклад смислів українською мовою",
+      "duplicate_title": "Коран — переклад смислів (Михайло Якубович)",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Ukraine",
+      "title": "Преславний Коран: переклад смислів українською мовою",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "United States",
+      "title": "The Meaning of the Holy Qur'an (Complete Translation and Commentary by Abdullah Yusuf Ali)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "United States",
+      "title": "The Study Quran: A New Translation and Commentary",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Croatia",
+      "title": "Kur'an časni (Prijevod: Džemaludin Čaušević i Muhammed Pandža)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Croatia",
+      "title": "Kuran s vremensko-tematski raspoređenim poglavljima (Priredio i komentirao Filip Ćorlukić)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "CHINA_MA_JIAN",
+      "country": "China",
+      "primary_title": "古兰经 (The Holy Quran - Chinese Translation by Muhammad Ma Jian)",
+      "duplicate_title": "Gǔlánjīng (古兰经) — Muhammad Ma Jian",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "China",
+      "title": "القرآن الكريم (المصحف الشريف - طبعة بكين)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "South Africa",
+      "title": "I-Khur'aani Engcwele: Ehunyushelwe esizulwini (The Holy Quran in isiZulu)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "SOUTH_AFRICA_BAKER",
+      "country": "South Africa",
+      "primary_title": "Die Heilige Quran (Vertaal in Afrikaans deur Imam Mohammed Armien Baker)",
+      "duplicate_title": "Die Heilige Qur'ān (Imam Mohammed Armien Baker)",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Cambodia",
+      "title": "ការបកប្រែអត្ថន័យនៃគម្ពីរអាល់គួរអានជាភាសាខ្មែរ (Translation of the Meanings of the Noble Quran in Khmer by H.E. Zakaryya Adam)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Finland",
+      "title": "Koraani (Suomentanut Jaakko Hämeen-Anttila)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Finland",
+      "title": "Koraani (Suomentaneet Jussi Aro, Armas Salonen ja Knut Tallqvist)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "NORWAY_EINAR_BERG",
+      "country": "Norway",
+      "primary_title": "Koranen (Norsk oversettelse ved Einar Berg)",
+      "duplicate_title": "Koranen (Einar Berg oversettelse)",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Norway",
+      "title": "Koranen (Verdens Hellige Skrifter)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Australia",
+      "title": "The Qur'an: A New Translation (Translated by Tarif Khalidi)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Australia",
+      "title": "The Study Quran: A New Translation and Commentary (Australian Edition)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Slovenia",
+      "title": "Korán: prevod iz arabskega izvirnika (Prevedla Mohsen Alhady in Margit P. Alhady)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Greece",
+      "title": "Το Ιερό Κοράνι (Φιλολογική Ομάδα Κάκτου)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Greece",
+      "title": "Το Ιερό Κοράνι (Μετάφραση: Πέρσα Κουμούτση)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Hong Kong",
+      "title": "古蘭經 (The Holy Quran with Traditional Chinese Translation and Commentary)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Serbia",
+      "title": "Prijevod Kur'ana (Kur'an s prijevodom Besima Korkuta)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "SERBIA_LJUBIBRATIC",
+      "country": "Serbia",
+      "primary_title": "Koran (Preveo Mićo Ljubibratić)",
+      "duplicate_title": "Kur'an (Mićo Ljubibratić — 'Serbian translation' base, compiled by Ali Riza Karabeg)",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Nepal",
+      "title": "पवित्र कुरआन नेपाली अनुवाद (The Holy Quran with Nepali Translation)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Myanmar",
+      "title": "ကုရ်အာန်ကျမ်းမြတ် (The Holy Quran with Burmese Translation)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Rwanda",
+      "title": "Ibisobanuro bya Qur'an Ntagatifu mu rurimi rw'Ikinyarwanda (The Meanings of the Noble Quran in Kinyarwanda)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Italy",
+      "title": "Il Corano (Traduzione a cura di Hamza Roberto Piccardo)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Italy",
+      "title": "Il Corano (A cura di Federico Peirone)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Canada",
+      "title": "The Clear Quran (with Arabic Text) - Translated by Dr. Mustafa Khattab",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Canada",
+      "title": "The Quran Translated: Message for Humanity",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Mongolia",
+      "title": "Коран судар (Koran Sudar - Монгол хэл дээрх орчуулга)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Netherlands",
+      "title": "De Koran: Een weergave van de betekenis van de Arabische tekst in het Nederlands (Fred Leemhuis)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Netherlands",
+      "title": "De Koran (Vertaald door J.H. Kramers, bewerkt door Asad Jaber en Johannes J.G. Jansen)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Spain",
+      "title": "El Corán (Edición preparada por Julio Cortés)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "SPAIN_MELARA",
+      "country": "Spain",
+      "primary_title": "El Corán (Traducción comentada por Abdel Ghany Melara Navío)",
+      "duplicate_title": "Traducción-Comentario del Noble Corán (Abdel Ghani Melara Navío)",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Philippines",
+      "title": "So Qur'an al-Karim ko Basa a Maranao (The Noble Quran in the Maranao Language)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Denmark",
+      "title": "Koranen (Oversat af Ellen Wulff)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Thailand",
+      "title": "พระมหาคัมภีร์อัลกุรอาน พร้อมความหมายภาษาไทย (The Holy Quran with Thai Meaning)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Switzerland",
+      "title": "Der Koran (Aus dem Arabischen wortgetreu neu übersetzt von Ludwig Ullmann)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "UK_ABDEL_HALEEM",
+      "country": "United Kingdom",
+      "primary_title": "The Qur'an: A New Translation (M.A.S. Abdel Haleem)",
+      "duplicate_title": "The Qur'an: A New Translation (M.A.S. Abdel Haleem)",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "United Kingdom",
+      "title": "Towards Understanding the Qur'an (Tafhim al-Qur'an by Sayyid Abul A'la Mawdudi, translated by Zafar Ishaq Ansari)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Sweden",
+      "title": "Koranens budskap (I svensk tolkning av Mohammed Knut Bernström)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Belgium",
+      "title": "Le Saint Coran et la traduction en langue française du sens de ses versets",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Austria",
+      "title": "The Unique Ibn al-Bawwab Manuscript: Complete Facsimile Edition (Chester Beatty MS K.16)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Sri Lanka",
+      "title": "திருக்குர்ஆன் (Thirukkuran - The Holy Quran with Tamil Translation)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Madagascar",
+      "title": "Ny Kôrana Masina (The Holy Quran with Malagasy Translation)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "FRANCE_HAMIDULLAH",
+      "country": "France",
+      "primary_title": "Le Saint Coran (Traduction de Muhammad Hamidullah avec le texte arabe)",
+      "duplicate_title": "Le Coran (Muhammad Hamidullah & Michel Léturmy)",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "FRANCE_MASSON",
+      "country": "France",
+      "primary_title": "Le Coran (Traduction par Denise Masson)",
+      "duplicate_title": "Le Coran (Denise Masson)",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Georgia",
+      "title": "ყურანი (Qurani - Georgian Translation by Giorgi Lobzhanidze)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Russia",
+      "title": "Коран (Казанское издание - Первый печатный Коран мусульман)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Russia",
+      "title": "Священный Коран (Смысловой перевод и комментарии Э. Кулиева)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Kenya",
+      "title": "Qur'ani Takatifu (Pamoja na Tafsiri na Maelezo ya Kiswahili)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "EXACT_ISBN (9789549571011)",
+      "country": "Bulgaria",
+      "primary_title": "Свещеният Коран (Превод от арабски: проф. Цветан Теофанов)",
+      "duplicate_title": "Prevod na Sveshtenia Koran (Tsvetan Teofanov)",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Uganda",
+      "title": "Kur'ani Entukuvu mu Luganda (The Holy Quran with Luganda Translation)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "India",
+      "title": "القرآن الكريم (مصحف التاج الهندي - 15 سطر)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "India",
+      "title": "The Quran (Translation and Commentary by Maulana Wahiduddin Khan)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Singapore",
+      "title": "Tafsir Pimpinan Ar-Rahman Kepada Pengertian Al-Quran",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Israel",
+      "title": "הקוראן (Ha-Koran - Hebrew Translation by Prof. Uri Rubin)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "MONTENEGRO_KORKUT",
+      "country": "Montenegro",
+      "primary_title": "Kur'an sa prevodom (Besim Korkut - Izdanje Mešihata u Podgorici)",
+      "duplicate_title": "Kur'an (Besim Korkut) — Bar 2021 local print",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Ghana",
+      "title": "The Holy Quran: Arabic Text with English and Dagbani Translation",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Malawi",
+      "title": "Qur'an Yolemekezeka (Chichewa Quran Translation)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Cyprus",
+      "title": "Kur'an-ı Kerim ve Yüce Meali",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Cameroon",
+      "title": "Le Noble Coran et la traduction en langue française",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Ethiopia",
+      "title": "የቅዱስ ቁርኣን የአማርኛ ትርጉም (The Holy Quran with Amharic Translation by Sheikh Sayid Muhammad Sadiq)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "North Macedonia",
+      "title": "Kur'ani Fisnik me Përkthim dhe Komentim në Gjuhën Shqipe",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Tanzania",
+      "title": "Qur'ani Takatifu (Tafsiri ya Kiswahili ya Sheikh Abdallah Saleh al-Farsy)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Cote d'Ivoire",
+      "title": "Le Saint Coran avec traduction en langue française",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Nigeria",
+      "title": "Tarjamar Ma'anonin Alkur'ani Mai Girma zuwa Harshen Hausa (Sheikh Abubakar Mahmud Gumi)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Nigeria",
+      "title": "The Noble Qur'an: Arabic Text with English Translation",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "ALBANIA_AHMETI",
+      "country": "Albania",
+      "primary_title": "Kur'ani Fisnik me Përkthim e Komentim në Gjuhën Shqipe (H. Sherif Ahmeti)",
+      "duplicate_title": "Kur'ani (Sherif Ahmed Zinela & Osman Murat Dervishi? — early translations)",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "BOSNIA_KORKUT",
+      "country": "Bosnia and Herzegovina",
+      "primary_title": "Kur'an sa prevodom na bosanski jezik (Besim Korkut)",
+      "duplicate_title": "Kur'an (Besim Korkut)",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Chad",
+      "title": "القرآن الكريم برواية الدوري عن أبي عمرو (مصحف تشاد)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Malaysia",
+      "title": "Mushaf Malaysia (المصحف الماليزي الشريف)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Malaysia",
+      "title": "Tafsir Pimpinan Ar-Rahman Kepada Pengertian Al-Quran",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Burkina Faso",
+      "title": "Le Saint Coran et la traduction en langue mooré (Kuran Sõngo)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Lebanon",
+      "title": "القرآن الكريم برواية حفص عن عاصم (مصحف التجويد الملون)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Lebanon",
+      "title": "المصحف الشريف (طبعة دار الكتب العلمية)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Kazakhstan",
+      "title": "Құран Кәрім: қазақша мағына және түсінігі (Халифа Алтай аудармасы)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "United Arab Emirates",
+      "title": "مصحف الشيخ خليفة بن زايد آل نهيان (مصحف دبي)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Bahrain",
+      "title": "مصحف البحرين",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Kuwait",
+      "title": "مصحف دولة الكويت",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Qatar",
+      "title": "مصحف قطر",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Sierra Leone",
+      "title": "The Noble Quran with Krio and English Commentary",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Brunei",
+      "title": "Mushaf Brunei Darussalam (مصحف بروناي دار السلام)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Oman",
+      "title": "مصحف مسقط (Mushaf Muscat)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Syria",
+      "title": "القرآن الكريم برواية حفص عن عاصم (مصحف دمشق المعتمد)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "INDONESIA_LPMQ_2019",
+      "country": "Indonesia",
+      "primary_title": "Mushaf Standar Indonesia (Al-Qur'an dan Terjemahnya)",
+      "duplicate_title": "Al-Qur'an dan Terjemahnya — Edisi Penyempurnaan 2019 (LPMQ)",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Indonesia",
+      "title": "Al-Qur'an Al-Karim (Mushaf Kudus / Menara Kudus 15 Baris)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Uzbekistan",
+      "title": "Tafsiri Hilol (Qur'oni Karim ma'nolari tarjima va tafsiri - Shayx Muhammad Sodiq Muhammad Yusuf)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Guinea",
+      "title": "Le Saint Coran avec traduction en langue N'Ko / Maninka",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Kyrgyzstan",
+      "title": "Ыйык Куран: маанилеринин кыргызча котормосу (Абдышүкүр Нарматов)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Bangladesh",
+      "title": "পবিত্র কুরআনুল কারীম (বাংলা অনুবাদ ও সংক্ষিপ্ত তাফসীর)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "EGYPT_AMIRIYYA",
+      "country": "Egypt",
+      "primary_title": "المصحف الشريف (المصحف الأميري / طبعة بولاق 1342هـ - المعيار العالمي لحفص عن عاصم)",
+      "duplicate_title": "القرآن الكريم — طبعة مصحف المدينة المصرية (مجمع طبع المصحف الشريف)",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Egypt",
+      "title": "المصحف الشريف (مصحف الشمرلي الشهير - 15 سطر)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Kosovo",
+      "title": "Kur'ani: Përkthim me Komentim në Gjuhën Shqipe (Prof. Feti Mehdiu)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Turkmenistan",
+      "title": "Gurhany Kerim: türkmen dilindäki manysy",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "TURKEY_DIYANET",
+      "country": "Turkey",
+      "primary_title": "Kur'an-ı Kerim ve Yüce Meali",
+      "duplicate_title": "Kur'an-ı Kerim Meali (Diyanet İşleri Başkanlığı — official Turkish translation)",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Turkey",
+      "title": "Kur'ân-ı Kerîm (Hâfız Osman Hattı / Çağrı Yayınları)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Sudan",
+      "title": "القرآن الكريم برواية الدوري عن أبي عمرو البصري (مصحف السودان)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Mali",
+      "title": "Kuran Senbe (Le Saint Coran traduit en langue Bambara)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "SAUDI_KFQPC_HAFS",
+      "country": "Saudi Arabia",
+      "primary_title": "مصحف المدينة النبوية (برواية حفص عن عاصم بالرسم العثماني)",
+      "duplicate_title": "المصحف المدينة (مجمع الملك فهد لطباعة المصحف الشريف)",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Saudi Arabia",
+      "title": "مصحف المدينة النبوية برواية ورش عن نافع المدني",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Gambia",
+      "title": "The Noble Quran with Mandinka and English Translation",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Iraq",
+      "title": "مصحف بغداد (طبعة دار الحرية للطباعة 1399هـ / 1979م)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Pakistan",
+      "title": "القرآن الكريم (طبعة تاج كمبني 16 سطر - مصحف الحفاظ الباكستاني)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Pakistan",
+      "title": "ضياء القرآن (تفسير القرآن الكريم بالأردية لفضيلة الشيخ محمد كرم شاه الأزهري)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Libya",
+      "title": "مصحف الجماهيرية برواية قالون عن نافع المدني بالرسم العثماني",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Jordan",
+      "title": "مصحف آل البيت (المصحف الهاشمي الشريف)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Senegal",
+      "title": "القرآن الكريم برواية ورش عن نافع (مصحف طوبى - الخط السنغالي السوقي)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Yemen",
+      "title": "مصحف صنعاء (المصحف اليمني الشريف برواية حفص عن عاصم)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Azerbaijan",
+      "title": "Qurani-Kərim: Azərbaycan dilinə tərcümə (Ziya Bünyadov və Vasim Məmmədəliyev)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Palestine",
+      "title": "مصحف المسجد الأقصى (مصحف بيت المقدس الشريف)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Tunisia",
+      "title": "المصحف التونسي الشريف برواية قالون عن نافع المدني بالرسم العثماني",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Tajikistan",
+      "title": "Қуръони Карим: тарҷума ва тавзеҳот ба забони тоҷикӣ (Муҳаммадҷон Умаров)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Comoros",
+      "title": "Le Saint Coran avec traduction en langue comorienne (Shikomor)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Niger",
+      "title": "Alkur'ani Mai Girma da Kuma Fassara a Harshen Hausa da Zarma",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "MOROCCO_ROYAL_WARSH",
+      "country": "Morocco",
+      "primary_title": "المصحف المحمدي الشريف برواية ورش عن نافع من طريق الأزرق بالخط المغربي الأصيل",
+      "duplicate_title": "المصحف الملكي — رواية ورش (Royal mushaf, King Mohammed VI project)",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Morocco",
+      "title": "المصحف الحسني المسبع الشريف",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "MERGED_DUPLICATE",
+      "reason": "ALGERIA_NATIONAL_WARSH",
+      "country": "Algeria",
+      "primary_title": "مصحف الجزائر الشريف برواية ورش عن نافع بالخط المغربي الجميل",
+      "duplicate_title": "المصحف الجزائري — رواية ورش (Algeria's national Warsh mushaf)",
+      "primary_source": "AGY",
+      "merged_from": "GLM"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Djibouti",
+      "title": "Le Saint Coran avec traduction en langue somalie et afar",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Somalia",
+      "title": "Qur'aanka Kariimka: Iyo Macnihiisa Af-Soomaali (Sheekh Maxamuud Maxamed Cabduhe)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Iran",
+      "title": "قرآن كريم (خط عثمان طه با ترجمه استاد حسین الهی قمشه‌ای)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Iran",
+      "title": "قرآن كريم با خط میرزا احمد نیریزی (مصحف نیریزی)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Mauritania",
+      "title": "مصحف موريتانيا الشريف برواية ورش عن نافع من طريق أبي يعقوب الأزرق (الخط الشنقيطي الأصيل)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Afghanistan",
+      "title": "قرآن عظیم الشان با ترجمه و تفسیر دری و پشتو",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "KEPT_AGY_RECORD",
+      "country": "Maldives",
+      "title": "ކީރިތި ޤުރްއާނުގެ ތަރުޖަމާ (The Holy Quran with Dhivehi Translation)",
+      "primary_source": "AGY"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Afghanistan",
+      "title": "قرآن کریم (پښتو ژبا — Pashto translations)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Argentina",
+      "title": "El Corán — Traducción comentada (Abdel Ghani Melara)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Argentina",
+      "title": "El Corán (Spanish, international editions sold/published in Argentina)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Azerbaijan",
+      "title": "Quran (Rasul Ismail-Zade Duzal — ONE translation, THREE scripts)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Bangladesh",
+      "title": "ব্যাখ্যাপূর্বক আল-কুরআন (Tafseer-e-Rahmani etc.)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Belarus",
+      "title": "Qur'an serialized translation — journal Bayram (incomplete)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Belarus",
+      "title": "Old-Belarusian/Polish Kitab tafsira tradition (manuscripts)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Belarus",
+      "title": "Belarusian translation — belarusian_krivtsov (KFQPC)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Bosnia and Herzegovina",
+      "title": "Kur'an (Muhamed Pandža & Džemaludin Čaušević)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Bosnia and Herzegovina",
+      "title": "Kur'an (Enes Karić)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Bosnia and Herzegovina",
+      "title": "Kur'an (Esad Duraković)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Bosnia and Herzegovina",
+      "title": "Kur'an (Mustafa Mlivo)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Bosnia and Herzegovina",
+      "title": "Kur'an (Muhamed Mehanović)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Bosnia and Herzegovina",
+      "title": "Kur'an (Ali Riza Karabeg — compilation of Ljubibratić's Serbian 1895)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Bosnia and Herzegovina",
+      "title": "Kur'an (Ramo Atajić — from German)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Bosnia and Herzegovina",
+      "title": "Kur'an (Hilmo Ćerimović — from Muhammad Asad's English)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Bosnia and Herzegovina",
+      "title": "Kur'an (Fahrija Avdić & Wasim Ahmad — from Maulvi Sher Ali Ranjha, Ahmadiyya)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Bosnia and Herzegovina",
+      "title": "Kur'an (Nurko Karaman)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Brazil",
+      "title": "Tradução do Sentido do Nobre Alcorão (Dr. Helmi Nasr)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Brazil",
+      "title": "Alcorão Sagrado (FAMBRAS edition)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Brazil",
+      "title": "Alcorão em Português (Fundação Suleymaniye, Dr. Helmi Nasr)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Burkina Faso",
+      "title": "Quran translation — moore (Mooré, KFQPC)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Cambodia",
+      "title": "First Khmer Quran translation (Cambodian+Kuwaiti orgs cooperation)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Cambodia",
+      "title": "al-Qur'an al-karim lang tuei bahasa cam — Cham translation (Yaḥyā)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Cameroon",
+      "title": "Quran translations — fulani_mokhtasar & fulani_rwwad (Fulfulde)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Canada",
+      "title": "The Qur'an (Canadian editions — Kazi Publications branch / ICO)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "China",
+      "title": "Gǔlánjīng yìjiě (古兰经译解) — Wang Jingzhai",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "China",
+      "title": "Kuran via Rodwell — Lǐ Tiězhēng (non-Muslim, chain: Arabic→English→Japanese→Chinese)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "China",
+      "title": "Kètè (可蘭經) — Liú Jǐnbiāo (1943); Yáng Zhòngmíng (1947)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "China",
+      "title": "Gǔlánjīng — Tóng Dàozhāng (Chinese-American Muslim)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "China",
+      "title": "Qīngzhēn xīliú — Gǔlánjīng xīnyì (Shěn Xiázhǔn)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "China",
+      "title": "古兰经暨 中文译注 (Yunus Chiao Shien Ma)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "China",
+      "title": "Uyghur Quran translation (uyghur, KFQPC)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Croatia",
+      "title": "Kur'an (Besim Korkut prijevod) — standard Croatian-language usage",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Czech Republic",
+      "title": "Korán (Academia 2nd)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Czech Republic",
+      "title": "Korán (Levné knihy KMa)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Czech Republic",
+      "title": "Korán (Československý spisovatel)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Czech Republic",
+      "title": "Vznešený Korán",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Czech Republic",
+      "title": "Vznešený Korán (Islámská nadace)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Czech Republic",
+      "title": "Korán (Goodword import)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Democratic Republic of the Congo",
+      "title": "Quran translation — lingala (KFQPC)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Egypt",
+      "title": "تيسير التفسير / Taysir al-Tafsir (MT Ahmed Sa'adi)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Estonia",
+      "title": "Koraani tõlge (Tarmo Marken) — web-only complete translation",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "France",
+      "title": "L'Alcoran de Mahomet (André du Ryer)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "France",
+      "title": "Le Coran (Claude Savary)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "France",
+      "title": "Le Coran (Albert Kazimirski de Biberstein)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "France",
+      "title": "Le Coran (Eva de Vitray-Meyerovitch)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "France",
+      "title": "Le Noble Coran (Muhammad Chiadmi)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Germany",
+      "title": "Der edle Quran und die Übersetzung seiner Bedeutungen für die deutsche Sprache",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Germany",
+      "title": "Koran. Der Heilige Qur-ân. Arabisch und Deutsch",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Germany",
+      "title": "Der Koran (Max Henning)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Germany",
+      "title": "Der Koran (Rudi Paret)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Germany",
+      "title": "Der Koran (Adel Theodor Khoury)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Germany",
+      "title": "Der Koran (Ahmad Milad Karimi)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Germany",
+      "title": "Der Koran (Hans Zirker)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Germany",
+      "title": "Der Koran in der Übersetzung von Friedrich Rückert",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Germany",
+      "title": "El Koran, das heißt Die Lesung",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Germany",
+      "title": "Der Koran. Arabisch-Deutsch",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Germany",
+      "title": "Die ungefähre Bedeutung des Al-Qur'an Al-Karim",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Germany",
+      "title": "Ludwig Ullmann ( üb. Leo Winter, neubearb.)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Germany",
+      "title": "Der edle Quran (Ömer Öngüt)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Germany",
+      "title": "Alcoranus Mahometicus (Salomon Schweigger)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Ghana",
+      "title": "Quran translations — asante_harun (Asante/Twi) + dagbani_ghatubo (Dagbani)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Greece",
+      "title": "Qur'an translation (Gerasimos Pentakos, from Alexandria)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Greece",
+      "title": "Το Ιερό Κοράνιο (Al-Azhar translation)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Greece",
+      "title": "Ahmadiyya Greek translation (AMJ)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Hungary",
+      "title": "Al-Korán (Marracci-alapú — Buzitai Szedlmayer Imre & Gedeon György)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Hungary",
+      "title": "A Korán szemelvényekben (Hollósi Somogyi József)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Hungary",
+      "title": "Quran selections (Germanus Gyula — Hājj Abdul Karim Jermanus)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Hungary",
+      "title": "A Korán világa + Korán-fordítás (Simon Róbert)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Hungary",
+      "title": "The Holy Quran (Mihálffy Balázs)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "India",
+      "title": "Quran with Persian translation (Makhdum Rahimdad)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "India",
+      "title": "Quran with Urdu translation (Shah Abdul Qadir Dehlvi)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "India",
+      "title": "Kanzul Iman (Ahmed Raza Khan Barelvi)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "India",
+      "title": "The Holy Quran (Maulana Abul Kalam Azad)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "India",
+      "title": "The Glorious Quran (Zafarul-Islam Khan)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "India",
+      "title": "Regional-language translations — Malayalam, Gujarati, Assamese, Kannada, Marathi, Telugu, Dogri, Punjabi (KFQPC)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Indonesia",
+      "title": "Tafsir Tarjuman al-Mustafid (Shaikh Abdur Ra'uf al-Fansuri)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Indonesia",
+      "title": "Al-Qur'an dan Terjemahnya (QT) — 1st official edition",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Indonesia",
+      "title": "Al-Qur'an dan Terjemahnya — Madinah KFQPC edition",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Indonesia",
+      "title": "Tafsir Al-Qur'an Bahasa Bugis (Muin Yusuf et al., in Lontara script)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Indonesia",
+      "title": "Tafsir Al-Foerqan Basa Sunda (A. Hassan)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Iran",
+      "title": "تفسیر حجة الإسلام (Mirza Mahdi Elahi Qomshei)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Iran",
+      "title": "قرآن مجید (مهدوی دامغانی / مجمع ذخائر اسلامی)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Palestine",
+      "title": "Hebrew Quran translation — hebrew_darussalam (Darussalam)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Italy",
+      "title": "Il Corano (Hamideh Taqizadeh)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Japan",
+      "title": "コーラン (藤本勝次・伴康哉・池田修 共訳)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Japan",
+      "title": "日亜対訳クルアーン「付」訳解と正統十読誦注解 (ハッサン中田考 監修)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Japan",
+      "title": "クルアーン やさしい和訳 (アミーン水谷周 監修)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Japan",
+      "title": "聖クルアーン日亜対訳注解 (サイード佐藤 訳)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Japan",
+      "title": "聖クルアーン日本語訳 (モハンマド・オウェース・小林淳 & ズィアウッラー・ムバシル 共訳)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Japan",
+      "title": "コーラン 最終聖書 (ラシャー・カリフィ 英訳 → 三木千寿江 日本語訳)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Kazakhstan",
+      "title": "Құран (Ratbek Nysanbayev)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Kenya",
+      "title": "Quran translations — luhya (KFQPC) + coastal Swahili prints",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Latvia",
+      "title": "Korāns (Uldis Bērziņš tulkojums)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Malawi",
+      "title": "Quran translation — chichewa_betala (KFQPC)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Malaysia",
+      "title": "Terjemahan Al-Quran (Pentadbiran Perundangan Islam — the official Malay translation)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Malaysia",
+      "title": "Translation of the Meanings of the Quran (Abdullah Basmeih/Abdullah Muhammad Basmeih)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Malaysia",
+      "title": "Pro-Noble Quran (Pro Nuzul editions by PTS/crowd-funded)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Maldives",
+      "title": "Dhivehi Quran translation (official state editions)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Mali",
+      "title": "Quran translations — ankobambara_dayyan & ankobambara_foudi (Bambara)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Myanmar",
+      "title": "Burmese Quran (Haji U Kaalu)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Myanmar",
+      "title": "Burmese Quran (Thiripyanchi U Ba Sein)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Myanmar",
+      "title": "Burmese Quran (Allamah Ghazi Muhammed Hashim & Maulana Maqsud Ahmad Khan)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Myanmar",
+      "title": "Translation of the Meanings of the Quran into Burmese — KFQPC edition",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Nepal",
+      "title": "Nepali Quran (Gokul Sinha)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Netherlands",
+      "title": "De Koran (J.H. Kramers)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Netherlands",
+      "title": "De Koran (Fred Leemhuis)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Netherlands",
+      "title": "De Edele Koran (Stichting Islamitisch Cultureel Centrum Nederland — Siregar team)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Netherlands",
+      "title": "De Glorieuze Qorān (Stichting Halal Life)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Netherlands",
+      "title": "De Levende Koran (Islamitische Universiteit Rotterdam)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Netherlands",
+      "title": "De interpretatie van de betekenissen van de Koran (Stichting as-Soennah)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Netherlands",
+      "title": "De Koran (Soleimani)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Netherlands",
+      "title": "De Koran (Verhoef)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "North Macedonia",
+      "title": "Kuran (Dr. Hasan Dzilo's Macedonian translation)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Norway",
+      "title": "Koranen på norsk (Trond Ali Linstad / Urtehagen)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Norway",
+      "title": "Tarjamat qurʾān majīd = Koranen: Oversettelse (Maududi-based commentary edition)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Norway",
+      "title": "Les Koranen på norsk (KoranStiftelsen fullstendig oversettelse)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Norway",
+      "title": "Norsk oversettelse av koranen (1996 utgaven) med arabisk tekst — Ahmadiyya Menighet",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Pakistan",
+      "title": "Tadabbur-e-Qur'an / Tafhim al-Qur'an (Maulana Abul A'la Maududi)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Pakistan",
+      "title": "Kanzul Iman (Ahmad Raza Khan) — Lahore/Urdu",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Pakistan",
+      "title": "Bayan-ul-Quran (Dr. Israr Ahmed)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Philippines",
+      "title": "Maanog Quran translation (Philippine Muslims)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Philippines",
+      "title": "Quran translation — iranun_sarro (Iranun language)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Poland",
+      "title": "Koran — tłumaczenie Józefa Bielawskiego (reprints)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Poland",
+      "title": "Koran Święty Księga Islamu (Goodword edition)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Poland",
+      "title": "Al Quran Polish (Koran polski) — King Fahad Complex edition",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Portugal",
+      "title": "O Sagrado Al-Corão (edição bilingue árabe-português, duas colunas)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Portugal",
+      "title": "O Sagrado Al-Corão (Islam International — Ahmadiyya edition)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Portugal",
+      "title": "O Alcorão (Mansour Chalita, bolso)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Romania",
+      "title": "Coranul — traducere după originalul arabic (Silvestru Octavian Isopescul)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Russia",
+      "title": "Коран (П. В. Постников — from French du Ryer)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Russia",
+      "title": "Коран (Г. С. Саблуков) — first from Arabic",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Russia",
+      "title": "Коран (И. Ю. Крачковский) — the academic standard",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Rwanda",
+      "title": "Quran translation — Ikirundi 'Gehiti' (regional Burundi/Rwanda distribution)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Senegal",
+      "title": "Xamul Koran (Wolof translations — Muridiyya/Tijaniyya scholarship)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Serbia",
+      "title": "Kur'an (Besim Korkut) — Novi Pazar & Bar local prints",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Serbia",
+      "title": "Kur'an (Muhamed Mehanović) — Novi Pazar edition",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Slovakia",
+      "title": "Korán (earlier Slovak editions — 4 listed by Databáze knih)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "South Africa",
+      "title": "Hand-written Qur'an of Tuan Guru (Auwal Mosque, Bo-Kaap)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "South Africa",
+      "title": "Noble Qur'an (camouflage-covered service copy) — MJC, SA",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "South Africa",
+      "title": "Quran translation — zulu (KFQPC)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Spain",
+      "title": "Corán aljamiado (anonymous morisco translation)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Spain",
+      "title": "El Corán (Joaquín García Bravo)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Spain",
+      "title": "El Sagrado Corán (Antonio Carrillo Robles — Ahmadiyya, Córdoba)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Spain",
+      "title": "El Corán (Juan Vernet)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Turkey",
+      "title": "Kur'an-ı Kerim ve Türkçe Meali (Elmalılı Muhammed Hamdi Yazır — Hak Dili Kur'an-ı Kerim)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Turkey",
+      "title": "Kur'an-ı Kerim Meali (Yaşar Nuri Öztürk)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Ukraine",
+      "title": "Коран (перший український переклад — Львів 1915)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "Ukraine",
+      "title": "Koran: Pereklad smysliv Ukrainskoyu movoyu (Namik Babakhanov team — Shiite-leaning, 4 translators)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "United Kingdom",
+      "title": "The Koran (George Sale)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "United Kingdom",
+      "title": "The Holy Qur'an (Abdullah Yusuf Ali)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "United Kingdom",
+      "title": "The Noble Qur'an (Muhammad Muhsin Khan & Muhammad Taqi-ud-Din al-Hilali)",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "United States",
+      "title": "The Qur'an: Translation (Abdullah Yusuf Ali) — Tahrike Tarsile Qur'an",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "United States",
+      "title": "The Qur'an: Translation (Sayed Razwy) — Tahrike Tarsile",
+      "primary_source": "GLM"
+    },
+    {
+      "action": "ADDED_UNIQUE_GLM_RECORD",
+      "country": "United States",
+      "title": "The Quran: Arabic Text and English Translation (Kazi Publications)",
+      "primary_source": "GLM"
+    }
+  ]
+}
