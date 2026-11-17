@@ -15,3 +15,8 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+
+# Downloads and large binary data
+downloads/
+*.pdf
+

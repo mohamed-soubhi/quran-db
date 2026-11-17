@@ -21,6 +21,7 @@
 3. **Global Translations (`translations.csv`):** 283 translations and commentaries across 107 countries and over 80 languages/dialects.
 4. **Demographic Country Index (`combined_countries_ranked.csv`):** 227 nations and territories sorted ascendingly by Muslim population percentage, with census numbers and research source notes.
 5. **Interactive Web Dashboard:** An integrated bilingual web presentation ([index.html](index.html)) with live search, filters, cards, and direct scan viewing.
+6. **Rare Mushafs & Tafasir Archive (`tafasir.html`):** A dedicated digital library indexing 23 monumental historical editions (3.48 GB total volume) from Internet Archive, complete with interactive flip-book reader embeds, direct PDF downloads, and a CLI bulk downloader (`download_tafasir.py`).
 
 ---
 
@@ -34,6 +35,7 @@
 3. **التراجم والتفاسير العالمية (`translations.csv`):** 283 ترجمة وتفسيراً بمعاني القرآن إلى مختلف لغات ولهجات العالم عبر 107 دول.
 4. **دليل تصنيف دول العالم ديموغرافياً (`combined_countries_ranked.csv`):** 227 دولة وإقليم مصنفة تصاعدياً بنسبة المسلمين وإجمالي السكان.
 5. **لوحة عرض تفاعلية ثنائية اللغة:** موقع متكامل ([index.html](index.html)) يدعم التبديل اللحظي بين العربية والإنجليزية والوضع الليلي/النهاري وتصفح المصاحف والتراجم.
+6. **مكتبة المصاحف والتفاسير النادرة ([tafasir.html](tafasir.html)):** مكتبة متخصصة تضم 23 مجلداً تاريخياً نفيساً (بحجم 3.48 جيجابايت) من أرشيف الإنترنت مع تصفح كتابي تفاعلي، وروابط تحميل مباشرة، وأداة سطر أوامر للتحميل التلقائي (`download_tafasir.py`).
 
 ---
 
@@ -42,9 +44,14 @@
 ```text
 Quran-db/
 ├── index.html                     # Interactive Bilingual Project Presentation (Web Dashboard)
+├── tafasir.html                   # Rare Mushafs & Tafasir Archive Library (23 Volumes, 3.48 GB)
 ├── ar.html                        # Direct Arabic entry point (RTL)
 ├── data.js                        # Compact zero-CORS JSON dataset for local & web viewing
 ├── data.json                      # Machine-readable JSON export of all 4 datasets
+├── tafasir_data.js                # Archive.org dataset for instant zero-CORS client loading
+├── tafasir_archive_data.json      # Structured JSON metadata for the 23 archive volumes
+├── tafasir_archive_data.csv       # Spreadsheet export of archive tafasir & mushafs (UTF-8 BOM)
+├── download_tafasir.py            # Resumable multi-threaded CLI downloader for all 23 editions
 ├── combined_master.csv            # Master dataset (319 editions, UTF-8 BOM)
 ├── combined_master_utf8.csv       # Master dataset (Standard UTF-8)
 ├── mushaf_only.csv                # 36 Arabic Mushafs with verified Evidence URLs (UTF-8 BOM)
