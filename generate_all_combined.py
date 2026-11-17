@@ -328,6 +328,18 @@ for gi, g in enumerate(glm_cleaned):
     })
     combined_records.append(rec)
 
+# Apply scholarly corrections to edition classification
+for r in combined_records:
+    if 'aljamiado' in r['mushaf_title'].lower() and r['country'] == 'Spain':
+        r['content_type'] = 'translation'
+    elif 'kitab tafsira' in r['mushaf_title'].lower() and r['country'] == 'Belarus':
+        r['content_type'] = 'translation'
+    elif 'بكين' in r['mushaf_title'] and r['country'] == 'China':
+        r['content_type'] = 'translation'
+        r['language'] = 'Arabic, Chinese'
+    elif r['content_type'] == 'tajweed':
+        r['content_type'] = 'mushaf only'
+
 # Sort combined_records by country, publication_year
 combined_records.sort(key=lambda x: (x['country'], x['publication_year'] or '9999', x['mushaf_title']))
 
@@ -457,14 +469,6 @@ with open('merge_audit_log.json', 'w', encoding='utf-8') as f:
 print('Wrote merge_audit_log.json successfully!')
 
 # 7. Split into mushaf_only and translations
-for r in combined_records:
-    if 'aljamiado' in r['mushaf_title'].lower() and r['country'] == 'Spain':
-        r['content_type'] = 'translation'
-    elif 'kitab tafsira' in r['mushaf_title'].lower() and r['country'] == 'Belarus':
-        r['content_type'] = 'translation'
-    elif r['content_type'] == 'tajweed':
-        r['content_type'] = 'mushaf only'
-
 mushaf_only_records = [r for r in combined_records if r['content_type'] == 'mushaf only']
 translations_records = [r for r in combined_records if r['content_type'] != 'mushaf only']
 
@@ -475,7 +479,6 @@ evidence_map = {
     'Bahrain': 'https://archive.org/details/20210325_20210325_0401',
     'Brunei': 'https://archive.org/details/20250510_20250510_0648',
     'Chad': 'https://archive.org/details/DORY3AMRMADINAHS',
-    'China': 'https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E4%BC%8A%E6%96%AF%E5%85%B0%E6%95%99%E5%8D%8F%E4%BC%9A',
     'Egypt_Amiri': 'https://archive.org/details/way2sona_20160915_2156',
     'Egypt_Shamarly': 'https://archive.org/details/shamarlyshamarly',
     'India': 'https://archive.org/details/QuranMajeed-15Lines-PakistaniPrint',
@@ -558,4 +561,38 @@ with open('translations_utf8.csv', 'w', encoding='utf-8', newline='') as f:
     writer.writerows(translations_records)
 
 print(f'Wrote mushaf_only.csv ({len(mushaf_only_records)} records) and translations.csv ({len(translations_records)} records) successfully!')
+
+# 8. Generate data.json and data.js
+riwayah_counter = Counter(r.get('riwaya', '') for r in mushaf_only_records)
+script_counter = Counter(r.get('script_style', '') for r in mushaf_only_records if r.get('script_style'))
+top_trans_countries = Counter(r.get('country', '') for r in translations_records).most_common(10)
+countries_with_ed = len(set(r['country'] for r in combined_records))
+
+stats = {
+    'total_editions': len(combined_records),
+    'countries_with_editions': countries_with_ed,
+    'mushaf_only_count': len(mushaf_only_records),
+    'translations_count': len(translations_records),
+    'ranked_countries_count': len(cr_records),
+    'verified_evidence_count': len([r for r in mushaf_only_records if r.get('evidence_url')]),
+    'riwayah_breakdown': dict(riwayah_counter),
+    'script_breakdown': dict(script_counter),
+    'top_translation_countries': dict(top_trans_countries)
+}
+
+unified_data = {
+    'stats': stats,
+    'mushaf_only': mushaf_only_records,
+    'translations': translations_records,
+    'countries': cr_records
+}
+
+with open('data.json', 'w', encoding='utf-8') as f:
+    json.dump(unified_data, f, ensure_ascii=False, indent=2)
+
+with open('data.js', 'w', encoding='utf-8') as f:
+    f.write('window.QURAN_DATA = ' + json.dumps(unified_data, ensure_ascii=False, indent=2) + ';\n')
+
+print('Generated data.json and data.js successfully!')
+
 
