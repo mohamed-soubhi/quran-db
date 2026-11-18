@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Global Quran Editions Database | قاعدة بيانات مصاحف وترجمات العالم</title>
-  <meta name="description" content="A curated, deduplicated, and verified scholarly catalog of 318 Quran editions across 123 countries with 100% verified live digital facsimiles.">
+  <meta name="description" content="A curated, deduplicated, and verified scholarly catalog of 317 Quran editions across 123 countries with 100% verified live digital facsimiles.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cairo:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -90,13 +90,10 @@
           <span class="ltr-only">Overview</span><span class="rtl-only font-arabic">نظرة عامة</span>
         </button>
         <button onclick="switchTab('mushafs')" id="tab-btn-mushafs" class="tab-nav px-4 py-2 rounded-lg text-slate-600 dark:text-slate-300 hover:text-emerald-600 transition">
-          <span class="ltr-only">Arabic Mushafs (34)</span><span class="rtl-only font-arabic">المصاحف الشريفة (34)</span>
+          <span class="ltr-only">Arabic Mushafs (33)</span><span class="rtl-only font-arabic">المصاحف الشريفة (33)</span>
         </button>
         <button onclick="switchTab('translations')" id="tab-btn-translations" class="tab-nav px-4 py-2 rounded-lg text-slate-600 dark:text-slate-300 hover:text-emerald-600 transition">
           <span class="ltr-only">Translations (284)</span><span class="rtl-only font-arabic">التراجم والتفاسير (284)</span>
-        </button>
-        <button onclick="switchTab('countries')" id="tab-btn-countries" class="tab-nav px-4 py-2 rounded-lg text-slate-600 dark:text-slate-300 hover:text-emerald-600 transition">
-          <span class="ltr-only">Countries (227)</span><span class="rtl-only font-arabic">تصنيف الدول (227)</span>
         </button>
         <button onclick="switchTab('methodology')" id="tab-btn-methodology" class="tab-nav px-4 py-2 rounded-lg text-slate-600 dark:text-slate-300 hover:text-emerald-600 transition">
           <span class="ltr-only">Audit & Pipeline</span><span class="rtl-only font-arabic">منهجية التدقيق</span>
@@ -151,21 +148,21 @@
       </h1>
 
       <p class="max-w-3xl mx-auto text-base sm:text-lg text-emerald-100/90 mb-10 leading-relaxed ltr-only">
-        A unified master scholarly database consolidating <strong>318 unique editions</strong> across <strong>123 countries</strong>. Split into <strong>34 Arabic Mushafs</strong> with 100% verified live digital facsimiles, and <strong>284 global translations</strong>, alongside demographic mapping for 227 countries.
+        A unified master scholarly database consolidating <strong>317 unique editions</strong> across <strong>123 countries</strong>. Split into <strong>33 Arabic Mushafs</strong> with 100% verified live digital facsimiles, and <strong>284 global translations</strong>.
       </p>
       <p class="max-w-3xl mx-auto text-base sm:text-lg text-emerald-100/90 mb-10 leading-relaxed rtl-only font-arabic">
-        أول قاعدة بيانات موحدة وشاملة تجمع وتدقق <strong>318 طبعة قرآنية فريدة</strong> موزعة على <strong>123 دولة</strong> حول العالم، ومقسمة بدقة إلى <strong>34 مصحفاً شريفاً بالنص العربي الخالص</strong> موثقة بأدلة رقمية مصورة حية بنسبة 100%، و <strong>284 ترجمة وتفسيراً عالمياً</strong>، مع تصنيف ديموغرافي لـ 227 دولة وإقليماً.
+        أول قاعدة بيانات موحدة وشاملة تجمع وتدقق <strong>317 طبعة قرآنية فريدة</strong> موزعة على <strong>123 دولة</strong> حول العالم، ومقسمة بدقة إلى <strong>33 مصحفاً شريفاً بالنص العربي الخالص</strong> موثقة بأدلة رقمية مصورة حية بنسبة 100%، و <strong>284 ترجمة وتفسيراً عالمياً</strong>.
       </p>
 
       <!-- Metrics KPI Badges -->
-      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4 max-w-5xl mx-auto">
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4 max-w-4xl mx-auto">
         <div class="bg-white/10 backdrop-blur-md border border-white/10 rounded-2xl p-4 text-center">
-          <div class="text-2xl sm:text-3xl font-black text-amber-300 font-mono" id="stat-total">318</div>
+          <div class="text-2xl sm:text-3xl font-black text-amber-300 font-mono" id="stat-total">317</div>
           <div class="text-xs text-emerald-200/80 font-medium mt-1 ltr-only">Total Editions</div>
           <div class="text-xs text-emerald-200/80 font-arabic mt-1 rtl-only">إجمالي الطبعات</div>
         </div>
         <div class="bg-white/10 backdrop-blur-md border border-white/10 rounded-2xl p-4 text-center">
-          <div class="text-2xl sm:text-3xl font-black text-emerald-300 font-mono" id="stat-mushafs">34</div>
+          <div class="text-2xl sm:text-3xl font-black text-emerald-300 font-mono" id="stat-mushafs">33</div>
           <div class="text-xs text-emerald-200/80 font-medium mt-1 ltr-only">Arabic Mushafs</div>
           <div class="text-xs text-emerald-200/80 font-arabic mt-1 rtl-only">مصاحف عربية خالصة</div>
         </div>
@@ -183,11 +180,6 @@
           <div class="text-2xl sm:text-3xl font-black text-rose-300 font-mono" id="stat-countries">123</div>
           <div class="text-xs text-emerald-200/80 font-medium mt-1 ltr-only">Edition Countries</div>
           <div class="text-xs text-emerald-200/80 font-arabic mt-1 rtl-only">دولة لها طبعات</div>
-        </div>
-        <div class="bg-white/10 backdrop-blur-md border border-white/10 rounded-2xl p-4 text-center">
-          <div class="text-2xl sm:text-3xl font-black text-yellow-300 font-mono" id="stat-ranked">227</div>
-          <div class="text-xs text-emerald-200/80 font-medium mt-1 ltr-only">Ranked Nations</div>
-          <div class="text-xs text-emerald-200/80 font-arabic mt-1 rtl-only">دولة مصنفة ديموغرافياً</div>
         </div>
       </div>
     </div>
@@ -366,43 +358,7 @@
       </div>
     </div>
 
-    <!-- TAB 4: COUNTRIES RANKED -->
-    <div id="section-countries" class="tab-content hidden space-y-6">
-      <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 card-shadow">
-        <div class="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-4 mb-6">
-          <div>
-            <h2 class="text-2xl font-bold ltr-only">Country Demographic Index (227 Nations &amp; Territories)</h2>
-            <h2 class="text-2xl font-bold rtl-only font-arabic">دليل وتصنيف دول العالم ديموغرافياً (227 دولة وإقليم)</h2>
-            <p class="text-sm text-slate-500 dark:text-slate-400 mt-1 ltr-only">
-              Sorted by Muslim population percentage, with total populations and edition coverage.
-            </p>
-            <p class="text-sm text-slate-500 dark:text-slate-400 mt-1 rtl-only font-arabic">
-              مرتبة تصاعدياً بنسبة المسلمين من إجمالي السكان، مع إحصاءات التعداد وحالة التغطية في قاعدة البيانات.
-            </p>
-          </div>
-          <input type="text" id="countries-search" oninput="renderCountries()" placeholder="Search country name..." class="px-4 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-sm focus:ring-2 focus:ring-emerald-500 outline-none w-full md:w-64">
-        </div>
-
-        <div class="overflow-x-auto rounded-xl border border-slate-200 dark:border-slate-800">
-          <table class="w-full text-left rtl:text-right text-sm">
-            <thead class="bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 font-semibold uppercase text-xs">
-              <tr>
-                <th class="px-4 py-3.5"><span class="ltr-only">Rank</span><span class="rtl-only font-arabic">الترتيب</span></th>
-                <th class="px-4 py-3.5"><span class="ltr-only">Country</span><span class="rtl-only font-arabic">الدولة</span></th>
-                <th class="px-4 py-3.5"><span class="ltr-only">Muslim %</span><span class="rtl-only font-arabic">نسبة المسلمين</span></th>
-                <th class="px-4 py-3.5"><span class="ltr-only">Total Population</span><span class="rtl-only font-arabic">إجمالي السكان</span></th>
-                <th class="px-4 py-3.5"><span class="ltr-only">Status</span><span class="rtl-only font-arabic">الحالة في القاعدة</span></th>
-              </tr>
-            </thead>
-            <tbody id="countries-table-body" class="divide-y divide-slate-200 dark:divide-slate-800">
-              <!-- Populated by JavaScript -->
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-
-    <!-- TAB 5: METHODOLOGY & AUDIT -->
+    <!-- TAB 4: METHODOLOGY & AUDIT -->
     <div id="section-methodology" class="tab-content hidden space-y-6">
       <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 sm:p-8 card-shadow space-y-8">
         <div>
@@ -477,7 +433,7 @@
             </a>
             <a href="combined_master.csv" download class="p-4 rounded-xl border border-amber-300 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/40 hover:border-amber-500 transition text-center group">
               <div class="text-amber-700 dark:text-amber-400 font-bold mb-1 group-hover:underline">combined_master.csv</div>
-              <div class="text-xs text-slate-500 dark:text-slate-400">Complete Master (318 Editions)</div>
+              <div class="text-xs text-slate-500 dark:text-slate-400">Complete Master (317 Editions)</div>
             </a>
             <a href="combined_countries_ranked.csv" download class="p-4 rounded-xl border border-purple-300 dark:border-purple-800 bg-purple-50 dark:bg-purple-950/40 hover:border-purple-500 transition text-center group">
               <div class="text-purple-700 dark:text-purple-400 font-bold mb-1 group-hover:underline">combined_countries_ranked.csv</div>
@@ -743,49 +699,11 @@
       `;
     }
 
-    // Render Countries Tab
-    function renderCountries() {
-      const query = (document.getElementById('countries-search')?.value || '').toLowerCase();
-      const tbody = document.getElementById('countries-table-body');
-      if (!tbody) return;
-
-      const filtered = data.countries.filter(c => {
-        return (c.country + ' ' + c.muslim_percentage_display + ' ' + c.total_population_display).toLowerCase().includes(query);
-      });
-
-      tbody.innerHTML = filtered.map(c => {
-        const pct = parseFloat(c.muslim_percentage_display) || 0;
-        return `
-          <tr class="hover:bg-slate-50/80 dark:hover:bg-slate-800/40 transition">
-            <td class="px-4 py-3 font-mono text-xs text-slate-400">#${c.rank}</td>
-            <td class="px-4 py-3 font-semibold text-slate-900 dark:text-white">
-              ${getFlag(c.country)} ${c.country}
-            </td>
-            <td class="px-4 py-3">
-              <div class="flex items-center gap-2">
-                <span class="font-mono text-xs font-bold w-12">${c.muslim_percentage_display}</span>
-                <div class="w-24 bg-slate-200 dark:bg-slate-700 rounded-full h-1.5 hidden sm:block">
-                  <div class="bg-emerald-500 h-1.5 rounded-full" style="width: ${Math.min(100, pct)}%"></div>
-                </div>
-              </div>
-            </td>
-            <td class="px-4 py-3 font-mono text-xs text-slate-600 dark:text-slate-400">${c.total_population_display}</td>
-            <td class="px-4 py-3 text-xs">
-              <span class="px-2 py-0.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300">
-                ${c.confidence || 'Standard'}
-              </span>
-            </td>
-          </tr>
-        `;
-      }).join('');
-    }
-
     function renderAll() {
       renderFeaturedMushafs();
       renderCharts();
       renderMushafs();
       renderTranslations();
-      renderCountries();
     }
 
     document.addEventListener('DOMContentLoaded', () => {
