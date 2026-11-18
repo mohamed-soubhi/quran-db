@@ -1,8 +1,8 @@
 # Global Quran Editions & Translations Database (Quran-DB)
 # قاعدة بيانات مصاحف وتراجم القرآن الكريم حول العالم
 
-[![Dataset: 318 Editions](https://img.shields.io/badge/Total%20Editions-318-emerald.svg)](combined_master.csv)
-[![Arabic Mushafs: 34 Verified](https://img.shields.io/badge/Arabic%20Mushafs-34%20(100%25%20Verified)-green.svg)](mushaf_only.csv)
+[![Dataset: 317 Editions](https://img.shields.io/badge/Total%20Editions-317-emerald.svg)](combined_master.csv)
+[![Arabic Mushafs: 33 Verified](https://img.shields.io/badge/Arabic%20Mushafs-33%20(100%25%20Verified)-green.svg)](mushaf_only.csv)
 [![Translations: 284](https://img.shields.io/badge/Translations-284-cyan.svg)](translations.csv)
 [![Countries Ranked: 227](https://img.shields.io/badge/Countries%20Ranked-227-amber.svg)](combined_countries_ranked.csv)
 [![License: Open Data](https://img.shields.io/badge/License-CC%20BY%204.0%20%2F%20Open%20Data-blue.svg)](LICENSE)
@@ -16,8 +16,8 @@
 **Quran-DB** is a curated, scholarly, and deduplicated global database cataloging printed editions, historical manuscripts, and vernacular translations of the Holy Quran across **123 countries**, accompanied by demographic analysis for **227 countries and territories**.
 
 ### Key Highlights
-1. **Master Consolidated Dataset (`combined_master.csv`):** 318 unique, validated editions consolidated and reconciled from multi-agent research pipelines (`AGY` and `GLM`), resolving 31 duplicate cross-dataset pairs with zero data loss.
-2. **Arabic Mushafs Only (`mushaf_only.csv`):** 34 Arabic-only editions and historical landmarks across 30 countries. **100% of editions feature verified, active (HTTP 200) evidence URLs** pointing directly to complete digital scans (Internet Archive, Chester Beatty Library, Altafsir.com, state archives).
+1. **Master Consolidated Dataset (`combined_master.csv`):** 317 unique, validated editions consolidated and reconciled from multi-agent research pipelines (`AGY` and `GLM`), resolving 31 duplicate cross-dataset pairs with zero data loss.
+2. **Arabic Mushafs Only (`mushaf_only.csv`):** 33 Arabic-only editions and historical landmarks across 29 countries. **100% of editions feature verified, active (HTTP 200) evidence URLs** pointing directly to complete digital scans (Internet Archive, Chester Beatty Library, Altafsir.com, state archives).
 3. **Global Translations (`translations.csv`):** 284 translations and commentaries across 107 countries and over 80 languages/dialects.
 4. **Demographic Country Index (`combined_countries_ranked.csv`):** 227 nations and territories sorted ascendingly by Muslim population percentage, with census numbers and research source notes.
 5. **Interactive Web Dashboard:** An integrated bilingual web presentation ([index.html](index.html)) with live search, filters, cards, and direct scan viewing.
@@ -30,8 +30,8 @@
 مشروع **قاعدة بيانات القرآن الكريم العالمية (Quran-DB)** هو مستودع علمي شامل ومحقق يوثق طبعات المصاحف الشريفة المطبوعة، والمخطوطات التاريخية النادرة، وترجمات معاني القرآن الكريم وتفاسيره عبر **123 دولة**، إلى جانب دراسة ديموغرافية لسكان المسلمين في **227 دولة وإقليماً**.
 
 ### أبرز مخرجات المشروع:
-1. **قاعدة البيانات الموحدة الكاملة (`combined_master.csv`):** 318 طبعة فريدة محققة ومدققة، بعد دمج نتائج فريقي العمل السابقة وحل 31 زوجاً مكرراً بسجل تدقيق شفاف.
-2. **المصاحف الشريفة بالنص العربي الخالص (`mushaf_only.csv`):** 34 طبعة ومعلماً قرآنياً كاملاً في 30 دولة. **100% من المصاحف مزودة بروابط حية مباشرة (حالتها البرمجية المؤكدة HTTP 200)** تتيح تصفح المصحف كاملاً أو المخطوطة الأصلية عالي الدقة (عبر أرشيف الإنترنت، مكتبة تشستر بيتي، بوابة آل البيت، مكتبة الأقصى).
+1. **قاعدة البيانات الموحدة الكاملة (`combined_master.csv`):** 317 طبعة فريدة محققة ومدققة، بعد دمج نتائج فريقي العمل السابقة وحل 31 زوجاً مكرراً بسجل تدقيق شفاف.
+2. **المصاحف الشريفة بالنص العربي الخالص (`mushaf_only.csv`):** 33 طبعة ومعلماً قرآنياً كاملاً في 29 دولة. **100% من المصاحف مزودة بروابط حية مباشرة (حالتها البرمجية المؤكدة HTTP 200)** تتيح تصفح المصحف كاملاً أو المخطوطة الأصلية عالي الدقة (عبر أرشيف الإنترنت، مكتبة تشستر بيتي، بوابة آل البيت، مكتبة الأقصى).
 3. **التراجم والتفاسير العالمية (`translations.csv`):** 284 ترجمة وتفسيراً بمعاني القرآن إلى مختلف لغات ولهجات العالم عبر 107 دول.
 4. **دليل تصنيف دول العالم ديموغرافياً (`combined_countries_ranked.csv`):** 227 دولة وإقليم مصنفة تصاعدياً بنسبة المسلمين وإجمالي السكان.
 5. **لوحة عرض تفاعلية ثنائية اللغة:** موقع متكامل ([index.html](index.html)) يدعم التبديل اللحظي بين العربية والإنجليزية والوضع الليلي/النهاري وتصفح المصاحف والتراجم.
@@ -52,10 +52,10 @@ Quran-db/
 ├── tafasir_archive_data.json      # Structured JSON metadata for the 23 archive volumes
 ├── tafasir_archive_data.csv       # Spreadsheet export of archive tafasir & mushafs (UTF-8 BOM)
 ├── download_tafasir.py            # Resumable multi-threaded CLI downloader for all 23 editions
-├── combined_master.csv            # Master dataset (318 editions, UTF-8 BOM)
+├── combined_master.csv            # Master dataset (317 editions, UTF-8 BOM)
 ├── combined_master_utf8.csv       # Master dataset (Standard UTF-8)
-├── mushaf_only.csv                # 34 Arabic Mushafs with verified Evidence URLs (UTF-8 BOM)
-├── mushaf_only_utf8.csv           # 34 Arabic Mushafs (Standard UTF-8)
+├── mushaf_only.csv                # 33 Arabic Mushafs with verified Evidence URLs (UTF-8 BOM)
+├── mushaf_only_utf8.csv           # 33 Arabic Mushafs (Standard UTF-8)
 ├── translations.csv               # 284 Translations & Tafsirs (UTF-8 BOM)
 ├── translations_utf8.csv          # 284 Translations (Standard UTF-8)
 ├── combined_countries_ranked.csv  # 227 Ranked Countries & Muslim Demographics
@@ -69,7 +69,7 @@ Quran-db/
 
 ## Verified Evidence Links for Arabic Mushafs (100% Tested HTTP 200)
 
-All 34 Arabic Mushaf editions have been programmatically tested and verified with direct links:
+All 33 Arabic Mushaf editions have been programmatically tested and verified with direct links:
 
 | # | Country | Edition / Title | Riwayah / Style | Publisher | Direct Evidence Link |
 | :-: | :--- | :--- | :--- | :--- | :--- |
@@ -81,32 +81,31 @@ All 34 Arabic Mushaf editions have been programmatically tested and verified wit
 | 6 | **Egypt** | المصحف الأميري (بولاق 1342هـ) | حفص (Royal Edition) | Amiri Press & Survey of Egypt | [Archive.org Amiri Scan](https://archive.org/details/way2sona_20160915_2156) |
 | 7 | **Egypt** | مصحف الشمرلي (15 سطر) | حفص عن عاصم | Shamarly Cairo | [Archive.org Shamarly Scan](https://archive.org/details/shamarlyshamarly) |
 | 8 | **India** | مصحف التاج الهندي (15 سطر) | Nastaliq / Indo-Pak | Taj Company Ltd. | [Archive.org 15-Line Scan](https://archive.org/details/QuranMajeed-15Lines-PakistaniPrint) |
-| 9 | **Indonesia** | مصحف منارة قدس (15 سطر) | Pojok Kudus | CV Menara Kudus | [Archive.org Indonesian Mushaf Scan](https://archive.org/details/quran-indonesian-mushaf-indo-pak-script) |
-| 10 | **Iran** | مصحف ميرزا أحمد النيريزي | Naskh Nayrizi | Soroush Publishing | [Archive.org Nayrizi Facsimile](https://archive.org/details/QuranofNeirizi) |
-| 11 | **Iraq** | مصحف بغداد (دار الحرية 1979) | خط الحافظ الرشدي | Dar al-Hurriyah Baghdad | [Archive.org Baghdad Scan](https://archive.org/details/1981_20260422) |
-| 12 | **Jordan** | مصحف آل البيت (المصحف الهاشمي) | حفص عن عاصم | Aal al-Bayt Institute | [Altafsir.com Official Portal](https://www.altafsir.com/Quran.asp) |
-| 13 | **Kuwait** | مصحف دولة الكويت | عثمان طه | Kuwait Ministry of Awqaf | [Archive.org Kuwait Scan](https://archive.org/details/20200728_20200728_0545) |
-| 14 | **Lebanon** | مصحف التجويد الملون | حفص عن عاصم | Dar al-Maarifa Beirut | [Archive.org Color Tajweed Scan](https://archive.org/details/Quran25) |
-| 15 | **Lebanon** | طبعة دار الكتب العلمية | حفص عن عاصم | Dar al-Kutub al-Ilmiyyah | [Archive.org Dar al-Kutub Scan](https://archive.org/details/Al-QuranTadabburWaAmal) |
-| 16 | **Libya** | مصحف الجماهيرية | قالون عن نافع | WICS Libya | [Archive.org Libyan Scan](https://archive.org/details/20240516_20240516_1544) |
-| 17 | **Malaysia** | مصحف ماليزيا الشريف | Rasm Uthmani | Yayasan Restu / Nasyrul Quran | [Archive.org Malaysia Tajwid](https://archive.org/details/mushaf-tajwid-beserta-terjemahan-ke-dalam-bahasa-malaysia) |
-| 18 | **Mauritania** | مصحف ورش الموريتاني | الخط الشنقيطي | Ministry of Islamic Affairs | [Official Digital Edition](https://play.google.com/store/apps/details?id=mr.quranwarch&hl=ar) |
-| 19 | **Morocco** | المصحف الحسني المسبع | ورش عن نافع | Royal Moroccan Press | [Archive.org Musabba Scan](https://archive.org/details/Quran_Warsh_Moorocco) |
-| 20 | **Morocco** | المصحف المحمدي الشريف | ورش عن نافع | Fondation Mohammed VI | [Quran.ws Official PDF](https://pdf.quran.ws/pdfs/warsh/quran-warsh-mushaf.pdf) |
-| 21 | **Oman** | مصحف مسقط التفاعلي | Unicode Portal | Ministry of Endowments | [Mushaf Muscat Portal](https://mushafmuscat.om) |
-| 22 | **Pakistan** | مصحف الحفاظ (تاج كمبني 16 سطر) | Indo-Pak Naskh | Taj Company Lahore | [Archive.org 16-Line Scan](https://archive.org/details/AlQuranAlKareem16LinesTajCompany) |
-| 23 | **Palestine** | مصحف المسجد الأقصى | مخطوطات القدس | Al-Aqsa Mosque Library | [Archive.org Al-Aqsa Catalog](https://archive.org/details/0590_20210109) |
-| 24 | **Qatar** | مصحف قطر | عبيدة البنكي | Qatar Ministry of Awqaf | [Archive.org Mushaf Qatar Scan](https://archive.org/details/MushafQatar_20150445776437) |
-| 25 | **Russia** | مصحف قازان 1803 | First Printed Edition | Asiatic Printing House | [Archive.org Kazan 1803 Scan](https://archive.org/details/006-qran-kazan-1803) |
-| 26 | **Saudi Arabia** | مصحف المدينة النبوية (حفص) | عثمان طه | King Fahd Complex (KFQPC) | [Archive.org Madinah Hafs Scan](https://archive.org/details/MushafMadinaHafsGreen1441) |
-| 27 | **Saudi Arabia** | مصحف المدينة النبوية (ورش) | عثمان طه | King Fahd Complex (KFQPC) | [Archive.org Madinah Warsh Scan](https://archive.org/details/ozkorallh_20181029_2220) |
-| 28 | **Senegal** | مصحف طوبى برواية ورش | الخط السنغالي السوقي | Imprimerie Serigne Touba | [Archive.org Touba Muridiyya](https://archive.org/details/kamil_serigne_Fallou) |
-| 29 | **South Africa** | مصحف ووترفال الشريف (13 سطر) | Indo-Pak / Majedi 13-Lines | Waterval Islamic Institute | [Archive.org 13-Line Scan](https://archive.org/details/13LineQuran) |
-| 30 | **Sudan** | مصحف السودان برواية الدوري | الدوري عن أبي عمرو | Sudanese Book House | [Archive.org Al-Duri Scan](https://archive.org/details/DORY3AMRMADINAHS) |
-| 31 | **Syria** | مصحف دمشق المعتمد (1970) | خط عثمان طه الأول | Dar al-Fikr / Syrian Awqaf | [Scholarly Documentation](https://ar.wikipedia.org/wiki/%D8%B9%D8%AB%D9%85%D8%A7%D9%86_%D8%B7%D9%87) |
-| 32 | **Tunisia** | المصحف التونسي الشريف | قالون عن نافع | Official Press / Ez-Zitouna | [Archive.org Tunisian Qalun](https://archive.org/details/qaloon_tunesCCCCCCCCCCCCCCCCCCCCC) |
-| 33 | **UAE** | مصحف الشيخ مكتوم (مصحف دبي) | جمال بوستن | DIHQA / Dubai Awqaf | [Archive.org Mushaf Maktoum](https://archive.org/details/356835683586MAKTOOM) |
-| 34 | **Yemen** | مخطوطة صنعاء الشريفة | Hijazi / Early Kufic | Dar al-Athar al-Islamiyyah | [Archive.org Sanaa Scan](https://archive.org/details/A21_Almoshaf_Alcharif_Attributed_to_Ali_ben_Abi_Talib_The_copy_of_Sanaa) |
+| 9 | **Iran** | مصحف ميرزا أحمد النيريزي | Naskh Nayrizi | Soroush Publishing | [Archive.org Nayrizi Facsimile](https://archive.org/details/QuranofNeirizi) |
+| 10 | **Iraq** | مصحف بغداد (دار الحرية 1979) | خط الحافظ الرشدي | Dar al-Hurriyah Baghdad | [Archive.org Baghdad Scan](https://archive.org/details/1981_20260422) |
+| 11 | **Jordan** | مصحف آل البيت (المصحف الهاشمي) | حفص عن عاصم | Aal al-Bayt Institute | [Altafsir.com Official Portal](https://www.altafsir.com/Quran.asp) |
+| 12 | **Kuwait** | مصحف دولة الكويت | عثمان طه | Kuwait Ministry of Awqaf | [Archive.org Kuwait Scan](https://archive.org/details/20200728_20200728_0545) |
+| 13 | **Lebanon** | مصحف التجويد الملون | حفص عن عاصم | Dar al-Maarifa Beirut | [Archive.org Color Tajweed Scan](https://archive.org/details/Quran25) |
+| 14 | **Lebanon** | طبعة دار الكتب العلمية | حفص عن عاصم | Dar al-Kutub al-Ilmiyyah | [Archive.org Dar al-Kutub Scan](https://archive.org/details/Al-QuranTadabburWaAmal) |
+| 15 | **Libya** | مصحف الجماهيرية | قالون عن نافع | WICS Libya | [Archive.org Libyan Scan](https://archive.org/details/20240516_20240516_1544) |
+| 16 | **Malaysia** | مصحف ماليزيا الشريف | Rasm Uthmani | Yayasan Restu / Nasyrul Quran | [Archive.org Malaysia Tajwid](https://archive.org/details/mushaf-tajwid-beserta-terjemahan-ke-dalam-bahasa-malaysia) |
+| 17 | **Mauritania** | مصحف ورش الموريتاني | الخط الشنقيطي | Ministry of Islamic Affairs | [Official Digital Edition](https://play.google.com/store/apps/details?id=mr.quranwarch&hl=ar) |
+| 18 | **Morocco** | المصحف الحسني المسبع | ورش عن نافع | Royal Moroccan Press | [Archive.org Musabba Scan](https://archive.org/details/Quran_Warsh_Moorocco) |
+| 19 | **Morocco** | المصحف المحمدي الشريف | ورش عن نافع | Fondation Mohammed VI | [Quran.ws Official PDF](https://pdf.quran.ws/pdfs/warsh/quran-warsh-mushaf.pdf) |
+| 20 | **Oman** | مصحف مسقط التفاعلي | Unicode Portal | Ministry of Endowments | [Mushaf Muscat Portal](https://mushafmuscat.om) |
+| 21 | **Pakistan** | مصحف الحفاظ (تاج كمبني 16 سطر) | Indo-Pak Naskh | Taj Company Lahore | [Archive.org 16-Line Scan](https://archive.org/details/AlQuranAlKareem16LinesTajCompany) |
+| 22 | **Palestine** | مصحف المسجد الأقصى | مخطوطات القدس | Al-Aqsa Mosque Library | [Archive.org Al-Aqsa Catalog](https://archive.org/details/0590_20210109) |
+| 23 | **Qatar** | مصحف قطر | عبيدة البنكي | Qatar Ministry of Awqaf | [Archive.org Mushaf Qatar Scan](https://archive.org/details/MushafQatar_20150445776437) |
+| 24 | **Russia** | مصحف قازان 1803 | First Printed Edition | Asiatic Printing House | [Archive.org Kazan 1803 Scan](https://archive.org/details/006-qran-kazan-1803) |
+| 25 | **Saudi Arabia** | مصحف المدينة النبوية (حفص) | عثمان طه | King Fahd Complex (KFQPC) | [Archive.org Madinah Hafs Scan](https://archive.org/details/MushafMadinaHafsGreen1441) |
+| 26 | **Saudi Arabia** | مصحف المدينة النبوية (ورش) | عثمان طه | King Fahd Complex (KFQPC) | [Archive.org Madinah Warsh Scan](https://archive.org/details/ozkorallh_20181029_2220) |
+| 27 | **Senegal** | مصحف طوبى برواية ورش | الخط السنغالي السوقي | Imprimerie Serigne Touba | [Archive.org Touba Muridiyya](https://archive.org/details/kamil_serigne_Fallou) |
+| 28 | **South Africa** | مصحف ووترفال الشريف (13 سطر) | Indo-Pak / Majedi 13-Lines | Waterval Islamic Institute | [Archive.org 13-Line Scan](https://archive.org/details/13LineQuran) |
+| 29 | **Sudan** | مصحف السودان برواية الدوري | الدوري عن أبي عمرو | Sudanese Book House | [Archive.org Al-Duri Scan](https://archive.org/details/DORY3AMRMADINAHS) |
+| 30 | **Syria** | مصحف دمشق المعتمد (1970) | خط عثمان طه الأول | Dar al-Fikr / Syrian Awqaf | [Scholarly Documentation](https://ar.wikipedia.org/wiki/%D8%B9%D8%AB%D9%85%D8%A7%D9%86_%D8%B7%D9%87) |
+| 31 | **Tunisia** | المصحف التونسي الشريف | قالون عن نافع | Official Press / Ez-Zitouna | [Archive.org Tunisian Qalun](https://archive.org/details/qaloon_tunesCCCCCCCCCCCCCCCCCCCCC) |
+| 32 | **UAE** | مصحف الشيخ مكتوم (مصحف دبي) | جمال بوستن | DIHQA / Dubai Awqaf | [Archive.org Mushaf Maktoum](https://archive.org/details/356835683586MAKTOOM) |
+| 33 | **Yemen** | مخطوطة صنعاء الشريفة | Hijazi / Early Kufic | Dar al-Athar al-Islamiyyah | [Archive.org Sanaa Scan](https://archive.org/details/A21_Almoshaf_Alcharif_Attributed_to_Ali_ben_Abi_Talib_The_copy_of_Sanaa) |
 
 ---
 

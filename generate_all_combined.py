@@ -336,6 +336,7 @@ combined_records = [
 ]
 
 combined_records = [r for r in combined_records if not (r['country'] == 'Turkey' and ('çağrı' in r['mushaf_title'].lower() or 'cagri' in r['mushaf_title'].lower() or 'osman hattı' in r['mushaf_title'].lower()))]
+combined_records = [r for r in combined_records if not (r['country'] == 'Indonesia' and ('menara kudus' in r['mushaf_title'].lower() or 'mushaf kudus' in r['mushaf_title'].lower()))]
 
 for r in combined_records:
     if 'aljamiado' in r['mushaf_title'].lower() and r['country'] == 'Spain':
@@ -408,6 +409,7 @@ os.makedirs('combined_data', exist_ok=True)
 # Map editions by country
 editions_by_country = defaultdict(list)
 combined_records = [r for r in combined_records if not (r['country'] == 'Turkey' and ('çağrı' in r['mushaf_title'].lower() or 'cagri' in r['mushaf_title'].lower() or 'osman hattı' in r['mushaf_title'].lower()))]
+combined_records = [r for r in combined_records if not (r['country'] == 'Indonesia' and ('menara kudus' in r['mushaf_title'].lower() or 'mushaf kudus' in r['mushaf_title'].lower()))]
 
 for r in combined_records:
     editions_by_country[r['country']].append(r)

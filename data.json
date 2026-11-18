@@ -1,14 +1,14 @@
 {
   "stats": {
-    "total_editions": 318,
+    "total_editions": 317,
     "countries_with_editions": 123,
-    "mushaf_only_count": 34,
+    "mushaf_only_count": 33,
     "translations_count": 284,
     "ranked_countries_count": 227,
-    "verified_evidence_count": 34,
+    "verified_evidence_count": 33,
     "riwayah_breakdown": {
       "Warsh 'an Nafi'": 6,
-      "Hafs 'an 'Asim": 24,
+      "Hafs 'an 'Asim": 23,
       "Al-Duri 'an Abi 'Amr": 2,
       "Qalun 'an Nafi'": 2
     },
@@ -19,7 +19,6 @@
       "Maghribi-Sudani": 1,
       "Naskh / Uthmani": 1,
       "Indo-Pak / Nastaliq": 2,
-      "Bahriyyah / Sudani 15-Baris": 1,
       "Naskh Irani (Neyrizi)": 1,
       "Baghdadi Naskh": 1,
       "Uthmani / Naskh Maghribi": 1,
@@ -240,30 +239,6 @@
       "accessed_on": "2026-11-17",
       "source_urls": "https://archive.org/details/QuranMajeed-15Lines-PakistaniPrint; https://www.islamicbookservice.com; https://dawahbooks.com",
       "evidence_url": "https://archive.org/details/QuranMajeed-15Lines-PakistaniPrint"
-    },
-    {
-      "country": "Indonesia",
-      "mushaf_title": "Al-Qur'an Al-Karim (Mushaf Kudus / Menara Kudus 15 Baris)",
-      "riwaya": "Hafs 'an 'Asim",
-      "script_style": "Bahriyyah / Sudani 15-Baris",
-      "calligrapher": "Muhammad Arsyad",
-      "language": "Arabic",
-      "content_type": "mushaf only",
-      "edition_number": "1",
-      "publication_year": "1974",
-      "isbn": "978-979-24-0012-1",
-      "pages": "604",
-      "size": "21 x 15 cm",
-      "publisher_name": "CV Menara Kudus",
-      "publisher_city": "Kudus / Semarang, Central Java",
-      "publisher_country": "Indonesia",
-      "publisher_website": "https://menarakudus.com",
-      "publisher_type": "private",
-      "approval_body": "Lajnah Pentashihan Mushaf Al-Qur'an Kemenag RI",
-      "confidence": "high",
-      "accessed_on": "2026-11-17",
-      "source_urls": "https://archive.org/details/quran-indonesian-mushaf-indo-pak-script; https://menarakudus.com; https://lajnah.kemenag.go.id",
-      "evidence_url": "https://archive.org/details/quran-indonesian-mushaf-indo-pak-script"
     },
     {
       "country": "Iran",

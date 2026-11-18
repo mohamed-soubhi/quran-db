@@ -100,22 +100,22 @@ flowchart TD
 | **13** | Estonia | Koraan (Avita kirjastus, 2007) | Koraan (Haljand Udam tõlge) | ترجمة المستشرق خالياند أودام عن دار أفيتا |
 | **14** | France | Le Coran (Denise Masson, Gallimard) | Le Coran (Denise Masson) | ترجمة دينيس ماسون الشهيرة عن دار غاليمار |
 | **15** | France | Le Saint Coran (Muhammad Hamidullah) | Le Coran (Muhammad Hamidullah) | ترجمة د. محمد حميد الله الباريسية الأولى |
-| **16** | Hungary | A Kegyes Korán értelmezése | A Kegyes Korán (MME) | طبعة جمعية المسلمين في المجر |
-| **17** | Indonesia | Mushaf Standar Indonesia (LPMQ 2019) | Al-Qur'an dan Terjemahnya (LPMQ 2019) | المصحف المعياري الإندونيسي الصادر عن وزارة الشؤون الدينية |
-| **18** | Japan | コーラン (Iwanami Shoten, Izutsu) | コーラン (井筒俊彦 訳) | ترجمة توشيهيكو إيزوتسو الكلاسيكية عن دار إيوانامي |
-| **19** | Japan | 日亜対訳・注解 聖クラーン (Umar Mita) | 聖クルアーン 日亜対訳・注解 (ウマル三田) | ترجمة الحاج عمر ميتا لجمعية مسلمي اليابان |
-| **20** | Lithuania | Koranas: literatūrinių prasmių vertimas | Koranas (literatūrinių prasmių vertimas) | ترجمة سيغيتاس غيدا الليتوانية الصادرة عام 2008 |
-| **21** | Montenegro | Kur'an sa prevodom (Besim Korkut) | Kur'an (Besim Korkut — Bar print) | طبعة مشيخة الجبل الأسود لترجمة كوركوت |
-| **22** | Morocco | المصحف المحمدي الشريف برواية ورش | المصحف الملكي — رواية ورش | المصحف الملكي المغربي برواية ورش |
-| **23** | Norway | Koranen (Einar Berg) | Koranen (Einar Berg oversettelse) | ترجمة إينار بيرغ النرويجية الصادرة بأوسلو |
-| **24** | Romania | Coranul (George Grigore) | Coranul (George Grigore) | ترجمة البروفيسور جورج غريغوري عن دار هيرالد |
-| **25** | Saudi Arabia | مصحف المدينة النبوية (حفص 1984) | المصحف المدينة (مجمع الملك فهد) | مصحف المدينة النبوية الأول الصادر بمجمع الملك فهد |
-| **26** | Serbia | Koran (Preveo Mićo Ljubibratić) | Kur'an (Mićo Ljubibratić) | ترجمة ميتشو ليوبيبراتيتش الأولى في بلغراد 1895 |
-| **27** | Serbia | Prijevod Kur'ana (Besim Korkut) | Kur'an (Besim Korkut — Novi Pazar) | طبعة نوفي بازار لترجمة كوركوت في صربيا |
-| **28** | South Africa | Die Heilige Quran (Armien Baker) | Die Heilige Qur'ān (Armien Baker) | أول ترجمة أفريكانية للإمام محمد أرمين بيكر |
-| **29** | Spain | El Corán (Abdel Ghany Melara Navío) | Traducción-Comentario (Melara Navío) | ترجمة عبد الغني ميلارا نافيو المعتمدة بإسبانيا |
-| **30** | Turkey | Kur'an-ı Kerim ve Yüce Meali | Kur'an-ı Kerim Meali (Diyanet) | ترجمة رئاسة الشؤون الدينية التركية الرسمية (ديانت) |
-| **31** | United Kingdom | The Qur'an (M.A.S. Abdel Haleem, Oxford) | The Qur'an (M.A.S. Abdel Haleem) | ترجمة البروفيسور عبد الحليم الصادرة عن مطبعة جامعة أكسفورد |
+| **15** | Hungary | A Kegyes Korán értelmezése | A Kegyes Korán (MME) | طبعة جمعية المسلمين في المجر |
+| **16** | Indonesia | Mushaf Standar Indonesia (LPMQ 2019) | Al-Qur'an dan Terjemahnya (LPMQ 2019) | المصحف المعياري الإندونيسي الصادر عن وزارة الشؤون الدينية |
+| **17** | Japan | コーラン (Iwanami Shoten, Izutsu) | コーラン (井筒俊彦 訳) | ترجمة توشيهيكو إيزوتسو الكلاسيكية عن دار إيوانامي |
+| **18** | Japan | 日亜対訳・注解 聖クラーン (Umar Mita) | 聖クルアーン 日亜対訳・注解 (ウマル三田) | ترجمة الحاج عمر ميتا لجمعية مسلمي اليابان |
+| **19** | Lithuania | Koranas: literatūrinių prasmių vertimas | Koranas (literatūrinių prasmių vertimas) | ترجمة سيغيتاس غيدا الليتوانية الصادرة عام 2008 |
+| **20** | Montenegro | Kur'an sa prevodom (Besim Korkut) | Kur'an (Besim Korkut — Bar print) | طبعة مشيخة الجبل الأسود لترجمة كوركوت |
+| **21** | Morocco | المصحف المحمدي الشريف برواية ورش | المصحف الملكي — رواية ورش | المصحف الملكي المغربي برواية ورش |
+| **22** | Norway | Koranen (Einar Berg) | Koranen (Einar Berg oversettelse) | ترجمة إينار بيرغ النرويجية الصادرة بأوسلو |
+| **23** | Romania | Coranul (George Grigore) | Coranul (George Grigore) | ترجمة البروفيسور جورج غريغوري عن دار هيرالد |
+| **24** | Saudi Arabia | مصحف المدينة النبوية (حفص 1984) | المصحف المدينة (مجمع الملك فهد) | مصحف المدينة النبوية الأول الصادر بمجمع الملك فهد |
+| **25** | Serbia | Koran (Preveo Mićo Ljubibratić) | Kur'an (Mićo Ljubibratić) | ترجمة ميتشو ليوبيبراتيتش الأولى في بلغراد 1895 |
+| **26** | Serbia | Prijevod Kur'ana (Besim Korkut) | Kur'an (Besim Korkut — Novi Pazar) | طبعة نوفي بازار لترجمة كوركوت في صربيا |
+| **27** | South Africa | Die Heilige Quran (Armien Baker) | Die Heilige Qur'ān (Armien Baker) | أول ترجمة أفريكانية للإمام محمد أرمين بيكر |
+| **28** | Spain | El Corán (Abdel Ghany Melara Navío) | Traducción-Comentario (Melara Navío) | ترجمة عبد الغني ميلارا نافيو المعتمدة بإسبانيا |
+| **29** | Turkey | Kur'an-ı Kerim ve Yüce Meali | Kur'an-ı Kerim Meali (Diyanet) | ترجمة رئاسة الشؤون الدينية التركية الرسمية (ديانت) |
+| **30** | United Kingdom | The Qur'an (M.A.S. Abdel Haleem, Oxford) | The Qur'an (M.A.S. Abdel Haleem) | ترجمة البروفيسور عبد الحليم الصادرة عن مطبعة جامعة أكسفورد |
 
 ---
 
@@ -174,13 +174,12 @@ flowchart TD
 | **6** | مصر | المصحف الأميري (بولاق 1342هـ) | المطبعة الأميرية ببولاق ومصلحة المساحة | [Archive.org Amiri Scan](https://archive.org/details/way2sona_20160915_2156) | مصور الطبعة الملكية التاريخية 1924 (HTTP 200) |
 | **7** | مصر | مصحف الشمرلي (15 سطر) | دار ومكتبة الشمرلي | [Archive.org Shamarly Scan](https://archive.org/details/shamarlyshamarly) | مصور كامل لمصحف الشمرلي الشهير (HTTP 200) |
 | **8** | الهند | مصحف التاج الهندي (15 سطر) | شركة التاج / Islamic Book Service | [Archive.org 15-Line Scan](https://archive.org/details/QuranMajeed-15Lines-PakistaniPrint) | مصور كامل لمصحف التاج 15 سطر (HTTP 200) |
-| **9** | إندونيسيا | مصحف قدس (15 سطر) | CV Menara Kudus (مصحف منارة قدس) | [Archive.org Indonesian Mushaf Scan](https://archive.org/details/quran-indonesian-mushaf-indo-pak-script) | مصور كامل عالي الدقة 30 جزء لمصحف إندونيسيا 15 سطر (HTTP 200) |
-| **10** | إيران | مصحف ميرزا أحمد النيريزي | انتشارات سروش / وزارة الثقافة | [Archive.org Nayrizi Facsimile](https://archive.org/details/QuranofNeirizi) | مصور عالي الدقة لمصحف النيريزي (HTTP 200) |
-| **11** | العراق | مصحف بغداد (دار الحرية 1979) | دار الحرية للطباعة / وزارة الأوقاف | [Archive.org Baghdad Scan](https://archive.org/details/1981_20260422) | مصور كامل لمصحف العراق وبغداد (HTTP 200) |
-| **12** | الأردن | مصحف آل البيت (المصحف الهاشمي) | معهد آل البيت الملكي للفكر الإسلامي | [Altafsir.com Official Quran Portal](https://www.altafsir.com/Quran.asp) | البوابة الرقمية التفاعلية الرسمية لمعهد آل البيت (HTTP 200) |
-| **13** | الكويت | مصحف دولة الكويت | وزارة الأوقاف والشؤون الإسلامية | [Archive.org Kuwait Mushaf](https://archive.org/details/20200728_20200728_0545) | مصور كامل لمصحف الكويت بخط عثمان طه (HTTP 200) |
-| **14** | لبنان | مصحف التجويد الملون | دار المعرفة | [Archive.org Color Tajweed Scan](https://archive.org/details/Quran25) | مصور كامل لمصحف التجويد الملون (HTTP 200) |
-| **15** | لبنان | المصحف الشريف | دار الكتب العلمية | [Archive.org Dar al-Kutub Scan](https://archive.org/details/Al-QuranTadabburWaAmal) | النسخة الرقمية الكاملة لإصدار الدار (HTTP 200) |
+| **9** | إيران | مصحف ميرزا أحمد النيريزي | انتشارات سروش / وزارة الثقافة | [Archive.org Nayrizi Facsimile](https://archive.org/details/QuranofNeirizi) | مصور عالي الدقة لمصحف النيريزي (HTTP 200) |
+| **10** | العراق | مصحف بغداد (دار الحرية 1979) | دار الحرية للطباعة / وزارة الأوقاف | [Archive.org Baghdad Scan](https://archive.org/details/1981_20260422) | مصور كامل لمصحف العراق وبغداد (HTTP 200) |
+| **11** | الأردن | مصحف آل البيت (المصحف الهاشمي) | معهد آل البيت الملكي للفكر الإسلامي | [Altafsir.com Official Quran Portal](https://www.altafsir.com/Quran.asp) | البوابة الرقمية التفاعلية الرسمية لمعهد آل البيت (HTTP 200) |
+| **12** | الكويت | مصحف دولة الكويت | وزارة الأوقاف والشؤون الإسلامية | [Archive.org Kuwait Mushaf](https://archive.org/details/20200728_20200728_0545) | مصور كامل لمصحف الكويت بخط عثمان طه (HTTP 200) |
+| **13** | لبنان | مصحف التجويد الملون | دار المعرفة | [Archive.org Color Tajweed Scan](https://archive.org/details/Quran25) | مصور كامل لمصحف التجويد الملون (HTTP 200) |
+| **14** | لبنان | المصحف الشريف | دار الكتب العلمية | [Archive.org Dar al-Kutub Scan](https://archive.org/details/Al-QuranTadabburWaAmal) | النسخة الرقمية الكاملة لإصدار الدار (HTTP 200) |
 | **16** | ليبيا | مصحف الجماهيرية (رواية قالون) | جمعية الدعوة الإسلامية العالمية (WICS) | [Archive.org Libyan Mushaf](https://archive.org/details/20240516_20240516_1544) | مصور كامل لمصحف قالون الليبي (HTTP 200) |
 | **17** | ماليزيا | مصحف ماليزيا الشريف | مجمع نصر القرآن / مؤسسة ريستو (Yayasan Restu) | [Archive.org Mushaf Malaysia Tajwid](https://archive.org/details/mushaf-tajwid-beserta-terjemahan-ke-dalam-bahasa-malaysia) | مصور كامل لمصحف ماليزيا الملون (HTTP 200) |
 | **18** | موريتانيا | مصحف موريتانيا (الخط الشنقيطي) | وزارة الشؤون الإسلامية والتعليم الأصلي | [Google Play Official App](https://play.google.com/store/apps/details?id=mr.quranwarch&hl=ar) | التطبيق الرقمي الرسمي لمصحف ورش الموريتاني (HTTP 200) |
@@ -197,9 +196,9 @@ flowchart TD
 | **29** | جنوب أفريقيا | مصحف ووترفال الشريف (13 سطر) | معهد ووترفال الإسلامي (جوهانسبرغ) | [Archive.org 13-Line Scan](https://archive.org/details/13LineQuran) | مصور كامل للمصحف الجنوب أفريقي الشهير (HTTP 200) |
 | **30** | السودان | مصحف السودان (رواية الدوري) | الدار السودانية للكتب / مجمع الفقه الإسلامي | [Archive.org Al-Duri Scan](https://archive.org/details/DORY3AMRMADINAHS) | مصور كامل لمصحف الدوري عن أبي عمرو (HTTP 200) |
 | **31** | سوريا | مصحف دمشق المعتمد (1970) | دار الفكر / دار الغوثاني (خط عثمان طه) | [Uthman Taha Syrian Awqaf Mushaf](https://ar.wikipedia.org/wiki/%D8%B9%D8%AB%D9%85%D8%A7%D9%86_%D8%B7%D9%87) | توثيق تاريخي رسمي لأول مصحف كتبه عثمان طه (HTTP 200) |
-| **32** | تونس | المصحف التونسي الشريف (قالون) | المطبعة الرسمية للجمهورية التونسية / مشيخة الزيتونة | [Archive.org Tunisian Qalun Scan](https://archive.org/details/qaloon_tunesCCCCCCCCCCCCCCCCCCCCC) | مصور كامل لمصحف قالون التونسي (HTTP 200) |
-| **33** | الإمارات | مصحف الشيخ مكتوم / دبي | جائزة دبي الدولية للقرآن الكريم / الشؤون الإسلامية | [Archive.org Mushaf Maktoum Scan](https://archive.org/details/356835683586MAKTOOM) | مصور ملون كامل لمصحف دبي المعتمد (HTTP 200) |
-| **34** | اليمن | مصحف صنعاء الشريف (مخطوطة صنعاء) | دار الآثار الإسلامية / وزارة الأوقاف | [Archive.org Sanaa Manuscript Scan](https://archive.org/details/A21_Almoshaf_Alcharif_Attributed_to_Ali_ben_Abi_Talib_The_copy_of_Sanaa) | مصور فاخر عالي الدقة لمخطوطة صنعاء (HTTP 200) |
+| **31** | تونس | المصحف التونسي الشريف (قالون) | المطبعة الرسمية للجمهورية التونسية / مشيخة الزيتونة | [Archive.org Tunisian Qalun Scan](https://archive.org/details/qaloon_tunesCCCCCCCCCCCCCCCCCCCCC) | مصور كامل لمصحف قالون التونسي (HTTP 200) |
+| **32** | الإمارات | مصحف الشيخ مكتوم / دبي | جائزة دبي الدولية للقرآن الكريم / الشؤون الإسلامية | [Archive.org Mushaf Maktoum Scan](https://archive.org/details/356835683586MAKTOOM) | مصور ملون كامل لمصحف دبي المعتمد (HTTP 200) |
+| **33** | اليمن | مصحف صنعاء الشريف (مخطوطة صنعاء) | دار الآثار الإسلامية / وزارة الأوقاف | [Archive.org Sanaa Manuscript Scan](https://archive.org/details/A21_Almoshaf_Alcharif_Attributed_to_Ali_ben_Abi_Talib_The_copy_of_Sanaa) | مصور فاخر عالي الدقة لمخطوطة صنعاء (HTTP 200) |
 
 ---
 
@@ -213,9 +212,9 @@ flowchart TD
 ## 9. دليل الملفات الناتجة وطريقة الاستخدام
 
 1. **`combined_master.csv` (108 KB):**
-   - جدول البيانات الموحد الكامل لكافة الطبعات (318 طبعة) بترميز `utf-8-sig` المعتمد للإكسل.
+   - جدول البيانات الموحد الكامل لكافة الطبعات (317 طبعة) بترميز `utf-8-sig` المعتمد للإكسل.
 2. **`mushaf_only.csv` (12 KB):**
-   - جدول المصاحف العربية الخالصة فقط (34 طبعة) بترميز `utf-8-sig` (يتوفر أيضاً نسخة قياسية `mushaf_only_utf8.csv`).
+   - جدول المصاحف العربية الخالصة فقط (33 طبعة) بترميز `utf-8-sig` (يتوفر أيضاً نسخة قياسية `mushaf_only_utf8.csv`).
 3. **`translations.csv` (97 KB):**
    - جدول التراجم والتفاسير بمختلف لغات العالم (284 طبعة) بترميز `utf-8-sig` (يتوفر أيضاً نسخة قياسية `translations_utf8.csv`).
 4. **`combined_countries_ranked.csv` (29 KB):**
